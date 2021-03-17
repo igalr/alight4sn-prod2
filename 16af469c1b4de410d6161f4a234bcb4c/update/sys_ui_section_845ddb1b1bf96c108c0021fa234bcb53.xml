@@ -3,25 +3,25 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-12 16:16:35</sys_created_on>
-            <sys_id>a08650a287fa6410ea687778cebb3579</sys_id>
+            <sys_created_on>2021-03-17 16:07:23</sys_created_on>
+            <sys_id>ea5406481b83e8102dda1f09b04bcb29</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-12 16:16:35</sys_updated_on>
+            <sys_updated_on>2021-03-17 16:07:23</sys_updated_on>
             <text>This section defines the queue behavior when the queue is open.  For a simple queue, leave all values at default.</text>
             <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>a08650a287fa6410ea687778cebb3579</element>
+            <element>ea5406481b83e8102dda1f09b04bcb29</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-12 16:16:35</sys_created_on>
-            <sys_id>e48650a287fa6410ea687778cebb357d</sys_id>
+            <sys_created_on>2021-03-17 16:07:23</sys_created_on>
+            <sys_id>225406481b83e8102dda1f09b04bcb2e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Queue Open Actions" display_value="Queue Open Actions" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">845ddb1b1bf96c108c0021fa234bcb53</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-12 16:16:35</sys_updated_on>
+            <sys_updated_on>2021-03-17 16:07:23</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -29,13 +29,13 @@
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-12 16:16:35</sys_created_on>
-            <sys_id>688650a287fa6410ea687778cebb357d</sys_id>
+            <sys_created_on>2021-03-17 16:07:23</sys_created_on>
+            <sys_id>a25406481b83e8102dda1f09b04bcb2e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Queue Open Actions" display_value="Queue Open Actions" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">845ddb1b1bf96c108c0021fa234bcb53</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-12 16:16:35</sys_updated_on>
+            <sys_updated_on>2021-03-17 16:07:23</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -43,13 +43,13 @@
             <element>t0_congested_action</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-12 16:16:35</sys_created_on>
-            <sys_id>e88650a287fa6410ea687778cebb357d</sys_id>
+            <sys_created_on>2021-03-17 16:07:23</sys_created_on>
+            <sys_id>265406481b83e8102dda1f09b04bcb2e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Queue Open Actions" display_value="Queue Open Actions" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">845ddb1b1bf96c108c0021fa234bcb53</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-12 16:16:35</sys_updated_on>
+            <sys_updated_on>2021-03-17 16:07:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -57,13 +57,13 @@
             <element>t1_threshold</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-12 16:16:35</sys_created_on>
-            <sys_id>6c8650a287fa6410ea687778cebb357d</sys_id>
+            <sys_created_on>2021-03-17 16:07:23</sys_created_on>
+            <sys_id>a65406481b83e8102dda1f09b04bcb2e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Queue Open Actions" display_value="Queue Open Actions" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">845ddb1b1bf96c108c0021fa234bcb53</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-12 16:16:35</sys_updated_on>
+            <sys_updated_on>2021-03-17 16:07:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -71,13 +71,13 @@
             <element>t2_threshold</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-12 16:16:35</sys_created_on>
-            <sys_id>ec8650a287fa6410ea687778cebb357d</sys_id>
+            <sys_created_on>2021-03-17 16:07:23</sys_created_on>
+            <sys_id>2a5406481b83e8102dda1f09b04bcb2e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Queue Open Actions" display_value="Queue Open Actions" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">845ddb1b1bf96c108c0021fa234bcb53</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-12 16:16:35</sys_updated_on>
+            <sys_updated_on>2021-03-17 16:07:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -85,13 +85,13 @@
             <element>overflow_queue</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-12 16:16:35</sys_created_on>
-            <sys_id>608650a287fa6410ea687778cebb357e</sys_id>
+            <sys_created_on>2021-03-17 16:07:23</sys_created_on>
+            <sys_id>aa5406481b83e8102dda1f09b04bcb2e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Queue Open Actions" display_value="Queue Open Actions" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">845ddb1b1bf96c108c0021fa234bcb53</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-12 16:16:35</sys_updated_on>
+            <sys_updated_on>2021-03-17 16:07:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -99,13 +99,13 @@
             <element>.split</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-12 16:16:35</sys_created_on>
-            <sys_id>e08650a287fa6410ea687778cebb357e</sys_id>
+            <sys_created_on>2021-03-17 16:07:23</sys_created_on>
+            <sys_id>2e5406481b83e8102dda1f09b04bcb2e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Queue Open Actions" display_value="Queue Open Actions" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">845ddb1b1bf96c108c0021fa234bcb53</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-12 16:16:35</sys_updated_on>
+            <sys_updated_on>2021-03-17 16:07:23</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -113,13 +113,13 @@
             <element>no_agents_action</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-12 16:16:35</sys_created_on>
-            <sys_id>648650a287fa6410ea687778cebb357e</sys_id>
+            <sys_created_on>2021-03-17 16:07:23</sys_created_on>
+            <sys_id>ae5406481b83e8102dda1f09b04bcb2e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Queue Open Actions" display_value="Queue Open Actions" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">845ddb1b1bf96c108c0021fa234bcb53</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-12 16:16:35</sys_updated_on>
+            <sys_updated_on>2021-03-17 16:07:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -127,13 +127,13 @@
             <element>t1_action</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-12 16:16:35</sys_created_on>
-            <sys_id>e48650a287fa6410ea687778cebb357e</sys_id>
+            <sys_created_on>2021-03-17 16:07:23</sys_created_on>
+            <sys_id>225406481b83e8102dda1f09b04bcb2f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Queue Open Actions" display_value="Queue Open Actions" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">845ddb1b1bf96c108c0021fa234bcb53</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-12 16:16:35</sys_updated_on>
+            <sys_updated_on>2021-03-17 16:07:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -141,13 +141,13 @@
             <element>t2_action</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-12 16:16:35</sys_created_on>
-            <sys_id>688650a287fa6410ea687778cebb357e</sys_id>
+            <sys_created_on>2021-03-17 16:07:23</sys_created_on>
+            <sys_id>a25406481b83e8102dda1f09b04bcb2f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Queue Open Actions" display_value="Queue Open Actions" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">845ddb1b1bf96c108c0021fa234bcb53</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-12 16:16:35</sys_updated_on>
+            <sys_updated_on>2021-03-17 16:07:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -155,13 +155,13 @@
             <element>transfer_number</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-12 16:16:35</sys_created_on>
-            <sys_id>e88650a287fa6410ea687778cebb357e</sys_id>
+            <sys_created_on>2021-03-17 16:07:23</sys_created_on>
+            <sys_id>265406481b83e8102dda1f09b04bcb2f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Queue Open Actions" display_value="Queue Open Actions" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">845ddb1b1bf96c108c0021fa234bcb53</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-12 16:16:35</sys_updated_on>
+            <sys_updated_on>2021-03-17 16:07:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
