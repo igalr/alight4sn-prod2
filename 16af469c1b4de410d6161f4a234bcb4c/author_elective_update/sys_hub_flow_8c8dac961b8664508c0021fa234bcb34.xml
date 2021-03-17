@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>When a new message is created, create records for each Alight Language in Message Alt Languages and translate</description>
+        <internal_name>translate_message_on_create</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Translate message on Create</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-02 16:31:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8c8dac961b8664508c0021fa234bcb34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Translate message on Create</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_update_name>sys_hub_flow_8c8dac961b8664508c0021fa234bcb34</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-02 16:31:28</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=8c8dac961b8664508c0021fa234bcb34"/>
+    <sys_variable_value action="DELETE" query="document_key=8c8dac961b8664508c0021fa234bcb34"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=8c8dac961b8664508c0021fa234bcb34^sys_idNOT IN008dac961b8664508c0021fa234bcb36"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>8c8dac961b8664508c0021fa234bcb34</id>
+        <name>Translate message on Create</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-02 16:31:28</sys_created_on>
+        <sys_id>008dac961b8664508c0021fa234bcb36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-02 16:31:28</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</application>
+        <file_path/>
+        <instance_id>cfc14fa1db642c54566750b6f49619ef</instance_id>
+        <instance_name>ven04125</instance_name>
+        <name>sys_hub_flow_8c8dac961b8664508c0021fa234bcb34</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description>When a new message is created, create records for each Alight Language in Message Alt Languages and translate</description><internal_name>translate_message_on_create</internal_name><label_cache>[]</label_cache><latest_snapshot/><master_snapshot/><name>Translate message on Create</name><natlang/><outputs/><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-02 16:31:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8c8dac961b8664508c0021fa234bcb34</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Translate message on Create</sys_name><sys_overrides/><sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package><sys_policy/><sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope><sys_update_name>sys_hub_flow_8c8dac961b8664508c0021fa234bcb34</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-02 16:31:28</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=8c8dac961b8664508c0021fa234bcb34"/><sys_variable_value action="delete_multiple" query="document_key=8c8dac961b8664508c0021fa234bcb34"/><sys_flow_cat_variable_model action="delete_multiple" query="id=8c8dac961b8664508c0021fa234bcb34^sys_idNOT IN008dac961b8664508c0021fa234bcb36"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>8c8dac961b8664508c0021fa234bcb34</id><name>Translate message on Create</name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-02 16:31:28</sys_created_on><sys_id>008dac961b8664508c0021fa234bcb36</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-02 16:31:28</sys_updated_on></sys_flow_cat_variable_model></record_update>]]></payload>
+        <payload_hash>412662648</payload_hash>
+        <record_name>Translate message on Create</record_name>
+        <reverted_from/>
+        <source>915e611c1b0e6050d6161f4a234bcbe9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-02 16:31:29</sys_created_on>
+        <sys_id>008dec961b8664508c0021fa234bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1776395ab160000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-02 16:31:29</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>488dec9624866450d16210a69b675f25</update_guid>
+        <update_guid_history>488dec9624866450d16210a69b675f25:412662648</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 15:40:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>0919c9b5dd43443c8500aae9340da9d9</sys_id>
+        <sys_metadata>8c8dac961b8664508c0021fa234bcb34</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Translate message on Create</sys_name>
+        <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_scope_delete display_value="">0a91a94afeb949ab8acb94319d95c6c1</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_8c8dac961b8664508c0021fa234bcb34</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_8c8dac961b8664508c0021fa234bcb34">008dec961b8664508c0021fa234bcb26</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 15:40:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

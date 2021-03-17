@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="ac_security_profile" label="AC security profile" language="en" table="x_ananc_alight4sn_alight_user">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>ac_security_profile</element>
+            <help/>
+            <hint>Sets access rights to Amazon Connect</hint>
+            <label>AC security profile</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_alight_user</name>
+            <plural>AC security profiles</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>david.stefferud</sys_created_by>
+            <sys_created_on>2020-12-15 00:05:54</sys_created_on>
+            <sys_id>510634d61bc968108c0021fa234bcb23</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>AC security profile</sys_name>
+            <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+            <sys_update_name>sys_documentation_x_ananc_alight4sn_alight_user_ac_security_profile_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-12 16:49:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="ac_security_profile" table="x_ananc_alight4sn_alight_user" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>ac_security_profile</element>
+            <name>x_ananc_alight4sn_alight_user</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 15:27:27</sys_created_on>
+            <sys_id>33db0bcb1be1a0108c0021fa234bcbfe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ac_security_profile</sys_name>
+            <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+            <sys_update_name>sys_choice_x_ananc_alight4sn_alight_user_ac_security_profile</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 15:27:27</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ac_security_profile</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Agent</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_alight_user</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 15:27:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b7db4bcb1be1a0108c0021fa234bcbfd</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 15:27:53</sys_updated_on>
+            <value>Agent</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ac_security_profile</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Call Center Manager</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_alight_user</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 15:28:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>54fb8bcb1be1a0108c0021fa234bcb96</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 15:28:06</sys_updated_on>
+            <value>CallCenterManager</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ac_security_profile</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Quality Analyst</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_alight_user</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 15:28:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fbfb8bcb1be1a0108c0021fa234bcb07</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 15:28:35</sys_updated_on>
+            <value>QualityAnalyst</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ac_security_profile</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Admin</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_alight_user</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 15:27:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>58db43cb1be1a0108c0021fa234bcbb3</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 15:27:39</sys_updated_on>
+            <value>Admin</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

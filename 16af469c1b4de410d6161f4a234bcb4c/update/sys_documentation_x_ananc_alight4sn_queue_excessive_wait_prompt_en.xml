@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="excessive_wait_prompt" label="Excessive Wait Prompt" language="en" table="x_ananc_alight4sn_queue">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>excessive_wait_prompt</element>
+            <help/>
+            <hint>If T0 Congested Action is set to Warning Message, the caller will be played this prompt</hint>
+            <label>Excessive Wait Prompt</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_queue</name>
+            <plural>Excessive Wait Prompts</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 16:38:32</sys_created_on>
+            <sys_id>452c930b1b25a0108c0021fa234bcb0b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Excessive Wait Prompt</sys_name>
+            <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+            <sys_update_name>sys_documentation_x_ananc_alight4sn_queue_excessive_wait_prompt_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-05 18:35:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

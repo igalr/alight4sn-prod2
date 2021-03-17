@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Lookup" language="en" table="x_ananc_alight4sn_lookup">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Lookup</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_lookup</name>
+            <plural>Lookups</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>david.stefferud</sys_created_by>
+            <sys_created_on>2020-12-11 00:09:59</sys_created_on>
+            <sys_id>4e905cc11b45a4108c0021fa234bcb9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Lookup</sys_name>
+            <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+            <sys_update_name>sys_documentation_x_ananc_alight4sn_lookup__en</sys_update_name>
+            <sys_updated_by>david.stefferud</sys_updated_by>
+            <sys_updated_on>2020-12-11 00:09:59</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

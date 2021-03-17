@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="closed_queue" label="Closed Queue" language="en" table="x_ananc_alight4sn_queue">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>closed_queue</element>
+            <help/>
+            <hint>If the Alternate Queue action has been set, the call will be transferred to this queue </hint>
+            <label>Closed Queue</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_queue</name>
+            <plural>Closed Queues</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-08 15:37:56</sys_created_on>
+            <sys_id>5b472bc91b76a0102dda1f09b04bcb45</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Closed Queue</sys_name>
+            <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+            <sys_update_name>sys_documentation_x_ananc_alight4sn_queue_closed_queue_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-08 18:55:05</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

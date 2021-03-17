@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="action" table="x_ananc_alight4sn_call_flow" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>action</element>
+            <name>x_ananc_alight4sn_call_flow</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-28 21:07:12</sys_created_on>
+            <sys_id>92ac37201b0a2010d6161f4a234bcbc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>action</sys_name>
+            <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+            <sys_update_name>sys_choice_x_ananc_alight4sn_call_flow_action</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-28 21:07:12</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>queue</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_call_flow</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-28 21:07:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>18bc33ec1bc62010d6161f4a234bcb2b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-16 21:49:55</sys_updated_on>
+            <value>alight_queue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>menu</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_call_flow</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-28 21:07:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>726cb3201b0a2010d6161f4a234bcbe1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-28 21:07:16</sys_updated_on>
+            <value>menu</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>message</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_call_flow</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-28 21:07:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>26acffec1bc62010d6161f4a234bcb11</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-28 21:07:21</sys_updated_on>
+            <value>message</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>sys_flow</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_call_flow</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-28 21:07:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>63bcb7201b0a2010d6161f4a234bcb77</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-28 21:07:55</sys_updated_on>
+            <value>sys_flow</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>transfer</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_call_flow</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-28 21:07:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5cdcbb201b0a2010d6161f4a234bcb6a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-25 18:36:57</sys_updated_on>
+            <value>transfer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>user_flow</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_call_flow</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-28 21:08:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0edcbb201b0a2010d6161f4a234bcb6b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-28 21:08:13</sys_updated_on>
+            <value>user_flow</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

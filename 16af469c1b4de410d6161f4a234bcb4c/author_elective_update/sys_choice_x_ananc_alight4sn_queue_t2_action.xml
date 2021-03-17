@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="t2_action" table="x_ananc_alight4sn_queue" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>t2_action</element>
+            <name>x_ananc_alight4sn_queue</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 16:56:30</sys_created_on>
+            <sys_id>944023cb1b25a0108c0021fa234bcbc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>t2_action</sys_name>
+            <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+            <sys_update_name>sys_choice_x_ananc_alight4sn_queue_t2_action</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 16:56:30</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>t2_action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Keep Waiting</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_queue</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 16:56:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>98402fcb1b25a0108c0021fa234bcb31</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 16:56:49</sys_updated_on>
+            <value>wait</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>t2_action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hang Up</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_queue</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 16:56:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1d3023cb1b25a0108c0021fa234bcbc7</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 16:56:52</sys_updated_on>
+            <value>hangup</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>t2_action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Offer Callback</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_queue</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 16:57:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2240230f1b25a0108c0021fa234bcb01</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 16:57:09</sys_updated_on>
+            <value>callback</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>t2_action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Overflow</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_queue</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 16:57:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b860efcb1b25a0108c0021fa234bcb32</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 16:57:18</sys_updated_on>
+            <value>overflow</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>t2_action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Transfer Call</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_queue</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 16:57:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b660630f1b25a0108c0021fa234bcbb5</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 16:57:29</sys_updated_on>
+            <value>transfer</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

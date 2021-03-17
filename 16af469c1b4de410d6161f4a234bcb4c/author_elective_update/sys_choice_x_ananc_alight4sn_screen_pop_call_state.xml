@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="call_state" table="x_ananc_alight4sn_screen_pop" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>call_state</element>
+            <name>x_ananc_alight4sn_screen_pop</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-25 18:31:37</sys_created_on>
+            <sys_id>8e4c37e31bfdec10d6161f4a234bcb53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>call_state</sys_name>
+            <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+            <sys_update_name>sys_choice_x_ananc_alight4sn_screen_pop_call_state</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-25 18:31:37</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>call_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Call Present</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_screen_pop</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-25 18:32:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>de5c3b271bfdec10d6161f4a234bcb69</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-25 18:37:50</sys_updated_on>
+            <value>PendingBusy</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>call_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Call Accept</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_screen_pop</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-25 18:32:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>646c77271bfdec10d6161f4a234bcb5b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-25 18:37:53</sys_updated_on>
+            <value>Busy</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>call_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>After Call Work</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_screen_pop</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-25 18:32:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5f6c7b271bfdec10d6161f4a234bcbd9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-25 18:37:55</sys_updated_on>
+            <value>AfterCallWork</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>call_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Agent Missed Call</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_screen_pop</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-25 18:33:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1bbc7b271bfdec10d6161f4a234bcb32</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-25 18:37:57</sys_updated_on>
+            <value>MissedCallAgent</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>call_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Calling Customer</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_screen_pop</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-25 18:33:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>148cbb271bfdec10d6161f4a234bcb6b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-25 18:38:00</sys_updated_on>
+            <value>CallingCustomer</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

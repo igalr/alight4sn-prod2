@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Prompts" section_id="c05ddb1b1bf96c108c0021fa234bcb54" sys_domain="global" table="x_ananc_alight4sn_queue" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-12 16:16:35</sys_created_on>
+            <sys_id>fc8650a287fa6410ea687778cebb358f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-12 16:16:35</sys_updated_on>
+            <text>This section selects the prompts for the queue functionality.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fc8650a287fa6410ea687778cebb358f</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-12 16:16:35</sys_created_on>
+            <sys_id>348650a287fa6410ea687778cebb3594</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Prompts" display_value="Prompts" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">c05ddb1b1bf96c108c0021fa234bcb54</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-12 16:16:35</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-12 16:16:35</sys_created_on>
+            <sys_id>b48650a287fa6410ea687778cebb3594</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Prompts" display_value="Prompts" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">c05ddb1b1bf96c108c0021fa234bcb54</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-12 16:16:35</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>queue_prompt</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-12 16:16:35</sys_created_on>
+            <sys_id>388650a287fa6410ea687778cebb3594</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Prompts" display_value="Prompts" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">c05ddb1b1bf96c108c0021fa234bcb54</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-12 16:16:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>loop_prompt</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-12 16:16:35</sys_created_on>
+            <sys_id>b88650a287fa6410ea687778cebb3594</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Prompts" display_value="Prompts" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">c05ddb1b1bf96c108c0021fa234bcb54</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-12 16:16:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>callback_prompt</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-12 16:16:35</sys_created_on>
+            <sys_id>3c8650a287fa6410ea687778cebb3594</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Prompts" display_value="Prompts" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">c05ddb1b1bf96c108c0021fa234bcb54</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-12 16:16:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>transfer_prompt</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-12 16:16:35</sys_created_on>
+            <sys_id>bc8650a287fa6410ea687778cebb3594</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Prompts" display_value="Prompts" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">c05ddb1b1bf96c108c0021fa234bcb54</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-12 16:16:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-12 16:16:35</sys_created_on>
+            <sys_id>308650a287fa6410ea687778cebb3595</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Prompts" display_value="Prompts" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">c05ddb1b1bf96c108c0021fa234bcb54</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-12 16:16:35</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>excessive_wait_prompt</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-12 16:16:35</sys_created_on>
+            <sys_id>b08650a287fa6410ea687778cebb3595</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Prompts" display_value="Prompts" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">c05ddb1b1bf96c108c0021fa234bcb54</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-12 16:16:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hangup_prompt</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-12 16:16:35</sys_created_on>
+            <sys_id>348650a287fa6410ea687778cebb3595</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Prompts" display_value="Prompts" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">c05ddb1b1bf96c108c0021fa234bcb54</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-12 16:16:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>callback_confirmed_prompt</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-12 16:16:35</sys_created_on>
+            <sys_id>b48650a287fa6410ea687778cebb3595</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Prompts" display_value="Prompts" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">c05ddb1b1bf96c108c0021fa234bcb54</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-12 16:16:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>closed_prompt</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-12 16:16:35</sys_created_on>
+            <sys_id>388650a287fa6410ea687778cebb3595</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Prompts" display_value="Prompts" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">c05ddb1b1bf96c108c0021fa234bcb54</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-12 16:16:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Prompts</caption>
+            <header>false</header>
+            <name>x_ananc_alight4sn_queue</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-24 21:37:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c05ddb1b1bf96c108c0021fa234bcb54</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ananc_alight4sn_queue</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+            <sys_update_name>sys_ui_section_c05ddb1b1bf96c108c0021fa234bcb54</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-24 21:37:50</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

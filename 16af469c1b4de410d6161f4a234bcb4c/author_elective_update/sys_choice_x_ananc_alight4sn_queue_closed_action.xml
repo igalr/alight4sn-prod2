@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="closed_action" table="x_ananc_alight4sn_queue" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>closed_action</element>
+            <name>x_ananc_alight4sn_queue</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-08 16:34:41</sys_created_on>
+            <sys_id>764437c11bb6a0102dda1f09b04bcb61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>closed_action</sys_name>
+            <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+            <sys_update_name>sys_choice_x_ananc_alight4sn_queue_closed_action</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-08 16:34:41</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>closed_action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alternate Queue</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_queue</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-08 16:35:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>106477051bb6a0102dda1f09b04bcb6b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-08 18:58:38</sys_updated_on>
+            <value>alternate_queue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>closed_action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Continue To Queue</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_queue</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-08 16:34:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>692437451bb6a0102dda1f09b04bcb3a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-08 18:58:38</sys_updated_on>
+            <value>continue_to_queue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>closed_action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hang Up</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_queue</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-08 16:35:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7644fb451bb6a0102dda1f09b04bcbcc</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-08 18:58:38</sys_updated_on>
+            <value>hangup</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>closed_action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Transfer Call</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_queue</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-08 16:36:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>db7477451bb6a0102dda1f09b04bcb98</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-08 18:58:38</sys_updated_on>
+            <value>transfer</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

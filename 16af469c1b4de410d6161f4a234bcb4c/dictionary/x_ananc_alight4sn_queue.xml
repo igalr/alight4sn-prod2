@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Queue" max_length="40" name="x_ananc_alight4sn_queue" sizeclass="2" type="collection">
+        <element hint="Select the Amazon Connect queue resource to apply this configuration to " label="Amazon Queue" mandatory="true" max_length="32" name="amazon_queue" reference="x_ananc_alight4sn_lookup" reference_qual="javascript:&quot;action=&quot;+&quot;queue&quot;" type="reference" use_reference_qualifier="advanced"/>
+        <element hint="The caller will be played this prompt if their callback has been successfully queued" label="Callback Confirmed Prompt" max_length="32" name="callback_confirmed_prompt" reference="x_ananc_alight4sn_message" type="reference"/>
+        <element hint="If the Callback action is set, this prompt will be played to ask if they want a callback" label="Callback Offered Prompt" max_length="32" name="callback_prompt" reference="x_ananc_alight4sn_message" type="reference"/>
+        <element choice="3" default="none" hint="Select who should be recorded in the call" label="Call Record" max_length="40" name="call_record" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="None" sequence="1" value="none"/>
+                <element inactive_on_update="false" label="Agent and Customer" sequence="2" value="both"/>
+                <element inactive_on_update="false" label="Agent" sequence="3" value="agent"/>
+                <element inactive_on_update="false" label="Customer" sequence="4" value="customer"/>
+                <element inactive_on_update="false" label="Agent and Customer with Contact Lens" sequence="5" value="contact_lens"/>
+            </choice>
+        </element>
+        <element choice="3" default="hangup" hint="Select the action to take when the queue is closed" label="Closed Action" max_length="40" name="closed_action" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Alternate Queue" sequence="0" value="alternate_queue"/>
+                <element inactive_on_update="false" label="Continue To Queue" sequence="1" value="continue_to_queue"/>
+                <element inactive_on_update="false" label="Hang Up" sequence="2" value="hangup"/>
+                <element inactive_on_update="false" label="Transfer Call" sequence="3" value="transfer"/>
+            </choice>
+        </element>
+        <element hint="If the queue is closed, and the Hang Up action is set, the caller will be played this prompt prior to call termination" label="Closed Prompt" max_length="32" name="closed_prompt" reference="x_ananc_alight4sn_message" type="reference"/>
+        <element hint="If the Alternate Queue action has been set, the call will be transferred to this queue " label="Closed Queue" max_length="32" name="closed_queue" reference="x_ananc_alight4sn_queue" type="reference"/>
+        <element hint="If the Transfer Call action has been set, the call will be transferred to this number" label="Closed Transfer Number" max_length="40" name="closed_transfer_number" type="string"/>
+        <element hint="Provide a clear description for this Queue" label="Description" mandatory="true" max_length="500" name="description" type="string"/>
+        <element hint="If T0 Congested Action is set to Warning Message, the caller will be played this prompt" label="Excessive Wait Prompt" max_length="32" name="excessive_wait_prompt" reference="x_ananc_alight4sn_message" type="reference"/>
+        <element hint="If the Hang Up action is set in the queue flow, the caller will be played this prompt prior to call termination" label="Hang Up Prompt" max_length="32" name="hangup_prompt" reference="x_ananc_alight4sn_message" type="reference"/>
+        <element hint="Defines what the customer will hear if the rep places them on hold" label="Hold Flow" max_length="32" name="hold_flow" reference="x_ananc_alight4sn_lookup" reference_qual="javascript:&quot;action=&quot;+&quot;cust_hold&quot;" type="reference" use_reference_qualifier="advanced"/>
+        <element hint="The waiting in queue music is interrupted periodically to play this prompt" label="Loop Prompt" max_length="32" name="loop_prompt" reference="x_ananc_alight4sn_message" type="reference"/>
+        <element choice="3" default="wait" hint="Select the action to take if there are no agents logged in" label="No Agents Action" max_length="40" name="no_agents_action" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Keep Waiting" sequence="1" value="wait"/>
+                <element inactive_on_update="false" label="Hang Up" sequence="2" value="hangup"/>
+                <element inactive_on_update="false" label="Overflow" sequence="3" value="overflow"/>
+                <element inactive_on_update="false" label="Transfer" sequence="4" value="transfer"/>
+            </choice>
+        </element>
+        <element hint="If an Overflow action has been set, the call will be transferred to this queue" label="Overflow Queue" max_length="32" name="overflow_queue" reference="x_ananc_alight4sn_queue" reference_qual="javascript:&quot;action=&quot;+&quot;queue&quot;" type="reference" use_reference_qualifier="advanced"/>
+        <element default="true" hint="Select if a prompt should be played before transferring the call to the queue" label="Play Queue Prompt" max_length="40" name="play_queue_prompt" type="boolean"/>
+        <element hint="Select if a whisper should be played to the rep on call accept" label="Play Whisper" max_length="40" name="play_whisper" type="boolean"/>
+        <element hint="Select the flow that defines the customer experience and treatment while waiting in queue" label="Queue Flow" mandatory="true" max_length="32" name="queue_flow" reference="x_ananc_alight4sn_lookup" reference_qual="javascript:&quot;action=&quot;+&quot;queue_flow&quot;" type="reference" use_reference_qualifier="advanced"/>
+        <element hint="Define a unique identifier for this queue" label="Queue ID" mandatory="true" max_length="40" name="queue_id" type="string"/>
+        <element display="true" hint="Enter a user friendly Queue name" label="Queue Name" mandatory="true" max_length="40" name="queue_name" type="string"/>
+        <element hint="If Play Queue Prompt is set, the caller will be played this prompt before transfer to queue" label="Queue Prompt" mandatory="true" max_length="32" name="queue_prompt" reference="x_ananc_alight4sn_message" type="reference"/>
+        <element hint="Select the ServiceNow schedule that defines when this Queue is open" label="Queue Schedule" max_length="32" name="queue_schedule" reference="cmn_schedule" type="reference"/>
+        <element choice="3" default="message" hint="Select the action to take when the call is first placed in queue if the queue is congested" label="T0 Congested Action" max_length="40" name="t0_congested_action" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No Action" value="wait"/>
+                <element inactive_on_update="false" label="Overflow" value="overflow"/>
+                <element inactive_on_update="false" label="Warning Message" value="message"/>
+            </choice>
+        </element>
+        <element choice="3" default="wait" hint="Select the action to take if the call has exceeded the T1 wait time" label="T1 Action" max_length="40" name="t1_action" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Keep Waiting" sequence="1" value="wait"/>
+                <element inactive_on_update="false" label="Hang Up" sequence="2" value="hangup"/>
+                <element inactive_on_update="false" label="Offer Callback" sequence="3" value="callback"/>
+                <element inactive_on_update="false" label="Overflow" sequence="4" value="overflow"/>
+                <element inactive_on_update="false" label="Transfer Call" sequence="5" value="transfer"/>
+            </choice>
+        </element>
+        <element default="120" hint="Calls waiting less than this time are considered to have experienced a reasonable wait" label="T1 Threshold" max_length="40" name="t1_threshold" type="integer"/>
+        <element choice="3" default="wait" hint="Select the action to take if the call has exceeded the T2 wait time" label="T2 Action" max_length="40" name="t2_action" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Keep Waiting" sequence="1" value="wait"/>
+                <element inactive_on_update="false" label="Hang Up" sequence="2" value="hangup"/>
+                <element inactive_on_update="false" label="Offer Callback" sequence="3" value="callback"/>
+                <element inactive_on_update="false" label="Overflow" sequence="4" value="overflow"/>
+                <element inactive_on_update="false" label="Transfer Call" sequence="5" value="transfer"/>
+            </choice>
+        </element>
+        <element default="300" hint="Calls exceeding this threshold have experienced an extreme wait time" label="T2 Threshold" max_length="40" name="t2_threshold" type="integer"/>
+        <element choice="3" choice_field="time_zone" choice_table="sys_user" default="US/Eastern" label="Time Zone" max_length="40" name="time_zone" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Canada/Atlantic" sequence="0" value="Canada/Atlantic"/>
+                <element inactive_on_update="false" label="Canada/Central" sequence="1" value="Canada/Central"/>
+                <element inactive_on_update="false" label="Canada/Eastern" sequence="2" value="Canada/Eastern"/>
+                <element inactive_on_update="false" label="Canada/Mountain" sequence="3" value="Canada/Mountain"/>
+                <element inactive_on_update="false" label="Canada/Pacific" sequence="4" value="Canada/Pacific"/>
+                <element inactive_on_update="false" label="Europe/Amsterdam" sequence="5" value="Europe/Amsterdam"/>
+                <element inactive_on_update="false" label="Europe/Berlin" sequence="6" value="Europe/Berlin"/>
+                <element inactive_on_update="false" label="Europe/Brussels" sequence="7" value="Europe/Brussels"/>
+                <element inactive_on_update="false" label="Europe/Copenhagen" sequence="8" value="Europe/Copenhagen"/>
+                <element inactive_on_update="false" label="Europe/Dublin" sequence="9" value="Europe/Dublin"/>
+                <element inactive_on_update="false" label="Europe/London" sequence="10" value="Europe/London"/>
+                <element inactive_on_update="false" label="Europe/Madrid" sequence="11" value="Europe/Madrid"/>
+                <element inactive_on_update="false" label="Europe/Paris" sequence="12" value="Europe/Paris"/>
+                <element inactive_on_update="false" label="Europe/Rome" sequence="13" value="Europe/Rome"/>
+                <element inactive_on_update="false" label="Europe/Stockholm" sequence="14" value="Europe/Stockholm"/>
+                <element inactive_on_update="false" label="Europe/Zurich" sequence="15" value="Europe/Zurich"/>
+                <element inactive_on_update="false" label="GMT" sequence="16" value="GMT"/>
+                <element inactive_on_update="false" label="Hongkong" sequence="17" value="Hongkong"/>
+                <element inactive_on_update="false" label="US/Arizona" sequence="18" value="US/Arizona"/>
+                <element inactive_on_update="false" label="US/Central" sequence="19" value="US/Central"/>
+                <element inactive_on_update="false" label="US/Eastern" sequence="20" value="US/Eastern"/>
+                <element inactive_on_update="false" label="US/Hawaii" sequence="21" value="US/Hawaii"/>
+                <element inactive_on_update="false" label="US/Mountain" sequence="22" value="US/Mountain"/>
+                <element inactive_on_update="false" label="US/Pacific" sequence="23" value="US/Pacific"/>
+            </choice>
+        </element>
+        <element hint="If an Transfer action has been set, the call will be transferred to this number" label="Transfer Number" max_length="40" name="transfer_number" type="string"/>
+        <element hint="If the Transfer action is set, this prompt will be played immediately prior to call transfer" label="Transfer Prompt" max_length="32" name="transfer_prompt" reference="x_ananc_alight4sn_message" type="reference"/>
+        <element hint="Defines what the rep hears when the call is accepted" label="Whisper Flow" max_length="32" name="whisper_flow" reference="x_ananc_alight4sn_lookup" reference_qual="javascript:&quot;action=&quot;+&quot;agent_whisper&quot;" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Zone" max_length="40" name="zone" type="string"/>
+        <index name="index">
+            <element name="transfer_prompt"/>
+        </index>
+        <index name="index2">
+            <element name="queue_prompt"/>
+        </index>
+        <index name="index3">
+            <element name="callback_prompt"/>
+        </index>
+        <index name="index4">
+            <element name="overflow_queue"/>
+        </index>
+        <index name="index5">
+            <element name="excessive_wait_prompt"/>
+        </index>
+        <index name="index6">
+            <element name="closed_queue"/>
+        </index>
+        <index name="index7">
+            <element name="queue_schedule"/>
+        </index>
+        <index name="index8">
+            <element name="amazon_queue"/>
+        </index>
+        <index name="index9">
+            <element name="whisper_flow"/>
+        </index>
+        <index name="index10">
+            <element name="hold_flow"/>
+        </index>
+        <index name="index11">
+            <element name="loop_prompt"/>
+        </index>
+        <index name="index12">
+            <element name="closed_prompt"/>
+        </index>
+        <index name="index13">
+            <element name="callback_confirmed_prompt"/>
+        </index>
+        <index name="index14">
+            <element name="hangup_prompt"/>
+        </index>
+        <index name="index15">
+            <element name="queue_flow"/>
+        </index>
+    </element>
+</database>

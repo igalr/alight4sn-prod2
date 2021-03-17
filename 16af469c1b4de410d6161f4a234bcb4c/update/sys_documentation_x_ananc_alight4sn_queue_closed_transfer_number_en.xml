@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="closed_transfer_number" label="Closed Transfer Number" language="en" table="x_ananc_alight4sn_queue">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>closed_transfer_number</element>
+            <help/>
+            <hint>If the Transfer Call action has been set, the call will be transferred to this number</hint>
+            <label>Closed Transfer Number</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_queue</name>
+            <plural>Closed Transfer Numbers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-08 15:38:13</sys_created_on>
+            <sys_id>2b576bc91b76a0102dda1f09b04bcbff</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Closed Transfer Number</sys_name>
+            <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+            <sys_update_name>sys_documentation_x_ananc_alight4sn_queue_closed_transfer_number_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-08 18:56:19</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

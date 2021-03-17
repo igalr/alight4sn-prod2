@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-04 16:33:28</sys_created_on>
+        <sys_id>c2adc7b787aee010ea687778cebb3535</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ananc_alight4sn_alight_language.x_ananc_alight4sn.alight dev</sys_name>
+        <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_security_acl display_value="x_ananc_alight4sn_alight_language">75adc7b787aee010ea687778cebb3531</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c2adc7b787aee010ea687778cebb3535</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-04 16:33:28</sys_updated_on>
+        <sys_user_role display_value="x_ananc_alight4sn.alight dev" name="x_ananc_alight4sn.alight dev">016f036787e2e010ea687778cebb3556</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</application>
+        <file_path/>
+        <instance_id>cfc14fa1db642c54566750b6f49619ef</instance_id>
+        <instance_name>ven04125</instance_name>
+        <name>sys_security_acl_role_c2adc7b787aee010ea687778cebb3535</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-04 16:33:28</sys_created_on><sys_id>c2adc7b787aee010ea687778cebb3535</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_ananc_alight4sn_alight_language.x_ananc_alight4sn.alight dev</sys_name><sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package><sys_policy/><sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope><sys_security_acl display_value="x_ananc_alight4sn_alight_language">75adc7b787aee010ea687778cebb3531</sys_security_acl><sys_update_name>sys_security_acl_role_c2adc7b787aee010ea687778cebb3535</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-04 16:33:28</sys_updated_on><sys_user_role display_value="x_ananc_alight4sn.alight dev" name="x_ananc_alight4sn.alight dev">016f036787e2e010ea687778cebb3556</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1745799396</payload_hash>
+        <record_name>x_ananc_alight4sn_alight_language.x_ananc_alight4sn.alight dev</record_name>
+        <reverted_from/>
+        <source>e0066a2b8762e010ea687778cebb35ce</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-04 16:33:28</sys_created_on>
+        <sys_id>06adc7b787aee010ea687778cebb3538</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177fe1647640000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-04 16:33:28</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>4eadc7b732aee0106813dfe88ae3ca37</update_guid>
+        <update_guid_history>4eadc7b732aee0106813dfe88ae3ca37:1745799396</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_ananc_alight4sn_alight_language.x_ananc_alight4sn.alight dev">b87fcff787aee010ea687778cebb350b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-04 16:41:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>964a4a5f6c524c608c617fff0a0ac400</sys_id>
+        <sys_metadata>c2adc7b787aee010ea687778cebb3535</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ananc_alight4sn_alight_language.x_ananc_alight4sn.alight dev</sys_name>
+        <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_scope_delete display_value="">0a91a94afeb949ab8acb94319d95c6c1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_c2adc7b787aee010ea687778cebb3535</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_c2adc7b787aee010ea687778cebb3535">06adc7b787aee010ea687778cebb3538</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-04 16:41:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

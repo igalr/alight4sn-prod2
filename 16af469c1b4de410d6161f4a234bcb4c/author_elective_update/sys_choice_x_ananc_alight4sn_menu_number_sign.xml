@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="number_sign" table="x_ananc_alight4sn_menu" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>number_sign</element>
+            <name>x_ananc_alight4sn_menu</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 16:30:50</sys_created_on>
+            <sys_id>8c6ad3871b25a0108c0021fa234bcbd7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>number_sign</sys_name>
+            <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+            <sys_update_name>sys_choice_x_ananc_alight4sn_menu_number_sign</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 16:30:50</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>number_sign</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Invalid</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_menu</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 16:30:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc4a5b471b25a0108c0021fa234bcba4</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 16:30:54</sys_updated_on>
+            <value>invalid</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>number_sign</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Return To Main</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_menu</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 16:31:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>046a5f471b25a0108c0021fa234bcbf8</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 16:31:12</sys_updated_on>
+            <value>main</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

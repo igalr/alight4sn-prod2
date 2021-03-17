@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Alight User" max_length="40" name="x_ananc_alight4sn_alight_user" sizeclass="5" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element default="0" hint="After hangup, the user will not receive another call until this timeout expires. Set to zero to give agent manual control." label="After Call Work timeout" max_length="40" name="acw_timeout" type="integer"/>
+        <element choice="3" default="Agent" hint="Sets access rights to Amazon Connect" label="AC security profile" max_length="1024" name="ac_security_profile" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="Agent" sequence="1" value="Agent"/>
+                <element inactive_on_update="false" label="Call Center Manager" sequence="2" value="CallCenterManager"/>
+                <element inactive_on_update="false" label="Quality Analyst" sequence="3" value="QualityAnalyst"/>
+                <element inactive_on_update="false" label="Admin" sequence="4" value="Admin"/>
+            </choice>
+        </element>
+        <element hint="When checked, the user will be connected to the incoming call automatically" label="Auto accept" max_length="40" name="auto_accept" type="boolean"/>
+        <element label="Desk phone number" max_length="40" name="desk_phone_number" type="phone_number_e164"/>
+        <element default="Defaultpsd1!" hint="User password for first login to Amazon Connect" label="Initial Amazon Connect password" max_length="40" name="initial_amazon_connect_password" type="string"/>
+        <element choice="3" default="SOFT_PHONE" hint="Select phone type" label="Phone type" max_length="40" name="phone_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Soft Phone" sequence="1" value="SOFT_PHONE"/>
+                <element inactive_on_update="false" label="Desk Phone" sequence="2" value="DESK_PHONE"/>
+            </choice>
+        </element>
+        <element hint="Reporting groups define the rollup of agent data into Teams, Locations, etc." label="Reporting group" max_length="32" name="reporting_group" reference="x_ananc_alight4sn_lookup" reference_qual="javascript:&quot;action=&quot;+&quot;hierarchy&quot;" type="reference" use_reference_qualifier="advanced"/>
+        <element hint="The user will receive calls from all queues defined in the routing profile" label="Routing profile" mandatory="true" max_length="32" name="routing_profile" reference="x_ananc_alight4sn_lookup" reference_qual="javascript:&quot;action=&quot;+&quot;routing&quot;" type="reference" use_reference_qualifier="advanced"/>
+        <element hint="Select the user" label="User" mandatory="true" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="routing_profile"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+        <index name="index3">
+            <element name="reporting_group"/>
+        </index>
+    </element>
+</database>

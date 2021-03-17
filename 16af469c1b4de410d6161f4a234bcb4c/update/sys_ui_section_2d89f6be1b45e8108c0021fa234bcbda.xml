@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="2d89f6be1b45e8108c0021fa234bcbda" sys_domain="global" table="x_ananc_alight4sn_queue" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>post_call_survey</element>
+            <position>0</position>
+            <sys_created_by>david.stefferud</sys_created_by>
+            <sys_created_on>2020-12-17 19:08:53</sys_created_on>
+            <sys_id>b3ce83871b412c108c0021fa234bcb40</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>david.stefferud</sys_updated_by>
+            <sys_updated_on>2020-12-17 19:08:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>queue_prompt</element>
+            <position>1</position>
+            <sys_created_by>david.stefferud</sys_created_by>
+            <sys_created_on>2020-12-17 19:08:53</sys_created_on>
+            <sys_id>7bce83871b412c108c0021fa234bcb40</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>david.stefferud</sys_updated_by>
+            <sys_updated_on>2020-12-17 19:08:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>2</position>
+            <sys_created_by>david.stefferud</sys_created_by>
+            <sys_created_on>2020-12-17 19:08:53</sys_created_on>
+            <sys_id>fbce83871b412c108c0021fa234bcb40</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>david.stefferud</sys_updated_by>
+            <sys_updated_on>2020-12-17 19:08:53</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hold_flow</element>
+            <position>3</position>
+            <sys_created_by>david.stefferud</sys_created_by>
+            <sys_created_on>2020-12-17 19:08:53</sys_created_on>
+            <sys_id>7fce83871b412c108c0021fa234bcb40</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>david.stefferud</sys_updated_by>
+            <sys_updated_on>2020-12-17 19:08:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>queue_id</element>
+            <position>4</position>
+            <sys_created_by>david.stefferud</sys_created_by>
+            <sys_created_on>2020-12-17 19:08:53</sys_created_on>
+            <sys_id>ffce83871b412c108c0021fa234bcb40</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>david.stefferud</sys_updated_by>
+            <sys_updated_on>2020-12-17 19:08:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>call_record</element>
+            <position>5</position>
+            <sys_created_by>david.stefferud</sys_created_by>
+            <sys_created_on>2020-12-17 19:08:53</sys_created_on>
+            <sys_id>73ce83871b412c108c0021fa234bcb41</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>david.stefferud</sys_updated_by>
+            <sys_updated_on>2020-12-17 19:08:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>david.stefferud</sys_created_by>
+            <sys_created_on>2020-12-17 19:08:53</sys_created_on>
+            <sys_id>f3ce83871b412c108c0021fa234bcb41</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>david.stefferud</sys_updated_by>
+            <sys_updated_on>2020-12-17 19:08:53</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>queue_flow</element>
+            <position>7</position>
+            <sys_created_by>david.stefferud</sys_created_by>
+            <sys_created_on>2020-12-17 19:08:53</sys_created_on>
+            <sys_id>77ce83871b412c108c0021fa234bcb41</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>david.stefferud</sys_updated_by>
+            <sys_updated_on>2020-12-17 19:08:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>queue_flow_test</element>
+            <position>8</position>
+            <sys_created_by>david.stefferud</sys_created_by>
+            <sys_created_on>2020-12-17 19:08:53</sys_created_on>
+            <sys_id>f7ce83871b412c108c0021fa234bcb41</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>david.stefferud</sys_updated_by>
+            <sys_updated_on>2020-12-17 19:08:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>play_queue_prompt</element>
+            <position>9</position>
+            <sys_created_by>david.stefferud</sys_created_by>
+            <sys_created_on>2020-12-17 19:08:53</sys_created_on>
+            <sys_id>7bce83871b412c108c0021fa234bcb41</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>david.stefferud</sys_updated_by>
+            <sys_updated_on>2020-12-17 19:08:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>queue_name</element>
+            <position>10</position>
+            <sys_created_by>david.stefferud</sys_created_by>
+            <sys_created_on>2020-12-17 19:08:53</sys_created_on>
+            <sys_id>fbce83871b412c108c0021fa234bcb41</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>david.stefferud</sys_updated_by>
+            <sys_updated_on>2020-12-17 19:08:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>11</position>
+            <sys_created_by>david.stefferud</sys_created_by>
+            <sys_created_on>2020-12-17 19:08:53</sys_created_on>
+            <sys_id>7fce83871b412c108c0021fa234bcb41</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>david.stefferud</sys_updated_by>
+            <sys_updated_on>2020-12-17 19:08:53</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hold_arn</element>
+            <position>12</position>
+            <sys_created_by>david.stefferud</sys_created_by>
+            <sys_created_on>2020-12-17 19:08:53</sys_created_on>
+            <sys_id>ffce83871b412c108c0021fa234bcb41</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>david.stefferud</sys_updated_by>
+            <sys_updated_on>2020-12-17 19:08:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>13</position>
+            <sys_created_by>david.stefferud</sys_created_by>
+            <sys_created_on>2020-12-17 19:08:53</sys_created_on>
+            <sys_id>73ce83871b412c108c0021fa234bcb42</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>david.stefferud</sys_updated_by>
+            <sys_updated_on>2020-12-17 19:08:53</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>queue_flow_arn</element>
+            <position>14</position>
+            <sys_created_by>david.stefferud</sys_created_by>
+            <sys_created_on>2020-12-17 19:08:53</sys_created_on>
+            <sys_id>f3ce83871b412c108c0021fa234bcb42</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>david.stefferud</sys_updated_by>
+            <sys_updated_on>2020-12-17 19:08:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>whisper</element>
+            <position>15</position>
+            <sys_created_by>david.stefferud</sys_created_by>
+            <sys_created_on>2020-12-17 19:08:53</sys_created_on>
+            <sys_id>77ce83871b412c108c0021fa234bcb42</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>david.stefferud</sys_updated_by>
+            <sys_updated_on>2020-12-17 19:08:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>16</position>
+            <sys_created_by>david.stefferud</sys_created_by>
+            <sys_created_on>2020-12-17 19:08:53</sys_created_on>
+            <sys_id>f7ce83871b412c108c0021fa234bcb42</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>david.stefferud</sys_updated_by>
+            <sys_updated_on>2020-12-17 19:08:53</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>queue_schedule</element>
+            <position>17</position>
+            <sys_created_by>david.stefferud</sys_created_by>
+            <sys_created_on>2020-12-17 19:08:53</sys_created_on>
+            <sys_id>7bce83871b412c108c0021fa234bcb42</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>david.stefferud</sys_updated_by>
+            <sys_updated_on>2020-12-17 19:08:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>18</position>
+            <sys_created_by>david.stefferud</sys_created_by>
+            <sys_created_on>2020-12-17 19:08:53</sys_created_on>
+            <sys_id>fbce83871b412c108c0021fa234bcb42</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>david.stefferud</sys_updated_by>
+            <sys_updated_on>2020-12-17 19:08:53</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>queue_prompt_lang2</element>
+            <position>19</position>
+            <sys_created_by>david.stefferud</sys_created_by>
+            <sys_created_on>2020-12-17 19:08:53</sys_created_on>
+            <sys_id>7fce83871b412c108c0021fa234bcb42</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>david.stefferud</sys_updated_by>
+            <sys_updated_on>2020-12-17 19:08:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>queue_prompt_lang3</element>
+            <position>20</position>
+            <sys_created_by>david.stefferud</sys_created_by>
+            <sys_created_on>2020-12-17 19:08:53</sys_created_on>
+            <sys_id>ffce83871b412c108c0021fa234bcb42</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>david.stefferud</sys_updated_by>
+            <sys_updated_on>2020-12-17 19:08:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>whisper_flow</element>
+            <position>21</position>
+            <sys_created_by>david.stefferud</sys_created_by>
+            <sys_created_on>2020-12-17 19:08:53</sys_created_on>
+            <sys_id>73ce83871b412c108c0021fa234bcb43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>david.stefferud</sys_updated_by>
+            <sys_updated_on>2020-12-17 19:08:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>whisper_arn</element>
+            <position>22</position>
+            <sys_created_by>david.stefferud</sys_created_by>
+            <sys_created_on>2020-12-17 19:08:53</sys_created_on>
+            <sys_id>f3ce83871b412c108c0021fa234bcb43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>david.stefferud</sys_updated_by>
+            <sys_updated_on>2020-12-17 19:08:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>callback_prompt</element>
+            <position>23</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 16:37:55</sys_created_on>
+            <sys_id>73fbdbc71b25a0108c0021fa234bcbc4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 16:37:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>excessive_wait_prompt</element>
+            <position>24</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 16:38:32</sys_created_on>
+            <sys_id>492c930b1b25a0108c0021fa234bcb05</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 16:38:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hangup_prompt</element>
+            <position>25</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 16:38:53</sys_created_on>
+            <sys_id>1a3cd30b1b25a0108c0021fa234bcbb7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 16:38:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>no_agents_action</element>
+            <position>26</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 16:40:44</sys_created_on>
+            <sys_id>59ac970b1b25a0108c0021fa234bcb07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 16:40:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>overflow_queue</element>
+            <position>27</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 16:44:27</sys_created_on>
+            <sys_id>ff7d5f0b1b25a0108c0021fa234bcb8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 16:44:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>t0_congested_action</element>
+            <position>28</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 16:50:51</sys_created_on>
+            <sys_id>15fedb8b1b25a0108c0021fa234bcb88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 16:50:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>t1_action</element>
+            <position>29</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 16:54:24</sys_created_on>
+            <sys_id>adcf13cb1b25a0108c0021fa234bcb63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 16:54:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>t1_threshold</element>
+            <position>30</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 16:54:24</sys_created_on>
+            <sys_id>a1cf1bcb1b25a0108c0021fa234bcb7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 16:54:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>t2_action</element>
+            <position>31</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 16:54:25</sys_created_on>
+            <sys_id>69cf1bcb1b25a0108c0021fa234bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 16:54:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>t2_threshold</element>
+            <position>32</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 16:54:25</sys_created_on>
+            <sys_id>21cf1bcb1b25a0108c0021fa234bcb91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">2d89f6be1b45e8108c0021fa234bcbda</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 16:54:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_ananc_alight4sn_queue</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>david.stefferud</sys_created_by>
+            <sys_created_on>2020-12-16 22:57:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d89f6be1b45e8108c0021fa234bcbda</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ananc_alight4sn_queue</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+            <sys_update_name>sys_ui_section_2d89f6be1b45e8108c0021fa234bcbda</sys_update_name>
+            <sys_updated_by>david.stefferud</sys_updated_by>
+            <sys_updated_on>2020-12-16 22:57:25</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

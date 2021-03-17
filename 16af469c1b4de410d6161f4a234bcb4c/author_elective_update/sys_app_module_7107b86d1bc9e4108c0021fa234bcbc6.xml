@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Alight for ServiceNow">88921a101bcde410d6161f4a234bcbe1</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Models</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_ananc_alight4sn_model</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_ananc_alight4sn.model_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>david.stefferud</sys_created_by>
+        <sys_created_on>2020-12-12 16:14:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7107b86d1bc9e4108c0021fa234bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Models</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_update_name>sys_app_module_7107b86d1bc9e4108c0021fa234bcbc6</sys_update_name>
+        <sys_updated_by>david.stefferud</sys_updated_by>
+        <sys_updated_on>2020-12-12 16:14:51</sys_updated_on>
+        <timeline_page/>
+        <title>Models</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</application>
+        <file_path/>
+        <instance_id>cfc14fa1db642c54566750b6f49619ef</instance_id>
+        <instance_name>ven04125</instance_name>
+        <name>sys_app_module_7107b86d1bc9e4108c0021fa234bcbc6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Alight for ServiceNow">88921a101bcde410d6161f4a234bcbe1</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Models</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_ananc_alight4sn_model</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_ananc_alight4sn.model_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>david.stefferud</sys_created_by><sys_created_on>2020-12-12 16:14:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7107b86d1bc9e4108c0021fa234bcbc6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Models</sys_name><sys_overrides/><sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package><sys_policy/><sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope><sys_update_name>sys_app_module_7107b86d1bc9e4108c0021fa234bcbc6</sys_update_name><sys_updated_by>david.stefferud</sys_updated_by><sys_updated_on>2020-12-12 16:14:51</sys_updated_on><timeline_page/><title>Models</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1639283177</payload_hash>
+        <record_name>Models</record_name>
+        <reverted_from/>
+        <source>9eaf429c1b8de410d6161f4a234bcb8d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>david.stefferud</sys_created_by>
+        <sys_created_on>2020-12-12 16:14:51</sys_created_on>
+        <sys_id>7107b86d1bc9e4108c0021fa234bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17657bbc4260000001</sys_recorded_at>
+        <sys_updated_by>david.stefferud</sys_updated_by>
+        <sys_updated_on>2020-12-12 16:14:51</sys_updated_on>
+        <type>Module</type>
+        <update_guid>b907b86d14c9e410eae00457312db2c7</update_guid>
+        <update_guid_history>b907b86d14c9e410eae00457312db2c7:-1639283177</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Models">f37f17a81b862010d6161f4a234bcb21</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-28 18:59:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>5066f64a76e840cd82bf6b70011cf6f1</sys_id>
+        <sys_metadata>7107b86d1bc9e4108c0021fa234bcbc6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Models</sys_name>
+        <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_scope_delete display_value="">0a91a94afeb949ab8acb94319d95c6c1</sys_scope_delete>
+        <sys_update_name>sys_app_module_7107b86d1bc9e4108c0021fa234bcbc6</sys_update_name>
+        <sys_update_version display_value="sys_app_module_7107b86d1bc9e4108c0021fa234bcbc6">7107b86d1bc9e4108c0021fa234bcbc8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-28 18:59:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

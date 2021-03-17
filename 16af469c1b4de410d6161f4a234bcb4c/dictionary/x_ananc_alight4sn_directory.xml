@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Directory" max_length="40" name="x_ananc_alight4sn_directory" sizeclass="12" type="collection">
+        <element hint="Map the ServiceNow field to Alight Table attribute" label="ServiceNow field - Alight attribute" max_length="4000" name="alight_field_to_sn_field" type="simple_name_values"/>
+        <element hint="Enter the name of the corresponding Alight Table where these attributes are defined" label="Alight table" mandatory="true" max_length="40" name="alight_table_name" type="string"/>
+        <element hint="Enter the name of the ServiceNow table" label="ServiceNow table" mandatory="true" max_length="100" name="sn_table_name" type="string"/>
+    </element>
+</database>

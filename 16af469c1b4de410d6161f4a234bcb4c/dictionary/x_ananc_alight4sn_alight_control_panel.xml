@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Alight Control Panel" max_length="40" name="x_ananc_alight4sn_alight_control_panel" sizeclass="4" type="collection">
+        <element hint="Selects the call attribute to display in the ACP" label="Attribute" mandatory="true" max_length="40" name="acp_id" type="string"/>
+        <element hint="If the attribute is present, this URL will be screen popped on call accept" label="Screen pop URL" max_length="500" name="api_url" type="string"/>
+        <element display="true" hint="Defines the label for this attribute" label="Label" mandatory="true" max_length="40" name="label" type="string"/>
+        <element hint="If set, will display this attribute only if the Language Code (locale) attribute matches" label="Language" max_length="40" name="language" type="string"/>
+        <element hint="Sets the display order for this attribute within the set of attributes" label="Order" max_length="20" name="order" type="decimal"/>
+        <element hint="If set, will display this attribute only if the Reason attribute matches" label="Reason" max_length="40" name="reason" type="string"/>
+        <element hint="If a URL is entered here, the attribute will become a clickable link that will launch this URL when clicked" label="Action if clicked URL" max_length="500" name="sn_on_click" type="string"/>
+        <element hint="If set, will display this attribute only if the Subreason attribute matches" label="Subreason" max_length="40" name="subreason" type="string"/>
+        <element label="Zone" max_length="40" name="zone" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="42cfbbe71bfdec10d6161f4a234bcb2b" sys_domain="global" table="x_ananc_alight4sn_polly_languages" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-25 18:46:54</sys_created_on>
+            <sys_id>82cfbbe71bfdec10d6161f4a234bcb2d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-25 18:46:54</sys_updated_on>
+            <text>Entries in this table define the list of speech-to-text languages supported in Alight.  Locale defines the language itself (i.e. English, Spanish, etc.).  Dialect refers to the speech pattern of a particular region (i.e. US English vs. British English).  Voice defines a combination of Locale and Variant, and if available, male and female speakers.</text>
+            <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>82cfbbe71bfdec10d6161f4a234bcb2d</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-25 18:46:54</sys_created_on>
+            <sys_id>cacfbbe71bfdec10d6161f4a234bcb2d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_polly_languages" sys_domain="global" view="Default view">42cfbbe71bfdec10d6161f4a234bcb2b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-25 18:46:54</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-25 18:46:54</sys_created_on>
+            <sys_id>4ecfbbe71bfdec10d6161f4a234bcb2d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_polly_languages" sys_domain="global" view="Default view">42cfbbe71bfdec10d6161f4a234bcb2b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-25 18:46:54</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>language</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-25 18:46:54</sys_created_on>
+            <sys_id>cecfbbe71bfdec10d6161f4a234bcb2d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_polly_languages" sys_domain="global" view="Default view">42cfbbe71bfdec10d6161f4a234bcb2b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-25 18:46:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>variant</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-25 18:46:54</sys_created_on>
+            <sys_id>42cfbbe71bfdec10d6161f4a234bcb2e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_polly_languages" sys_domain="global" view="Default view">42cfbbe71bfdec10d6161f4a234bcb2b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-25 18:46:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-25 18:46:54</sys_created_on>
+            <sys_id>c2cfbbe71bfdec10d6161f4a234bcb2e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_polly_languages" sys_domain="global" view="Default view">42cfbbe71bfdec10d6161f4a234bcb2b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-25 18:46:54</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>locale</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-25 18:46:54</sys_created_on>
+            <sys_id>46cfbbe71bfdec10d6161f4a234bcb2e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_polly_languages" sys_domain="global" view="Default view">42cfbbe71bfdec10d6161f4a234bcb2b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-25 18:46:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_ananc_alight4sn_polly_languages</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-25 18:46:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>42cfbbe71bfdec10d6161f4a234bcb2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ananc_alight4sn_polly_languages</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+            <sys_update_name>sys_ui_section_42cfbbe71bfdec10d6161f4a234bcb2b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-25 18:46:54</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

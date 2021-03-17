@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Zone" max_length="40" name="x_ananc_alight4sn_zone" sizeclass="2" type="collection">
+        <element hint="Provide a clear description for this zone" label="Description" mandatory="true" max_length="300" name="description" type="string"/>
+        <element hint="Enter a user friendly zone name" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+        <element hint="Define a unique identifier for this zone" label="Zone ID" mandatory="true" max_length="40" name="zone_id" type="string"/>
+    </element>
+</database>

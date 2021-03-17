@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_ananc_alight4sn.custom_action_parameters_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>custom_action_parameters_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-05 19:44:27</sys_created_on>
+        <sys_id>4c7638131bc228508c0021fa234bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ananc_alight4sn.custom_action_parameters_user</sys_name>
+        <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_update_name>sys_user_role_4c7638131bc228508c0021fa234bcb1e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-05 19:44:27</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</application>
+        <file_path/>
+        <instance_id>cfc14fa1db642c54566750b6f49619ef</instance_id>
+        <instance_name>ven04125</instance_name>
+        <name>sys_user_role_4c7638131bc228508c0021fa234bcb1e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_ananc_alight4sn.custom_action_parameters_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>custom_action_parameters_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-05 19:44:27</sys_created_on><sys_id>4c7638131bc228508c0021fa234bcb1e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_ananc_alight4sn.custom_action_parameters_user</sys_name><sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package><sys_policy/><sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope><sys_update_name>sys_user_role_4c7638131bc228508c0021fa234bcb1e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-05 19:44:27</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>-1617080494</payload_hash>
+        <record_name>x_ananc_alight4sn.custom_action_parameters_user</record_name>
+        <reverted_from/>
+        <source>915e611c1b0e6050d6161f4a234bcbe9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-05 19:44:27</sys_created_on>
+        <sys_id>8076b8931bc228508c0021fa234bcb58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17773b96af70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-05 19:44:27</sys_updated_on>
+        <type>Role</type>
+        <update_guid>c876b89365c228507122baa19bb39057</update_guid>
+        <update_guid_history>c876b89365c228507122baa19bb39057:-1617080494</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_ananc_alight4sn.custom_action_parameters_user">e918cb7387aee010ea687778cebb3587</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-04 16:09:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>8156659ba74e4f208e110b25593e5c41</sys_id>
+        <sys_metadata>4c7638131bc228508c0021fa234bcb1e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ananc_alight4sn.custom_action_parameters_user</sys_name>
+        <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_scope_delete display_value="">0a91a94afeb949ab8acb94319d95c6c1</sys_scope_delete>
+        <sys_update_name>sys_user_role_4c7638131bc228508c0021fa234bcb1e</sys_update_name>
+        <sys_update_version display_value="sys_user_role_4c7638131bc228508c0021fa234bcb1e">8076b8931bc228508c0021fa234bcb58</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-04 16:09:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

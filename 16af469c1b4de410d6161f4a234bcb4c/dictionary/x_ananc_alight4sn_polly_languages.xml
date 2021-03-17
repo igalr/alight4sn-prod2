@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Polly Languages" max_length="40" name="x_ananc_alight4sn_polly_languages" sizeclass="60" type="collection">
+        <element hint="Enter the language name, followed by the variant in brackets" label="Language" mandatory="true" max_length="40" name="language" type="string"/>
+        <element hint="Enter the Polly 2 or 3 character code.  Consult Polly documenation for details" label="Locale" mandatory="true" max_length="40" name="locale" type="string"/>
+        <element display="true" hint="Enter the voice name" label="Voice" mandatory="true" max_length="40" name="voice" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="prompt_language" table="x_ananc_alight4sn_entry" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>prompt_language</element>
+            <name>x_ananc_alight4sn_entry</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-22 20:38:40</sys_created_on>
+            <sys_id>069c74721bb16c10d6161f4a234bcb3e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>prompt_language</sys_name>
+            <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+            <sys_update_name>sys_choice_x_ananc_alight4sn_entry_prompt_language</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-22 20:38:40</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>prompt_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Arabic</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_entry</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-22 20:39:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c69c30b21bb16c10d6161f4a234bcbb6</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 22:06:55</sys_updated_on>
+            <value>arb</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>prompt_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Danish</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_entry</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-22 20:40:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>17dc30b21bb16c10d6161f4a234bcb38</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 22:07:46</sys_updated_on>
+            <value>da</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>prompt_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>English</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_entry</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-22 20:38:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>798cfc721bb16c10d6161f4a234bcb56</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 22:08:14</sys_updated_on>
+            <value>en</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>prompt_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>French</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_entry</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-22 20:40:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>89fcfc721bb16c10d6161f4a234bcb58</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 22:08:18</sys_updated_on>
+            <value>fr</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>prompt_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>German</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_entry</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-22 20:40:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9bfc30b21bb16c10d6161f4a234bcbbe</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 22:08:21</sys_updated_on>
+            <value>de</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>prompt_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hindi</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_entry</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-22 20:41:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>141d78721bb16c10d6161f4a234bcbfe</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 22:08:25</sys_updated_on>
+            <value>hi</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>prompt_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Icelandic</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_entry</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-22 20:41:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ef2d38b21bb16c10d6161f4a234bcb45</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 22:08:28</sys_updated_on>
+            <value>is</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>prompt_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Italian</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_entry</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-22 20:41:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>713df4b21bb16c10d6161f4a234bcb7e</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 22:08:36</sys_updated_on>
+            <value>it</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>prompt_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Japanese</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_entry</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-22 20:41:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>233db8b21bb16c10d6161f4a234bcb22</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 22:08:39</sys_updated_on>
+            <value>ja</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>prompt_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Korean</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_entry</name>
+            <sequence>9</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-22 20:42:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>085d78b21bb16c10d6161f4a234bcb94</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 22:08:42</sys_updated_on>
+            <value>ko</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>prompt_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Norwegian</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_entry</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-22 20:42:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be5df8b21bb16c10d6161f4a234bcb54</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 22:08:52</sys_updated_on>
+            <value>nb</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>prompt_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Polish</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_entry</name>
+            <sequence>11</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-22 20:42:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7c6df8b21bb16c10d6161f4a234bcb55</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 22:08:55</sys_updated_on>
+            <value>pl</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>prompt_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Romanian</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_entry</name>
+            <sequence>12</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-22 20:42:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2e6df8b21bb16c10d6161f4a234bcb56</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 22:08:59</sys_updated_on>
+            <value>ro</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>prompt_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Russian</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_entry</name>
+            <sequence>13</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-22 20:42:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>488db4b21bb16c10d6161f4a234bcbf8</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 22:09:04</sys_updated_on>
+            <value>ru</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>prompt_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Spanish</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_entry</name>
+            <sequence>14</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-22 20:42:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0a8d3cb21bb16c10d6161f4a234bcb67</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 22:09:08</sys_updated_on>
+            <value>es</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>prompt_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Swedish</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_entry</name>
+            <sequence>15</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-22 20:43:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c89df8b21bb16c10d6161f4a234bcb58</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 22:09:11</sys_updated_on>
+            <value>sv</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>prompt_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Turkish</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_entry</name>
+            <sequence>16</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-22 20:43:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>51ad7cb21bb16c10d6161f4a234bcbbf</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 22:09:14</sys_updated_on>
+            <value>tr</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>prompt_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Welsh</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_entry</name>
+            <sequence>17</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-22 20:43:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b8bd30f21bb16c10d6161f4a234bcb38</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 22:09:18</sys_updated_on>
+            <value>cy</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

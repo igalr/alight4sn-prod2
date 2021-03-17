@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Call Entry" max_length="40" name="x_ananc_alight4sn_entry" sizeclass="1" type="collection">
+        <element hint="Select the Path in the Call Flow table where you want the call flow to start" label="Call flow entry point" mandatory="true" max_length="40" name="call_flow_entry_point" type="string"/>
+        <element label="Call Flow Entry Zone" max_length="40" name="call_flow_entry_zone" type="string"/>
+        <element default="default" hint="Enter a phone number to match this entry based on the caller's phone number (CLID, ANI)" label="Customer number" mandatory="true" max_length="40" name="customer_number" type="string"/>
+        <element hint="Provide a clear description for this Line" label="Description" mandatory="true" max_length="500" name="description" type="string"/>
+        <element default="default" hint="Enter the Amazon Connect phone number (DNIS) that this entry applies to" label="Dialed number" mandatory="true" max_length="40" name="dialed_number" type="string"/>
+        <element hint="The flow that you select here will run prior to entering the Call Flow table" label="First flow" mandatory="true" max_length="32" name="first_flow" reference="x_ananc_alight4sn_lookup" reference_qual="javascript:&quot;action=&quot;+&quot;first_flow&quot;" type="reference" use_reference_qualifier="advanced"/>
+        <element hint="Select the text-to-speech language for this line" label="Language" mandatory="true" max_length="32" name="language" reference="x_ananc_alight4sn_alight_language" type="reference"/>
+        <element hint="Select the Path in the Call Flow table where you want the call flow to start if the Line is closed" label="Line closed entry point" mandatory="true" max_length="40" name="line_closed_entry_point" type="string"/>
+        <element hint="Enter a user friendly Line Name" label="Line name" mandatory="true" max_length="40" name="line_name" type="string"/>
+        <element hint="Select the ServiceNow schedule that defines when this Line is open" label="Line schedule" mandatory="true" max_length="32" name="line_schedule" reference="cmn_schedule" type="reference"/>
+        <element choice="3" choice_field="time_zone" choice_table="sys_user" default="US/Eastern" hint="Set the time zone to use as the Line Schedule base time" label="Time zone" mandatory="true" max_length="40" name="time_zone" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Canada/Atlantic" sequence="0" value="Canada/Atlantic"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Canada/Central" sequence="1" value="Canada/Central"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Canada/Eastern" sequence="2" value="Canada/Eastern"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive_on_update="false" label="Canada/Mountain" sequence="3" value="Canada/Mountain"/>
+                <element inactive_on_update="false" label="Canada/Pacific" sequence="4" value="Canada/Pacific"/>
+                <element inactive_on_update="false" label="Europe/Amsterdam" sequence="5" value="Europe/Amsterdam"/>
+                <element inactive_on_update="false" label="Europe/Berlin" sequence="6" value="Europe/Berlin"/>
+                <element inactive_on_update="false" label="Europe/Brussels" sequence="7" value="Europe/Brussels"/>
+                <element inactive_on_update="false" label="Europe/Copenhagen" sequence="8" value="Europe/Copenhagen"/>
+                <element inactive_on_update="false" label="Europe/Dublin" sequence="9" value="Europe/Dublin"/>
+                <element inactive_on_update="false" label="Europe/London" sequence="10" value="Europe/London"/>
+                <element inactive_on_update="false" label="Europe/Madrid" sequence="11" value="Europe/Madrid"/>
+                <element inactive_on_update="false" label="Europe/Paris" sequence="12" value="Europe/Paris"/>
+                <element inactive_on_update="false" label="Europe/Rome" sequence="13" value="Europe/Rome"/>
+                <element inactive_on_update="false" label="Europe/Stockholm" sequence="14" value="Europe/Stockholm"/>
+                <element inactive_on_update="false" label="Europe/Zurich" sequence="15" value="Europe/Zurich"/>
+                <element inactive_on_update="false" label="GMT" sequence="16" value="GMT"/>
+                <element inactive_on_update="false" label="Hongkong" sequence="17" value="Hongkong"/>
+                <element inactive_on_update="false" label="US/Arizona" sequence="18" value="US/Arizona"/>
+                <element inactive_on_update="false" label="US/Central" sequence="19" value="US/Central"/>
+                <element inactive_on_update="false" label="US/Eastern" sequence="20" value="US/Eastern"/>
+                <element inactive_on_update="false" label="US/Hawaii" sequence="21" value="US/Hawaii"/>
+                <element inactive_on_update="false" label="US/Mountain" sequence="22" value="US/Mountain"/>
+                <element inactive_on_update="false" label="US/Pacific" sequence="23" value="US/Pacific"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="first_flow"/>
+        </index>
+        <index name="index2">
+            <element name="language"/>
+        </index>
+        <index name="index3">
+            <element name="line_schedule"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="DELETE">
+        <active>true</active>
+        <hint/>
+        <name>Alight</name>
+        <order/>
+        <roles>admin</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 18:31:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>024f77311b4a24508c0021fa234bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Alight</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_update_name>sys_ui_application_024f77311b4a24508c0021fa234bcba0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-01 18:31:04</sys_updated_on>
+    </sys_ui_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</application>
+        <file_path/>
+        <instance_id>cfc14fa1db642c54566750b6f49619ef</instance_id>
+        <instance_name>ven04125</instance_name>
+        <name>sys_ui_application_024f77311b4a24508c0021fa234bcba0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Alight</name><order/><roles>admin</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-01 18:31:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>024f77311b4a24508c0021fa234bcba0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Alight</sys_name><sys_overrides/><sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package><sys_policy/><sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope><sys_update_name>sys_ui_application_024f77311b4a24508c0021fa234bcba0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-01 18:31:04</sys_updated_on></sys_ui_application></record_update>]]></payload>
+        <payload_hash>-641419354</payload_hash>
+        <record_name>Alight</record_name>
+        <reverted_from/>
+        <source>915e611c1b0e6050d6161f4a234bcbe9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 18:31:04</sys_created_on>
+        <sys_id>8a4f77311b4a24508c0021fa234bcba2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1775edccab00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-01 18:31:04</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>c24f77311a4a2450d30872bb0e98a7a2</update_guid>
+        <update_guid_history>c24f77311a4a2450d30872bb0e98a7a2:-641419354</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-11 15:10:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_application">sys_ui_application</sys_db_object>
+        <sys_id>6bc43eb009da42e8848d4df06f4b2640</sys_id>
+        <sys_metadata>024f77311b4a24508c0021fa234bcba0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Alight</sys_name>
+        <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_scope_delete display_value="">0a91a94afeb949ab8acb94319d95c6c1</sys_scope_delete>
+        <sys_update_name>sys_ui_application_024f77311b4a24508c0021fa234bcba0</sys_update_name>
+        <sys_update_version display_value="sys_ui_application_024f77311b4a24508c0021fa234bcba0">8a4f77311b4a24508c0021fa234bcba2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 15:10:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_7" label="7" language="en" table="x_ananc_alight4sn_menu">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_7</element>
+            <help/>
+            <hint/>
+            <label>7</label>
+            <language>en</language>
+            <name>x_ananc_alight4sn_menu</name>
+            <plural>7s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>david.stefferud</sys_created_by>
+            <sys_created_on>2020-12-11 00:53:37</sys_created_on>
+            <sys_id>599a14c91b45a4108c0021fa234bcb0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>7</sys_name>
+            <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+            <sys_update_name>sys_documentation_x_ananc_alight4sn_menu_u_7_en</sys_update_name>
+            <sys_updated_by>david.stefferud</sys_updated_by>
+            <sys_updated_on>2020-12-11 00:53:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

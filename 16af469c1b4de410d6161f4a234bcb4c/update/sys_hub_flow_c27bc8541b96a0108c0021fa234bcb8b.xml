@@ -1,0 +1,2610 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-paris-06-24-2020__patch4a-01-04-2021</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description>When an ACP label is updated, update records for each Alight Language and translate</description>
+        <internal_name>translate_alight_control_panel_on_update</internal_name>
+        <label_cache>[{"name":"Updated_1.current.acp_id","label":"Trigger➛Alight Control Panel Record➛Attribute","reference":"","reference_display":"Attribute","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_alight_control_panel","column_name":"acp_id"},{"name":"338ecd74-2c9c-496d-b9e2-c2635f146d09.table_name","label":"7➛Alight Text Table","reference":"x_ananc_alight4sn_alight_translated_text","reference_display":"Alight Text","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"338ecd74-2c9c-496d-b9e2-c2635f146d09.record","label":"7➛Alight Text Record","reference":"x_ananc_alight4sn_alight_translated_text","reference_display":"Alight Text","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"36bbb24d-62b7-4c04-b328-527eac297a0c.error_message","label":"6➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"36bbb24d-62b7-4c04-b328-527eac297a0c.status","label":"6➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"36bbb24d-62b7-4c04-b328-527eac297a0c.Table","label":"6➛Alight Text Table","reference":"x_ananc_alight4sn_alight_translated_text","reference_display":"Alight Text","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"36bbb24d-62b7-4c04-b328-527eac297a0c.Record","label":"6➛Alight Text Record","reference":"x_ananc_alight4sn_alight_translated_text","reference_display":"Alight Text","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"139d372b-9ea7-43d3-8cad-c653bad6abf7.translation.translated_text","label":"4➛Translation➛Translated Text","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"9260662b-d1e2-4884-aed0-0f7fb2abf442.table_name","label":"5➛Alight Text Table","reference":"x_ananc_alight4sn_alight_translated_text","reference_display":"Alight Text","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9260662b-d1e2-4884-aed0-0f7fb2abf442.record","label":"5➛Alight Text Record","reference":"x_ananc_alight4sn_alight_translated_text","reference_display":"Alight Text","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8007da49-74d2-42d2-b920-872b1859aea0.item.language_code","label":"3➛Alight Text Record➛Language Code","reference":"","reference_display":"Language Code","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_alight_translated_text","column_name":"language_code"},{"name":"139d372b-9ea7-43d3-8cad-c653bad6abf7.error_code","label":"4➛Error Code","reference_display":"Error Code","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true"}},{"name":"139d372b-9ea7-43d3-8cad-c653bad6abf7.error_message","label":"4➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true"}},{"name":"139d372b-9ea7-43d3-8cad-c653bad6abf7.status","label":"4➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"139d372b-9ea7-43d3-8cad-c653bad6abf7.translation","label":"4➛Translation","reference_display":"Translation","type":"object","base_type":"object","attributes":{"uiType":"object","uiTypeLabel":"Object","co_type_name":"FDe975116fbe133300381fba4a2a4c4732","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8007da49-74d2-42d2-b920-872b1859aea0.item","label":"3➛Alight Text Record","reference":"x_ananc_alight4sn_alight_translated_text","reference_display":"Alight Text","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"c833d78a-4340-411a-a52b-93bb968b69d4.Record.language_code","label":"1➛Alight Language Record➛Language Code","reference":"","reference_display":"Language Code","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_alight_language","column_name":"language_code"},{"name":"Updated_1.current.label","label":"Trigger➛Alight Control Panel Record➛Label","reference":"","reference_display":"Label","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_alight_control_panel","column_name":"label"},{"name":"c1b754d3-e56a-4068-bc96-52f5e906b445.Count","label":"2➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c1b754d3-e56a-4068-bc96-52f5e906b445.Table","label":"2➛Alight Text Table","reference":"x_ananc_alight4sn_alight_translated_text","reference_display":"Alight Text","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c1b754d3-e56a-4068-bc96-52f5e906b445.Records","label":"2➛Alight Text Records","reference":"x_ananc_alight4sn_alight_translated_text","reference_display":"Alight Text","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c833d78a-4340-411a-a52b-93bb968b69d4.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"c833d78a-4340-411a-a52b-93bb968b69d4.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"c833d78a-4340-411a-a52b-93bb968b69d4.Table","label":"1➛Alight Language Table","reference":"x_ananc_alight4sn_alight_language","reference_display":"Alight Language","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c833d78a-4340-411a-a52b-93bb968b69d4.Record","label":"1➛Alight Language Record","reference":"x_ananc_alight4sn_alight_language","reference_display":"Alight Language","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot>b081105c1b96a0108c0021fa234bcbe3</latest_snapshot>
+        <master_snapshot>d61f88581b96a0108c0021fa234bcb2e</master_snapshot>
+        <name>Translate Alight Control Panel on Update</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>2641581c1b96a0108c0021fa234bcbcd</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:10:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c27bc8541b96a0108c0021fa234bcb8b</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Translate Alight Control Panel on Update</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_update_name>sys_hub_flow_c27bc8541b96a0108c0021fa234bcb8b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:21</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=c27bc8541b96a0108c0021fa234bcb8b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c27bc8541b96a0108c0021fa234bcb8b"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_ananc_alight4sn_alight_control_panel">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:36:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2641581c1b96a0108c0021fa234bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:03</sys_updated_on>
+        <table>x_ananc_alight4sn_alight_control_panel</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"aa41581c1b96a0108c0021fa234bcbcd","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>c27bc8541b96a0108c0021fa234bcb8b</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:36:03</sys_created_on>
+        <sys_id>aa41581c1b96a0108c0021fa234bcbcd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:21</sys_updated_on>
+        <trigger display_value="">2641581c1b96a0108c0021fa234bcbcd</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
+        <document_id>aa41581c1b96a0108c0021fa234bcbcd</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:36:03</sys_created_on>
+        <sys_id>2e41581c1b96a0108c0021fa234bcbcd</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=c27bc8541b96a0108c0021fa234bcb8b^sys_idNOT INaa41581c1b96a0108c0021fa234bcbcd"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=c27bc8541b96a0108c0021fa234bcb8b^sys_idNOT IN541fc4581b96a0108c0021fa234bcb8f,901fc4581b96a0108c0021fa234bcb9d,981fc4581b96a0108c0021fa234bcb7f,981fc4581b96a0108c0021fa234bcb94,d01fc4581b96a0108c0021fa234bcb68,d41fc4581b96a0108c0021fa234bcba2,dc1fc4581b96a0108c0021fa234bcb7c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Translate Text To Single Language">8ae04dab53533300200bddeeff7b121a</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>8ae04dab53533300200bddeeff7b121a</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Translate Alight Control Panel on Update">c27bc8541b96a0108c0021fa234bcb8b</flow>
+        <order>4</order>
+        <parent_ui_id>8007da49-74d2-42d2-b920-872b1859aea0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>541fc4581b96a0108c0021fa234bcb8f</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:37:05</sys_updated_on>
+        <ui_id>139d372b-9ea7-43d3-8cad-c653bad6abf7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=541fc4581b96a0108c0021fa234bcb8f"/>
+    <sys_element_mapping action="delete_multiple" query="id=541fc4581b96a0108c0021fa234bcb8f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_language</field>
+        <id>541fc4581b96a0108c0021fa234bcb8f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>5c1fc4581b96a0108c0021fa234bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_8ae04dab53533300200bddeeff7b121a</table>
+        <value>{{c833d78a-4340-411a-a52b-93bb968b69d4.Record.language_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_language</field>
+        <id>541fc4581b96a0108c0021fa234bcb8f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>101fc4581b96a0108c0021fa234bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_8ae04dab53533300200bddeeff7b121a</table>
+        <value>{{8007da49-74d2-42d2-b920-872b1859aea0.item.language_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>text</field>
+        <id>541fc4581b96a0108c0021fa234bcb8f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>981fc4581b96a0108c0021fa234bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_8ae04dab53533300200bddeeff7b121a</table>
+        <value>{{Updated_1.current.label}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Translate Alight Control Panel on Update">c27bc8541b96a0108c0021fa234bcb8b</flow>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>901fc4581b96a0108c0021fa234bcb9d</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:37:05</sys_updated_on>
+        <ui_id>36bbb24d-62b7-4c04-b328-527eac297a0c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=901fc4581b96a0108c0021fa234bcb9d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>901fc4581b96a0108c0021fa234bcb9d</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>9c1fc4581b96a0108c0021fa234bcb9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <value>x_ananc_alight4sn_alight_translated_text</value>
+        <variable display_value="">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=901fc4581b96a0108c0021fa234bcb9d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>901fc4581b96a0108c0021fa234bcb9d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>581fc4581b96a0108c0021fa234bcb9e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:32:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>source_field={{Updated_1.current.acp_id}}^source_table=ACP^language_code={{c833d78a-4340-411a-a52b-93bb968b69d4.Record.language_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>901fc4581b96a0108c0021fa234bcb9d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>1c1fc4581b96a0108c0021fa234bcb9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">d01fc4581b96a0108c0021fa234bcb7f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Translate Alight Control Panel on Update">c27bc8541b96a0108c0021fa234bcb8b</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>981fc4581b96a0108c0021fa234bcb7f</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:04</sys_updated_on>
+        <ui_id>8007da49-74d2-42d2-b920-872b1859aea0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=981fc4581b96a0108c0021fa234bcb7f"/>
+    <sys_element_mapping action="delete_multiple" query="id=981fc4581b96a0108c0021fa234bcb7f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>981fc4581b96a0108c0021fa234bcb7f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>101fc4581b96a0108c0021fa234bcb82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{c1b754d3-e56a-4068-bc96-52f5e906b445.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Translate Alight Control Panel on Update">c27bc8541b96a0108c0021fa234bcb8b</flow>
+        <order>5</order>
+        <parent_ui_id>8007da49-74d2-42d2-b920-872b1859aea0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>981fc4581b96a0108c0021fa234bcb94</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:37:05</sys_updated_on>
+        <ui_id>9260662b-d1e2-4884-aed0-0f7fb2abf442</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=981fc4581b96a0108c0021fa234bcb94"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>981fc4581b96a0108c0021fa234bcb94</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>d41fc4581b96a0108c0021fa234bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <value>x_ananc_alight4sn_alight_translated_text</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=981fc4581b96a0108c0021fa234bcb94"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>981fc4581b96a0108c0021fa234bcb94</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>901fc4581b96a0108c0021fa234bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{8007da49-74d2-42d2-b920-872b1859aea0.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>981fc4581b96a0108c0021fa234bcb94</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>dc1fc4581b96a0108c0021fa234bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>981fc4581b96a0108c0021fa234bcb94</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>541fc4581b96a0108c0021fa234bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>text={{139d372b-9ea7-43d3-8cad-c653bad6abf7.translation.translated_text}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Translate Alight Control Panel on Update">c27bc8541b96a0108c0021fa234bcb8b</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:20</sys_created_on>
+        <sys_id>d01fc4581b96a0108c0021fa234bcb68</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:37:05</sys_updated_on>
+        <ui_id>c833d78a-4340-411a-a52b-93bb968b69d4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d01fc4581b96a0108c0021fa234bcb68"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d01fc4581b96a0108c0021fa234bcb68</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:20</sys_created_on>
+        <sys_id>541fc4581b96a0108c0021fa234bcb77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:20</sys_updated_on>
+        <value>x_ananc_alight4sn_alight_language</value>
+        <variable display_value="">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d01fc4581b96a0108c0021fa234bcb68</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:20</sys_created_on>
+        <sys_id>901fc4581b96a0108c0021fa234bcb77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:20</sys_updated_on>
+        <value>primary=true</value>
+        <variable display_value="">d509f99587003300663ca1bb36cb0ba9</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Translate Alight Control Panel on Update">c27bc8541b96a0108c0021fa234bcb8b</flow>
+        <order>7</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>d41fc4581b96a0108c0021fa234bcba2</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:37:05</sys_updated_on>
+        <ui_id>338ecd74-2c9c-496d-b9e2-c2635f146d09</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d41fc4581b96a0108c0021fa234bcba2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d41fc4581b96a0108c0021fa234bcba2</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>101fc4581b96a0108c0021fa234bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <value>x_ananc_alight4sn_alight_translated_text</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d41fc4581b96a0108c0021fa234bcba2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>d41fc4581b96a0108c0021fa234bcba2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>d81fc4581b96a0108c0021fa234bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{36bbb24d-62b7-4c04-b328-527eac297a0c.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d41fc4581b96a0108c0021fa234bcba2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>181fc4581b96a0108c0021fa234bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d41fc4581b96a0108c0021fa234bcba2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>9c1fc4581b96a0108c0021fa234bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>text={{Updated_1.current.label}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Translate Alight Control Panel on Update">c27bc8541b96a0108c0021fa234bcb8b</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:20</sys_created_on>
+        <sys_id>dc1fc4581b96a0108c0021fa234bcb7c</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:37:05</sys_updated_on>
+        <ui_id>c1b754d3-e56a-4068-bc96-52f5e906b445</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dc1fc4581b96a0108c0021fa234bcb7c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dc1fc4581b96a0108c0021fa234bcb7c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>5c1fc4581b96a0108c0021fa234bcb7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <value>x_ananc_alight4sn_alight_translated_text</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dc1fc4581b96a0108c0021fa234bcb7c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>dc1fc4581b96a0108c0021fa234bcb7c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>181fc4581b96a0108c0021fa234bcb7e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:35:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>source_field={{Updated_1.current.acp_id}}^source_table=ACP^language_code!={{c833d78a-4340-411a-a52b-93bb968b69d4.Record.language_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>dc1fc4581b96a0108c0021fa234bcb7c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>d81fc4581b96a0108c0021fa234bcb7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=c27bc8541b96a0108c0021fa234bcb8b^sys_idNOT IN541fc4581b96a0108c0021fa234bcb60"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Translate Alight Control Panel on Update">c27bc8541b96a0108c0021fa234bcb8b</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:20</sys_created_on>
+        <sys_id>541fc4581b96a0108c0021fa234bcb60</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:04</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=541fc4581b96a0108c0021fa234bcb60"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>541fc4581b96a0108c0021fa234bcb60</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:20</sys_created_on>
+        <sys_id>501fc4581b96a0108c0021fa234bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:20</sys_updated_on>
+        <value>x_ananc_alight4sn_alight_control_panel</value>
+        <variable display_value="">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>541fc4581b96a0108c0021fa234bcb60</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:20</sys_created_on>
+        <sys_id>9c1fc4581b96a0108c0021fa234bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:20</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>541fc4581b96a0108c0021fa234bcb60</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:20</sys_created_on>
+        <sys_id>d81fc4581b96a0108c0021fa234bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:20</sys_updated_on>
+        <value>every</value>
+        <variable display_value="">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=c27bc8541b96a0108c0021fa234bcb8b^sys_idNOT IN467bc8541b96a0108c0021fa234bcb8c"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>c27bc8541b96a0108c0021fa234bcb8b</id>
+        <name>Translate Alight Control Panel on Update</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:10:38</sys_created_on>
+        <sys_id>467bc8541b96a0108c0021fa234bcb8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:10:38</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=c27bc8541b96a0108c0021fa234bcb8b^sys_idNOT IN441fc4581b96a0108c0021fa234bcb54,581fc4581b96a0108c0021fa234bcb59,c81fc4581b96a0108c0021fa234bcb4e"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDbd41181c5996a010d251685a73ac0989,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Translate Alight Control Panel on Update">c27bc8541b96a0108c0021fa234bcb8b</model>
+        <model_id>c27bc8541b96a0108c0021fa234bcb8b</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_c27bc8541b96a0108c0021fa234bcb8b</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:20</sys_created_on>
+        <sys_id>441fc4581b96a0108c0021fa234bcb54</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Translate Alight Control Panel on Update">c27bc8541b96a0108c0021fa234bcb8b</model>
+        <model_id>c27bc8541b96a0108c0021fa234bcb8b</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_c27bc8541b96a0108c0021fa234bcb8b</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:20</sys_created_on>
+        <sys_id>581fc4581b96a0108c0021fa234bcb59</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Translate Alight Control Panel on Update">c27bc8541b96a0108c0021fa234bcb8b</model>
+        <model_id>c27bc8541b96a0108c0021fa234bcb8b</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_c27bc8541b96a0108c0021fa234bcb8b</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:20</sys_created_on>
+        <sys_id>c81fc4581b96a0108c0021fa234bcb4e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=c27bc8541b96a0108c0021fa234bcb8b^sys_idNOT IN541fc4581b96a0108c0021fa234bcb8f,901fc4581b96a0108c0021fa234bcb9d,981fc4581b96a0108c0021fa234bcb94,d01fc4581b96a0108c0021fa234bcb68,d41fc4581b96a0108c0021fa234bcba2,dc1fc4581b96a0108c0021fa234bcb7c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Translate Text To Single Language">8ae04dab53533300200bddeeff7b121a</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>8ae04dab53533300200bddeeff7b121a</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Translate Alight Control Panel on Update">c27bc8541b96a0108c0021fa234bcb8b</flow>
+        <order>4</order>
+        <parent_ui_id>8007da49-74d2-42d2-b920-872b1859aea0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>541fc4581b96a0108c0021fa234bcb8f</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:37:05</sys_updated_on>
+        <ui_id>139d372b-9ea7-43d3-8cad-c653bad6abf7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=541fc4581b96a0108c0021fa234bcb8f"/>
+    <sys_element_mapping action="delete_multiple" query="id=541fc4581b96a0108c0021fa234bcb8f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_language</field>
+        <id>541fc4581b96a0108c0021fa234bcb8f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>5c1fc4581b96a0108c0021fa234bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_8ae04dab53533300200bddeeff7b121a</table>
+        <value>{{c833d78a-4340-411a-a52b-93bb968b69d4.Record.language_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_language</field>
+        <id>541fc4581b96a0108c0021fa234bcb8f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>101fc4581b96a0108c0021fa234bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_8ae04dab53533300200bddeeff7b121a</table>
+        <value>{{8007da49-74d2-42d2-b920-872b1859aea0.item.language_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>text</field>
+        <id>541fc4581b96a0108c0021fa234bcb8f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>981fc4581b96a0108c0021fa234bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_8ae04dab53533300200bddeeff7b121a</table>
+        <value>{{Updated_1.current.label}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Translate Alight Control Panel on Update">c27bc8541b96a0108c0021fa234bcb8b</flow>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>901fc4581b96a0108c0021fa234bcb9d</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:37:05</sys_updated_on>
+        <ui_id>36bbb24d-62b7-4c04-b328-527eac297a0c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=901fc4581b96a0108c0021fa234bcb9d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>901fc4581b96a0108c0021fa234bcb9d</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>9c1fc4581b96a0108c0021fa234bcb9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <value>x_ananc_alight4sn_alight_translated_text</value>
+        <variable display_value="">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=901fc4581b96a0108c0021fa234bcb9d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>901fc4581b96a0108c0021fa234bcb9d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>581fc4581b96a0108c0021fa234bcb9e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:32:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>source_field={{Updated_1.current.acp_id}}^source_table=ACP^language_code={{c833d78a-4340-411a-a52b-93bb968b69d4.Record.language_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>901fc4581b96a0108c0021fa234bcb9d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>1c1fc4581b96a0108c0021fa234bcb9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Translate Alight Control Panel on Update">c27bc8541b96a0108c0021fa234bcb8b</flow>
+        <order>5</order>
+        <parent_ui_id>8007da49-74d2-42d2-b920-872b1859aea0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>981fc4581b96a0108c0021fa234bcb94</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:37:05</sys_updated_on>
+        <ui_id>9260662b-d1e2-4884-aed0-0f7fb2abf442</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=981fc4581b96a0108c0021fa234bcb94"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>981fc4581b96a0108c0021fa234bcb94</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>d41fc4581b96a0108c0021fa234bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <value>x_ananc_alight4sn_alight_translated_text</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=981fc4581b96a0108c0021fa234bcb94"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>981fc4581b96a0108c0021fa234bcb94</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>901fc4581b96a0108c0021fa234bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{8007da49-74d2-42d2-b920-872b1859aea0.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>981fc4581b96a0108c0021fa234bcb94</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>dc1fc4581b96a0108c0021fa234bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>981fc4581b96a0108c0021fa234bcb94</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>541fc4581b96a0108c0021fa234bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>text={{139d372b-9ea7-43d3-8cad-c653bad6abf7.translation.translated_text}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Translate Alight Control Panel on Update">c27bc8541b96a0108c0021fa234bcb8b</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:20</sys_created_on>
+        <sys_id>d01fc4581b96a0108c0021fa234bcb68</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:37:05</sys_updated_on>
+        <ui_id>c833d78a-4340-411a-a52b-93bb968b69d4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d01fc4581b96a0108c0021fa234bcb68"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d01fc4581b96a0108c0021fa234bcb68</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:20</sys_created_on>
+        <sys_id>541fc4581b96a0108c0021fa234bcb77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:20</sys_updated_on>
+        <value>x_ananc_alight4sn_alight_language</value>
+        <variable display_value="">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d01fc4581b96a0108c0021fa234bcb68</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:20</sys_created_on>
+        <sys_id>901fc4581b96a0108c0021fa234bcb77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:20</sys_updated_on>
+        <value>primary=true</value>
+        <variable display_value="">d509f99587003300663ca1bb36cb0ba9</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Translate Alight Control Panel on Update">c27bc8541b96a0108c0021fa234bcb8b</flow>
+        <order>7</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>d41fc4581b96a0108c0021fa234bcba2</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:37:05</sys_updated_on>
+        <ui_id>338ecd74-2c9c-496d-b9e2-c2635f146d09</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d41fc4581b96a0108c0021fa234bcba2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d41fc4581b96a0108c0021fa234bcba2</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>101fc4581b96a0108c0021fa234bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <value>x_ananc_alight4sn_alight_translated_text</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d41fc4581b96a0108c0021fa234bcba2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>d41fc4581b96a0108c0021fa234bcba2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>d81fc4581b96a0108c0021fa234bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{36bbb24d-62b7-4c04-b328-527eac297a0c.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d41fc4581b96a0108c0021fa234bcba2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>181fc4581b96a0108c0021fa234bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d41fc4581b96a0108c0021fa234bcba2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>9c1fc4581b96a0108c0021fa234bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>text={{Updated_1.current.label}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Translate Alight Control Panel on Update">c27bc8541b96a0108c0021fa234bcb8b</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:20</sys_created_on>
+        <sys_id>dc1fc4581b96a0108c0021fa234bcb7c</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:37:05</sys_updated_on>
+        <ui_id>c1b754d3-e56a-4068-bc96-52f5e906b445</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dc1fc4581b96a0108c0021fa234bcb7c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dc1fc4581b96a0108c0021fa234bcb7c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>5c1fc4581b96a0108c0021fa234bcb7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <value>x_ananc_alight4sn_alight_translated_text</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dc1fc4581b96a0108c0021fa234bcb7c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>dc1fc4581b96a0108c0021fa234bcb7c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>181fc4581b96a0108c0021fa234bcb7e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:35:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>source_field={{Updated_1.current.acp_id}}^source_table=ACP^language_code!={{c833d78a-4340-411a-a52b-93bb968b69d4.Record.language_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>dc1fc4581b96a0108c0021fa234bcb7c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>d81fc4581b96a0108c0021fa234bcb7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=c27bc8541b96a0108c0021fa234bcb8b^sys_idNOT IN981fc4581b96a0108c0021fa234bcb7f"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">d01fc4581b96a0108c0021fa234bcb7f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Translate Alight Control Panel on Update">c27bc8541b96a0108c0021fa234bcb8b</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>981fc4581b96a0108c0021fa234bcb7f</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:04</sys_updated_on>
+        <ui_id>8007da49-74d2-42d2-b920-872b1859aea0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=981fc4581b96a0108c0021fa234bcb7f"/>
+    <sys_element_mapping action="delete_multiple" query="id=981fc4581b96a0108c0021fa234bcb7f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>981fc4581b96a0108c0021fa234bcb7f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:21</sys_created_on>
+        <sys_id>101fc4581b96a0108c0021fa234bcb82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:21</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{c1b754d3-e56a-4068-bc96-52f5e906b445.Records}}</value>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_c27bc8541b96a0108c0021fa234bcb8b^sys_idNOT IN541fc4581b96a0108c0021fa234bcb5d,801fc4581b96a0108c0021fa234bcb53,941fc4581b96a0108c0021fa234bcb58"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c27bc8541b96a0108c0021fa234bcb8b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:20</sys_created_on>
+        <sys_id>541fc4581b96a0108c0021fa234bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c27bc8541b96a0108c0021fa234bcb8b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:20</sys_created_on>
+        <sys_id>801fc4581b96a0108c0021fa234bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c27bc8541b96a0108c0021fa234bcb8b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:20</sys_created_on>
+        <sys_id>941fc4581b96a0108c0021fa234bcb58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=c27bc8541b96a0108c0021fa234bcb8b^sys_idNOT INc71fc8581b96a0108c0021fa234bcb57"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"c71fc8581b96a0108c0021fa234bcb57","name":"plan"}}</plan>
+        <plan_id>c27bc8541b96a0108c0021fa234bcb8b</plan_id>
+        <snapshot>b081105c1b96a0108c0021fa234bcbe3</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c71fc8581b96a0108c0021fa234bcb57</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:03</sys_updated_on>
+        <trigger display_value="">2641581c1b96a0108c0021fa234bcbcd</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>When an ACP label is updated, update records for each Alight Language and translate</description>
+        <internal_name>translate_alight_control_panel_on_update</internal_name>
+        <label_cache>[{"name":"Updated_1.current.acp_id","label":"Trigger➛Alight Control Panel Record➛Attribute","reference":"","reference_display":"Attribute","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_alight_control_panel","column_name":"acp_id"},{"name":"338ecd74-2c9c-496d-b9e2-c2635f146d09.table_name","label":"7➛Alight Text Table","reference":"x_ananc_alight4sn_alight_translated_text","reference_display":"Alight Text","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"338ecd74-2c9c-496d-b9e2-c2635f146d09.record","label":"7➛Alight Text Record","reference":"x_ananc_alight4sn_alight_translated_text","reference_display":"Alight Text","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"36bbb24d-62b7-4c04-b328-527eac297a0c.error_message","label":"6➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"36bbb24d-62b7-4c04-b328-527eac297a0c.status","label":"6➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"36bbb24d-62b7-4c04-b328-527eac297a0c.Table","label":"6➛Alight Text Table","reference":"x_ananc_alight4sn_alight_translated_text","reference_display":"Alight Text","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"36bbb24d-62b7-4c04-b328-527eac297a0c.Record","label":"6➛Alight Text Record","reference":"x_ananc_alight4sn_alight_translated_text","reference_display":"Alight Text","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"139d372b-9ea7-43d3-8cad-c653bad6abf7.translation.translated_text","label":"4➛Translation➛Translated Text","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"9260662b-d1e2-4884-aed0-0f7fb2abf442.table_name","label":"5➛Alight Text Table","reference":"x_ananc_alight4sn_alight_translated_text","reference_display":"Alight Text","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9260662b-d1e2-4884-aed0-0f7fb2abf442.record","label":"5➛Alight Text Record","reference":"x_ananc_alight4sn_alight_translated_text","reference_display":"Alight Text","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8007da49-74d2-42d2-b920-872b1859aea0.item.language_code","label":"3➛Alight Text Record➛Language Code","reference":"","reference_display":"Language Code","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_alight_translated_text","column_name":"language_code"},{"name":"139d372b-9ea7-43d3-8cad-c653bad6abf7.error_code","label":"4➛Error Code","reference_display":"Error Code","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true"}},{"name":"139d372b-9ea7-43d3-8cad-c653bad6abf7.error_message","label":"4➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true"}},{"name":"139d372b-9ea7-43d3-8cad-c653bad6abf7.status","label":"4➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"139d372b-9ea7-43d3-8cad-c653bad6abf7.translation","label":"4➛Translation","reference_display":"Translation","type":"object","base_type":"object","attributes":{"uiType":"object","uiTypeLabel":"Object","co_type_name":"FDe975116fbe133300381fba4a2a4c4732","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8007da49-74d2-42d2-b920-872b1859aea0.item","label":"3➛Alight Text Record","reference":"x_ananc_alight4sn_alight_translated_text","reference_display":"Alight Text","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"c833d78a-4340-411a-a52b-93bb968b69d4.Record.language_code","label":"1➛Alight Language Record➛Language Code","reference":"","reference_display":"Language Code","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_alight_language","column_name":"language_code"},{"name":"Updated_1.current.label","label":"Trigger➛Alight Control Panel Record➛Label","reference":"","reference_display":"Label","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_alight_control_panel","column_name":"label"},{"name":"c1b754d3-e56a-4068-bc96-52f5e906b445.Count","label":"2➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c1b754d3-e56a-4068-bc96-52f5e906b445.Table","label":"2➛Alight Text Table","reference":"x_ananc_alight4sn_alight_translated_text","reference_display":"Alight Text","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c1b754d3-e56a-4068-bc96-52f5e906b445.Records","label":"2➛Alight Text Records","reference":"x_ananc_alight4sn_alight_translated_text","reference_display":"Alight Text","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c833d78a-4340-411a-a52b-93bb968b69d4.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"c833d78a-4340-411a-a52b-93bb968b69d4.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"c833d78a-4340-411a-a52b-93bb968b69d4.Table","label":"1➛Alight Language Table","reference":"x_ananc_alight4sn_alight_language","reference_display":"Alight Language","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c833d78a-4340-411a-a52b-93bb968b69d4.Record","label":"1➛Alight Language Record","reference":"x_ananc_alight4sn_alight_language","reference_display":"Alight Language","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Translate Alight Control Panel on Update</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Translate Alight Control Panel on Update">c27bc8541b96a0108c0021fa234bcb8b</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d61f88581b96a0108c0021fa234bcb2e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:01</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=d61f88581b96a0108c0021fa234bcb2e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d61f88581b96a0108c0021fa234bcb2e"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=d61f88581b96a0108c0021fa234bcb2e^sys_idNOT IN261f88581b96a0108c0021fa234bcbaf,6a1f88581b96a0108c0021fa234bcb71,a21f88581b96a0108c0021fa234bcb7d,a21f88581b96a0108c0021fa234bcb9b,ae1f88581b96a0108c0021fa234bcba9,e61f88581b96a0108c0021fa234bcb86,ea1f88581b96a0108c0021fa234bcba1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Translate Alight Control Panel on Update">d61f88581b96a0108c0021fa234bcb2e</flow>
+        <order>7</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>261f88581b96a0108c0021fa234bcbaf</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:01</sys_updated_on>
+        <ui_id>338ecd74-2c9c-496d-b9e2-c2635f146d09</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=261f88581b96a0108c0021fa234bcbaf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>261f88581b96a0108c0021fa234bcbaf</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>6e1f88581b96a0108c0021fa234bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <value>x_ananc_alight4sn_alight_translated_text</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=261f88581b96a0108c0021fa234bcbaf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>261f88581b96a0108c0021fa234bcbaf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>2a1f88581b96a0108c0021fa234bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{36bbb24d-62b7-4c04-b328-527eac297a0c.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>261f88581b96a0108c0021fa234bcbaf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>661f88581b96a0108c0021fa234bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>261f88581b96a0108c0021fa234bcbaf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>ea1f88581b96a0108c0021fa234bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>text={{Updated_1.current.label}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">d01fc4581b96a0108c0021fa234bcb7f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Translate Alight Control Panel on Update">d61f88581b96a0108c0021fa234bcb2e</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>6a1f88581b96a0108c0021fa234bcb71</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:01</sys_updated_on>
+        <ui_id>8007da49-74d2-42d2-b920-872b1859aea0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6a1f88581b96a0108c0021fa234bcb71"/>
+    <sys_element_mapping action="delete_multiple" query="id=6a1f88581b96a0108c0021fa234bcb71"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>6a1f88581b96a0108c0021fa234bcb71</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>e21f88581b96a0108c0021fa234bcb74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{c1b754d3-e56a-4068-bc96-52f5e906b445.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Translate Alight Control Panel on Update">d61f88581b96a0108c0021fa234bcb2e</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>a21f88581b96a0108c0021fa234bcb7d</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:01</sys_updated_on>
+        <ui_id>c833d78a-4340-411a-a52b-93bb968b69d4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a21f88581b96a0108c0021fa234bcb7d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a21f88581b96a0108c0021fa234bcb7d</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>621f88581b96a0108c0021fa234bcb7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <value>x_ananc_alight4sn_alight_language</value>
+        <variable display_value="">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a21f88581b96a0108c0021fa234bcb7d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>ae1f88581b96a0108c0021fa234bcb7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <value>primary=true</value>
+        <variable display_value="">d509f99587003300663ca1bb36cb0ba9</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Translate Text To Single Language">8ae04dab53533300200bddeeff7b121a</action_type>
+        <action_type_parent display_value="Translate Text To Single Language">41f4b4e753133300200bddeeff7b126b</action_type_parent>
+        <comment/>
+        <compiled_snapshot>8ae04dab53533300200bddeeff7b121a</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Translate Alight Control Panel on Update">d61f88581b96a0108c0021fa234bcb2e</flow>
+        <order>4</order>
+        <parent_ui_id>8007da49-74d2-42d2-b920-872b1859aea0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>a21f88581b96a0108c0021fa234bcb9b</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:01</sys_updated_on>
+        <ui_id>139d372b-9ea7-43d3-8cad-c653bad6abf7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a21f88581b96a0108c0021fa234bcb9b"/>
+    <sys_element_mapping action="delete_multiple" query="id=a21f88581b96a0108c0021fa234bcb9b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_language</field>
+        <id>a21f88581b96a0108c0021fa234bcb9b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>a61f88581b96a0108c0021fa234bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_8ae04dab53533300200bddeeff7b121a</table>
+        <value>{{c833d78a-4340-411a-a52b-93bb968b69d4.Record.language_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_language</field>
+        <id>a21f88581b96a0108c0021fa234bcb9b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>6a1f88581b96a0108c0021fa234bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_8ae04dab53533300200bddeeff7b121a</table>
+        <value>{{8007da49-74d2-42d2-b920-872b1859aea0.item.language_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>text</field>
+        <id>a21f88581b96a0108c0021fa234bcb9b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>e21f88581b96a0108c0021fa234bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_8ae04dab53533300200bddeeff7b121a</table>
+        <value>{{Updated_1.current.label}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Translate Alight Control Panel on Update">d61f88581b96a0108c0021fa234bcb2e</flow>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>ae1f88581b96a0108c0021fa234bcba9</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:01</sys_updated_on>
+        <ui_id>36bbb24d-62b7-4c04-b328-527eac297a0c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ae1f88581b96a0108c0021fa234bcba9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ae1f88581b96a0108c0021fa234bcba9</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>aa1f88581b96a0108c0021fa234bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <value>x_ananc_alight4sn_alight_translated_text</value>
+        <variable display_value="">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ae1f88581b96a0108c0021fa234bcba9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>ae1f88581b96a0108c0021fa234bcba9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>661f88581b96a0108c0021fa234bcbab</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:32:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>source_field={{Updated_1.current.acp_id}}^source_table=ACP^language_code={{c833d78a-4340-411a-a52b-93bb968b69d4.Record.language_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>ae1f88581b96a0108c0021fa234bcba9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>2a1f88581b96a0108c0021fa234bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Translate Alight Control Panel on Update">d61f88581b96a0108c0021fa234bcb2e</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>e61f88581b96a0108c0021fa234bcb86</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:01</sys_updated_on>
+        <ui_id>c1b754d3-e56a-4068-bc96-52f5e906b445</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e61f88581b96a0108c0021fa234bcb86"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e61f88581b96a0108c0021fa234bcb86</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>621f88581b96a0108c0021fa234bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <value>x_ananc_alight4sn_alight_translated_text</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e61f88581b96a0108c0021fa234bcb86"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>e61f88581b96a0108c0021fa234bcb86</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>2e1f88581b96a0108c0021fa234bcb87</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>source_field={{Updated_1.current.acp_id}}^source_table=ACP^language_code!={{c833d78a-4340-411a-a52b-93bb968b69d4.Record.language_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>e61f88581b96a0108c0021fa234bcb86</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>ee1f88581b96a0108c0021fa234bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Translate Alight Control Panel on Update">d61f88581b96a0108c0021fa234bcb2e</flow>
+        <order>5</order>
+        <parent_ui_id>8007da49-74d2-42d2-b920-872b1859aea0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>ea1f88581b96a0108c0021fa234bcba1</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:01</sys_updated_on>
+        <ui_id>9260662b-d1e2-4884-aed0-0f7fb2abf442</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ea1f88581b96a0108c0021fa234bcba1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ea1f88581b96a0108c0021fa234bcba1</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>261f88581b96a0108c0021fa234bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <value>x_ananc_alight4sn_alight_translated_text</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ea1f88581b96a0108c0021fa234bcba1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ea1f88581b96a0108c0021fa234bcba1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>ee1f88581b96a0108c0021fa234bcba2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{8007da49-74d2-42d2-b920-872b1859aea0.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>ea1f88581b96a0108c0021fa234bcba1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>2e1f88581b96a0108c0021fa234bcba2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>ea1f88581b96a0108c0021fa234bcba1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>a21f88581b96a0108c0021fa234bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>text={{139d372b-9ea7-43d3-8cad-c653bad6abf7.translation.translated_text}}</value>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=d61f88581b96a0108c0021fa234bcb2e^sys_idNOT IN621f88581b96a0108c0021fa234bcbb1"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Translate Alight Control Panel on Update">d61f88581b96a0108c0021fa234bcb2e</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>621f88581b96a0108c0021fa234bcbb1</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:03</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=621f88581b96a0108c0021fa234bcbb1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>621f88581b96a0108c0021fa234bcbb1</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>2e1f88581b96a0108c0021fa234bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <value>x_ananc_alight4sn_alight_control_panel</value>
+        <variable display_value="">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>621f88581b96a0108c0021fa234bcbb1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>6a1f88581b96a0108c0021fa234bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>621f88581b96a0108c0021fa234bcbb1</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>a61f88581b96a0108c0021fa234bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <value>every</value>
+        <variable display_value="">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=d61f88581b96a0108c0021fa234bcb2e^sys_idNOT IN121f88581b96a0108c0021fa234bcb2f"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>d61f88581b96a0108c0021fa234bcb2e</id>
+        <name>Translate Alight Control Panel on Update</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:29</sys_created_on>
+        <sys_id>121f88581b96a0108c0021fa234bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:29</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=d61f88581b96a0108c0021fa234bcb2e^sys_idNOT IN161f88581b96a0108c0021fa234bcb5b,1e1f88581b96a0108c0021fa234bcb31,221f88581b96a0108c0021fa234bcb65"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDbd41181c5996a010d251685a73ac0989,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Translate Alight Control Panel on Update">d61f88581b96a0108c0021fa234bcb2e</model>
+        <model_id>d61f88581b96a0108c0021fa234bcb2e</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_d61f88581b96a0108c0021fa234bcb2e</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:29</sys_created_on>
+        <sys_id>161f88581b96a0108c0021fa234bcb5b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Translate Alight Control Panel on Update">d61f88581b96a0108c0021fa234bcb2e</model>
+        <model_id>d61f88581b96a0108c0021fa234bcb2e</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_d61f88581b96a0108c0021fa234bcb2e</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:29</sys_created_on>
+        <sys_id>1e1f88581b96a0108c0021fa234bcb31</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Translate Alight Control Panel on Update">d61f88581b96a0108c0021fa234bcb2e</model>
+        <model_id>d61f88581b96a0108c0021fa234bcb2e</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_d61f88581b96a0108c0021fa234bcb2e</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:29</sys_created_on>
+        <sys_id>221f88581b96a0108c0021fa234bcb65</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=d61f88581b96a0108c0021fa234bcb2e^sys_idNOT IN261f88581b96a0108c0021fa234bcbaf,a21f88581b96a0108c0021fa234bcb7d,a21f88581b96a0108c0021fa234bcb9b,ae1f88581b96a0108c0021fa234bcba9,e61f88581b96a0108c0021fa234bcb86,ea1f88581b96a0108c0021fa234bcba1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Translate Alight Control Panel on Update">d61f88581b96a0108c0021fa234bcb2e</flow>
+        <order>7</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>261f88581b96a0108c0021fa234bcbaf</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:01</sys_updated_on>
+        <ui_id>338ecd74-2c9c-496d-b9e2-c2635f146d09</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=261f88581b96a0108c0021fa234bcbaf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>261f88581b96a0108c0021fa234bcbaf</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>6e1f88581b96a0108c0021fa234bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <value>x_ananc_alight4sn_alight_translated_text</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=261f88581b96a0108c0021fa234bcbaf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>261f88581b96a0108c0021fa234bcbaf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>2a1f88581b96a0108c0021fa234bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{36bbb24d-62b7-4c04-b328-527eac297a0c.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>261f88581b96a0108c0021fa234bcbaf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>661f88581b96a0108c0021fa234bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>261f88581b96a0108c0021fa234bcbaf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>ea1f88581b96a0108c0021fa234bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>text={{Updated_1.current.label}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Translate Alight Control Panel on Update">d61f88581b96a0108c0021fa234bcb2e</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>a21f88581b96a0108c0021fa234bcb7d</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:01</sys_updated_on>
+        <ui_id>c833d78a-4340-411a-a52b-93bb968b69d4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a21f88581b96a0108c0021fa234bcb7d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a21f88581b96a0108c0021fa234bcb7d</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>621f88581b96a0108c0021fa234bcb7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <value>x_ananc_alight4sn_alight_language</value>
+        <variable display_value="">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a21f88581b96a0108c0021fa234bcb7d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>ae1f88581b96a0108c0021fa234bcb7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <value>primary=true</value>
+        <variable display_value="">d509f99587003300663ca1bb36cb0ba9</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Translate Text To Single Language">8ae04dab53533300200bddeeff7b121a</action_type>
+        <action_type_parent display_value="Translate Text To Single Language">41f4b4e753133300200bddeeff7b126b</action_type_parent>
+        <comment/>
+        <compiled_snapshot>8ae04dab53533300200bddeeff7b121a</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Translate Alight Control Panel on Update">d61f88581b96a0108c0021fa234bcb2e</flow>
+        <order>4</order>
+        <parent_ui_id>8007da49-74d2-42d2-b920-872b1859aea0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>a21f88581b96a0108c0021fa234bcb9b</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:01</sys_updated_on>
+        <ui_id>139d372b-9ea7-43d3-8cad-c653bad6abf7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a21f88581b96a0108c0021fa234bcb9b"/>
+    <sys_element_mapping action="delete_multiple" query="id=a21f88581b96a0108c0021fa234bcb9b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_language</field>
+        <id>a21f88581b96a0108c0021fa234bcb9b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>a61f88581b96a0108c0021fa234bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_8ae04dab53533300200bddeeff7b121a</table>
+        <value>{{c833d78a-4340-411a-a52b-93bb968b69d4.Record.language_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_language</field>
+        <id>a21f88581b96a0108c0021fa234bcb9b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>6a1f88581b96a0108c0021fa234bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_8ae04dab53533300200bddeeff7b121a</table>
+        <value>{{8007da49-74d2-42d2-b920-872b1859aea0.item.language_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>text</field>
+        <id>a21f88581b96a0108c0021fa234bcb9b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>e21f88581b96a0108c0021fa234bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_8ae04dab53533300200bddeeff7b121a</table>
+        <value>{{Updated_1.current.label}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Translate Alight Control Panel on Update">d61f88581b96a0108c0021fa234bcb2e</flow>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>ae1f88581b96a0108c0021fa234bcba9</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:01</sys_updated_on>
+        <ui_id>36bbb24d-62b7-4c04-b328-527eac297a0c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ae1f88581b96a0108c0021fa234bcba9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ae1f88581b96a0108c0021fa234bcba9</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>aa1f88581b96a0108c0021fa234bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <value>x_ananc_alight4sn_alight_translated_text</value>
+        <variable display_value="">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ae1f88581b96a0108c0021fa234bcba9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>ae1f88581b96a0108c0021fa234bcba9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>661f88581b96a0108c0021fa234bcbab</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:32:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>source_field={{Updated_1.current.acp_id}}^source_table=ACP^language_code={{c833d78a-4340-411a-a52b-93bb968b69d4.Record.language_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>ae1f88581b96a0108c0021fa234bcba9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>2a1f88581b96a0108c0021fa234bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Translate Alight Control Panel on Update">d61f88581b96a0108c0021fa234bcb2e</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>e61f88581b96a0108c0021fa234bcb86</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:01</sys_updated_on>
+        <ui_id>c1b754d3-e56a-4068-bc96-52f5e906b445</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e61f88581b96a0108c0021fa234bcb86"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e61f88581b96a0108c0021fa234bcb86</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>621f88581b96a0108c0021fa234bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <value>x_ananc_alight4sn_alight_translated_text</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e61f88581b96a0108c0021fa234bcb86"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>e61f88581b96a0108c0021fa234bcb86</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>2e1f88581b96a0108c0021fa234bcb87</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>source_field={{Updated_1.current.acp_id}}^source_table=ACP^language_code!={{c833d78a-4340-411a-a52b-93bb968b69d4.Record.language_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>e61f88581b96a0108c0021fa234bcb86</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>ee1f88581b96a0108c0021fa234bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Translate Alight Control Panel on Update">d61f88581b96a0108c0021fa234bcb2e</flow>
+        <order>5</order>
+        <parent_ui_id>8007da49-74d2-42d2-b920-872b1859aea0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>ea1f88581b96a0108c0021fa234bcba1</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:01</sys_updated_on>
+        <ui_id>9260662b-d1e2-4884-aed0-0f7fb2abf442</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ea1f88581b96a0108c0021fa234bcba1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ea1f88581b96a0108c0021fa234bcba1</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>261f88581b96a0108c0021fa234bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <value>x_ananc_alight4sn_alight_translated_text</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ea1f88581b96a0108c0021fa234bcba1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ea1f88581b96a0108c0021fa234bcba1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>ee1f88581b96a0108c0021fa234bcba2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{8007da49-74d2-42d2-b920-872b1859aea0.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>ea1f88581b96a0108c0021fa234bcba1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>2e1f88581b96a0108c0021fa234bcba2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>ea1f88581b96a0108c0021fa234bcba1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>a21f88581b96a0108c0021fa234bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>text={{139d372b-9ea7-43d3-8cad-c653bad6abf7.translation.translated_text}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=d61f88581b96a0108c0021fa234bcb2e^sys_idNOT IN6a1f88581b96a0108c0021fa234bcb71"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">d01fc4581b96a0108c0021fa234bcb7f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Translate Alight Control Panel on Update">d61f88581b96a0108c0021fa234bcb2e</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>6a1f88581b96a0108c0021fa234bcb71</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:36:01</sys_updated_on>
+        <ui_id>8007da49-74d2-42d2-b920-872b1859aea0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6a1f88581b96a0108c0021fa234bcb71"/>
+    <sys_element_mapping action="delete_multiple" query="id=6a1f88581b96a0108c0021fa234bcb71"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>6a1f88581b96a0108c0021fa234bcb71</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>e21f88581b96a0108c0021fa234bcb74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{c1b754d3-e56a-4068-bc96-52f5e906b445.Records}}</value>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_d61f88581b96a0108c0021fa234bcb2e^sys_idNOT INd61f88581b96a0108c0021fa234bcb57,e21f88581b96a0108c0021fa234bcb61,ea1f88581b96a0108c0021fa234bcb6a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d61f88581b96a0108c0021fa234bcb2e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:29</sys_created_on>
+        <sys_id>d61f88581b96a0108c0021fa234bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d61f88581b96a0108c0021fa234bcb2e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:29</sys_created_on>
+        <sys_id>e21f88581b96a0108c0021fa234bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d61f88581b96a0108c0021fa234bcb2e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 19:26:30</sys_created_on>
+        <sys_id>ea1f88581b96a0108c0021fa234bcb6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 19:26:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

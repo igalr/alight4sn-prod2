@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Query" max_length="40" name="x_ananc_alight4sn_query" sizeclass="0" type="collection">
+        <element hint="Provide a clear description for this query and how it is used" label="Description" mandatory="true" max_length="500" name="description" type="string"/>
+        <element hint="Define the query" label="Query" mandatory="true" max_length="500" name="query" type="string"/>
+        <element hint="Define a unique identifier for this query" label="Query ID" mandatory="true" max_length="40" name="query_id" type="string"/>
+        <element hint="Enter the Alight Target ID for the system to be queried" label="Target" mandatory="true" max_length="40" name="target" type="string"/>
+    </element>
+</database>

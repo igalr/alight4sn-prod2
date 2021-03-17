@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cmn_schedule">
+    <cmn_schedule action="INSERT_OR_UPDATE">
+        <calendar_name/>
+        <description>Closed except Xmas 11 pm - 11:59 pm</description>
+        <document/>
+        <document_key/>
+        <is_legacy_schedule>true</is_legacy_schedule>
+        <label/>
+        <name>Closed</name>
+        <parent/>
+        <plural_label/>
+        <read_only>false</read_only>
+        <sys_class_name>cmn_schedule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-08 19:27:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>86bb9c151b3aa0102dda1f09b04bcb46</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Closed</sys_name>
+        <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_update_name>cmn_schedule_86bb9c151b3aa0102dda1f09b04bcb46</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-15 19:36:15</sys_updated_on>
+        <time_zone>GMT</time_zone>
+        <type/>
+    </cmn_schedule>
+</record_update>

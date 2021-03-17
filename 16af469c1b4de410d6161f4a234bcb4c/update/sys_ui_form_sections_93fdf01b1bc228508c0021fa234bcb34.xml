@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="93fdf01b1bc228508c0021fa234bcb34" sys_domain="global" table="x_ananc_alight4sn_custom_action_parameters" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-05 20:17:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>17fdf01b1bc228508c0021fa234bcb37</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ananc_alight4sn_custom_action_parameters" name="x_ananc_alight4sn_custom_action_parameters" sys_domain="global" view="Default view">93fdf01b1bc228508c0021fa234bcb34</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_custom_action_parameters" sys_domain="global" view="Default view">d77638131bc228508c0021fa234bcb66</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-05 20:17:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_ananc_alight4sn_custom_action_parameters</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-05 20:17:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>93fdf01b1bc228508c0021fa234bcb34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ananc_alight4sn_custom_action_parameters</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+            <sys_update_name>sys_ui_form_sections_93fdf01b1bc228508c0021fa234bcb34</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-05 20:17:26</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

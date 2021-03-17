@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Menu" max_length="40" name="x_ananc_alight4sn_menu" sizeclass="3" type="collection">
+        <element hint="Provide a clear description for this menu" label="Description" mandatory="true" max_length="300" name="description" type="string"/>
+        <element default="3" hint="Enter the number of times this menu will repeat if an invalid key is entered or the menu times out." label="Max repeats" max_length="40" name="max_repeats" type="string"/>
+        <element hint="Define a unique identifier for this menu" label="Menu ID" mandatory="true" max_length="40" name="menu_id" type="string"/>
+        <element choice="3" default="invalid" hint="Select the desired behavior for the Number SIgn (&quot;#&quot;) key" label="Number sign" max_length="40" name="number_sign" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Invalid" sequence="1" value="invalid"/>
+                <element inactive_on_update="false" label="Return To Main" sequence="2" value="main"/>
+            </choice>
+        </element>
+        <element hint="Enter the text-to-speech prompt for this menu" label="Prompt" mandatory="true" max_length="500" name="prompt" type="string"/>
+        <element choice="3" default="invalid" hint="Select the desired behavior for the Star (&quot;*&quot;) key" label="Star" max_length="40" name="star" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Invalid" sequence="1" value="invalid"/>
+                <element inactive_on_update="false" label="Return To Main" sequence="2" value="main"/>
+            </choice>
+        </element>
+        <element label="1" max_length="40" name="u_1" type="boolean"/>
+        <element label="2" max_length="40" name="u_2" type="boolean"/>
+        <element label="3" max_length="40" name="u_3" type="boolean"/>
+        <element label="4" max_length="40" name="u_4" type="boolean"/>
+        <element label="5" max_length="40" name="u_5" type="boolean"/>
+        <element label="6" max_length="40" name="u_6" type="boolean"/>
+        <element label="7" max_length="40" name="u_7" type="boolean"/>
+        <element label="8" max_length="40" name="u_8" type="boolean"/>
+        <element label="9" max_length="40" name="u_9" type="boolean"/>
+        <element choice="3" default="invalid" hint="Select the desired behavior for the Zero (&quot;0&quot;) key" label="Zero" max_length="40" name="zero" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Invalid" sequence="1" value="invalid"/>
+                <element inactive_on_update="false" label="Zero Out" sequence="2" value="zero"/>
+            </choice>
+        </element>
+        <element label="Zone" max_length="40" name="zone" type="string"/>
+    </element>
+</database>

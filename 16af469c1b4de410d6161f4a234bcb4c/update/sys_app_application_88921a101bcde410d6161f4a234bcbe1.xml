@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description>Alight for ServiceNow</description>
+        <device_type>browser</device_type>
+        <hint>Alight for ServiceNow</hint>
+        <name/>
+        <order/>
+        <roles>x_ananc_alight4sn.alight supervisor,x_ananc_alight4sn.alight ops manager,x_ananc_alight4sn.alight entity admin,x_ananc_alight4sn.alight admin,x_ananc_alight4sn.alight dev</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-09 01:42:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>88921a101bcde410d6161f4a234bcbe1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Alight for ServiceNow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_update_name>sys_app_application_88921a101bcde410d6161f4a234bcbe1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-04 14:58:30</sys_updated_on>
+        <title>Alight for ServiceNow</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

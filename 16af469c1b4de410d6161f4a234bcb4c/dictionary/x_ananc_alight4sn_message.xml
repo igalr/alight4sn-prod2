@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Message" max_length="40" name="x_ananc_alight4sn_message" sizeclass="19" type="collection">
+        <element hint="Provide a clear description for this message" label="Description" mandatory="true" max_length="500" name="description" type="string"/>
+        <element display="true" hint="Define a unique identifier for this message" label="Message ID" mandatory="true" max_length="40" name="message_id" type="string"/>
+        <element hint="Enter the text-to-speech message text" label="Prompt" mandatory="true" max_length="500" name="prompt" type="string"/>
+        <element label="Zone" max_length="40" name="zone" type="string"/>
+    </element>
+</database>
