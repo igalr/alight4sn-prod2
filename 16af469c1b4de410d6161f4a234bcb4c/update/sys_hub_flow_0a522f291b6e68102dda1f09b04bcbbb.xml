@@ -6,13 +6,13 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build>glide-paris-06-24-2020__patch4a-01-04-2021</compiler_build>
+        <compiler_build>glide-paris-06-24-2020__patch4b-02-04-2021</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description>When a new transfer number is created, a corresponding entry is added to the Lookup table</description>
         <internal_name>add_transfer_number_to_lookup</internal_name>
         <label_cache>[{"name":"Created_1.current.description","label":"Trigger➛Transfer Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_transfer","column_name":"description"},{"name":"Created_1.current.transfer_id","label":"Trigger➛Transfer Record➛Transfer ID","reference":"","reference_display":"Transfer ID","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_transfer","column_name":"transfer_id"},{"name":"6e86f9d5-1844-43f4-995f-bfa230c69f7d.table_name","label":"1➛Lookup Table","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6e86f9d5-1844-43f4-995f-bfa230c69f7d.record","label":"1➛Lookup Record","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
-        <latest_snapshot>2e25efa91b6e68102dda1f09b04bcbc1</latest_snapshot>
+        <latest_snapshot>3f8cefd01b4b20102dda1f09b04bcbcd</latest_snapshot>
         <master_snapshot>24e227691b6e68102dda1f09b04bcb74</master_snapshot>
         <name>Add transfer number to Lookup</name>
         <natlang/>
@@ -110,10 +110,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-25 18:19:51</sys_created_on>
         <sys_id>08e227691b6e68102dda1f09b04bcb07</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-25 18:29:52</sys_updated_on>
+        <sys_updated_by>aaaa.admin</sys_updated_by>
+        <sys_updated_on>2021-03-18 18:21:09</sys_updated_on>
         <ui_id>6e86f9d5-1844-43f4-995f-bfa230c69f7d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=08e227691b6e68102dda1f09b04bcb07"/>
@@ -395,10 +395,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-25 18:19:51</sys_created_on>
         <sys_id>08e227691b6e68102dda1f09b04bcb07</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-25 18:29:52</sys_updated_on>
+        <sys_updated_by>aaaa.admin</sys_updated_by>
+        <sys_updated_on>2021-03-18 18:21:09</sys_updated_on>
         <ui_id>6e86f9d5-1844-43f4-995f-bfa230c69f7d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=08e227691b6e68102dda1f09b04bcb07"/>
@@ -493,7 +493,7 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"f4e227691b6e68102dda1f09b04bcbc0","name":"plan"}}</plan>
         <plan_id>0a522f291b6e68102dda1f09b04bcbbb</plan_id>
-        <snapshot>2e25efa91b6e68102dda1f09b04bcbc1</snapshot>
+        <snapshot>3f8cefd01b4b20102dda1f09b04bcbcd</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-25 18:19:54</sys_created_on>
         <sys_domain>global</sys_domain>
