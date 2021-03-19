@@ -47,21 +47,21 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass>94</sizeclass>
+        <sizeclass>96</sizeclass>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>david.stefferud</sys_created_by>
         <sys_created_on>2020-12-11 00:09:59</sys_created_on>
         <sys_id>4a905cc11b45a4108c0021fa234bcb94</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name>x_ananc_alight4sn_lookup</sys_name>
         <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
         <sys_update_name>sys_dictionary_x_ananc_alight4sn_lookup_null</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-03-16 08:21:28</sys_updated_on>
+        <sys_updated_on>2021-03-19 08:21:55</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -12,13 +12,13 @@
         <description>When a new Alight queue is defined, add the record to Lookup</description>
         <internal_name>add_alight_queue_to_lookup</internal_name>
         <label_cache>[{"name":"Created_1.current.amazon_queue.arn","label":"Trigger➛Queue Record➛Amazon Queue➛ARN","reference":"","reference_display":"ARN","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_lookup","column_name":"arn"},{"name":"Created_1.current.description","label":"Trigger➛Queue Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_queue","column_name":"description"},{"name":"Created_1.current.queue_id","label":"Trigger➛Queue Record➛Queue ID","reference":"","reference_display":"Queue ID","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_queue","column_name":"queue_id"},{"name":"5f2c3163-6aca-4aba-8b6e-279eba0257ac.table_name","label":"1➛Lookup Table","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f2c3163-6aca-4aba-8b6e-279eba0257ac.record","label":"1➛Lookup Record","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
-        <latest_snapshot>535c2fd01b4b20102dda1f09b04bcb93</latest_snapshot>
+        <latest_snapshot>7c6af57e1b16a810d6161f4a234bcbfe</latest_snapshot>
         <master_snapshot>7c6af57e1b16a810d6161f4a234bcbfe</master_snapshot>
         <name>Add Alight queue to Lookup</name>
         <natlang/>
         <outputs/>
-        <remote_trigger_id>9c56ca8b1b52e810d6161f4a234bcb5d</remote_trigger_id>
-        <run_as>user</run_as>
+        <remote_trigger_id>a3f1d9741b8b60102dda1f09b04bcbbf</remote_trigger_id>
+        <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>10d9bd3e1b16a810d6161f4a234bcb9b</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Add Alight queue to Lookup</sys_name>
         <sys_overrides/>
         <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
         <sys_update_name>sys_hub_flow_10d9bd3e1b16a810d6161f4a234bcb9b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-17 17:10:39</sys_updated_on>
+        <sys_updated_on>2021-03-19 20:22:49</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=10d9bd3e1b16a810d6161f4a234bcb9b"/>
@@ -58,42 +58,42 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-17 17:10:39</sys_created_on>
+        <sys_created_on>2021-03-19 20:22:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>9c56ca8b1b52e810d6161f4a234bcb5d</sys_id>
+        <sys_id>a3f1d9741b8b60102dda1f09b04bcbbf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-17 17:10:39</sys_updated_on>
+        <sys_updated_on>2021-03-19 20:22:48</sys_updated_on>
         <table>x_ananc_alight4sn_queue</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
-        <data>{"table":"sys_trigger_runner_mapping","id":"5856ca8b1b52e810d6161f4a234bcb5e","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <data>{"table":"sys_trigger_runner_mapping","id":"6ff1d9741b8b60102dda1f09b04bcbbf","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
         <identifier>10d9bd3e1b16a810d6161f4a234bcb9b</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-17 17:10:39</sys_created_on>
-        <sys_id>5856ca8b1b52e810d6161f4a234bcb5e</sys_id>
+        <sys_created_on>2021-03-19 20:22:48</sys_created_on>
+        <sys_id>6ff1d9741b8b60102dda1f09b04bcbbf</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-17 17:10:39</sys_updated_on>
-        <trigger display_value="">9c56ca8b1b52e810d6161f4a234bcb5d</trigger>
+        <sys_updated_on>2021-03-19 20:22:48</sys_updated_on>
+        <trigger display_value="">a3f1d9741b8b60102dda1f09b04bcbbf</trigger>
     </sys_trigger_runner_mapping>
     <sys_json_chunk action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
-        <document_id>5856ca8b1b52e810d6161f4a234bcb5e</document_id>
+        <document_id>6ff1d9741b8b60102dda1f09b04bcbbf</document_id>
         <field>trigger_runner</field>
         <length>144</length>
         <position>0</position>
         <source_table>sys_trigger_runner_mapping</source_table>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-17 17:10:39</sys_created_on>
-        <sys_id>1056ca8b1b52e810d6161f4a234bcb5f</sys_id>
+        <sys_created_on>2021-03-19 20:22:48</sys_created_on>
+        <sys_id>eff1d9741b8b60102dda1f09b04bcbbf</sys_id>
     </sys_json_chunk>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=10d9bd3e1b16a810d6161f4a234bcb9b^sys_idNOT IN5856ca8b1b52e810d6161f4a234bcb5e"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=10d9bd3e1b16a810d6161f4a234bcb9b^sys_idNOT IN6ff1d9741b8b60102dda1f09b04bcbbf"/>
     <sys_hub_flow_component action="delete_multiple" query="flow=10d9bd3e1b16a810d6161f4a234bcb9b^sys_idNOT IN806af57e1b16a810d6161f4a234bcb3e"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -110,10 +110,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-16 21:39:59</sys_created_on>
         <sys_id>806af57e1b16a810d6161f4a234bcb3e</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
-        <sys_updated_by>aaaa.admin</sys_updated_by>
-        <sys_updated_on>2021-03-18 18:20:18</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-19 20:22:49</sys_updated_on>
         <ui_id>5f2c3163-6aca-4aba-8b6e-279eba0257ac</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=806af57e1b16a810d6161f4a234bcb3e"/>
@@ -166,10 +166,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-16 21:39:59</sys_created_on>
         <sys_id>0c6af57e1b16a810d6161f4a234bcb2b</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-17 17:10:39</sys_updated_on>
+        <sys_updated_on>2021-03-19 20:22:49</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -279,14 +279,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-16 21:39:59</sys_created_on>
         <sys_id>7b5ab53e1b16a810d6161f4a234bcbe3</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-17 17:10:39</sys_updated_on>
+        <sys_updated_on>2021-03-19 20:22:48</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -360,14 +360,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-16 21:39:59</sys_created_on>
         <sys_id>bf5af57e1b16a810d6161f4a234bcb24</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-17 17:10:39</sys_updated_on>
+        <sys_updated_on>2021-03-19 20:22:48</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -395,10 +395,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-16 21:39:59</sys_created_on>
         <sys_id>806af57e1b16a810d6161f4a234bcb3e</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
-        <sys_updated_by>aaaa.admin</sys_updated_by>
-        <sys_updated_on>2021-03-18 18:20:18</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-19 20:22:49</sys_updated_on>
         <ui_id>5f2c3163-6aca-4aba-8b6e-279eba0257ac</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=806af57e1b16a810d6161f4a234bcb3e"/>
@@ -493,18 +493,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"016a397e1b16a810d6161f4a234bcb65","name":"plan"}}</plan>
         <plan_id>10d9bd3e1b16a810d6161f4a234bcb9b</plan_id>
-        <snapshot>535c2fd01b4b20102dda1f09b04bcb93</snapshot>
+        <snapshot>7c6af57e1b16a810d6161f4a234bcbfe</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-16 21:40:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>016a397e1b16a810d6161f4a234bcb65</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-17 17:10:39</sys_updated_on>
-        <trigger display_value="">9c56ca8b1b52e810d6161f4a234bcb5d</trigger>
+        <sys_updated_on>2021-03-19 20:22:48</sys_updated_on>
+        <trigger display_value="">a3f1d9741b8b60102dda1f09b04bcbbf</trigger>
     </sys_flow_trigger_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -524,7 +524,7 @@
         <outputs/>
         <parent_flow display_value="Add Alight queue to Lookup">10d9bd3e1b16a810d6161f4a234bcb9b</parent_flow>
         <remote_trigger_id/>
-        <run_as>user</run_as>
+        <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <status>published</status>
@@ -534,7 +534,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7c6af57e1b16a810d6161f4a234bcbfe</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -542,7 +542,7 @@
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-17 17:10:38</sys_updated_on>
+        <sys_updated_on>2021-03-19 20:22:48</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=7c6af57e1b16a810d6161f4a234bcbfe"/>
@@ -563,10 +563,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-16 21:40:03</sys_created_on>
         <sys_id>346a397e1b16a810d6161f4a234bcb52</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-17 17:10:38</sys_updated_on>
+        <sys_updated_on>2021-03-19 20:22:48</sys_updated_on>
         <ui_id>5f2c3163-6aca-4aba-8b6e-279eba0257ac</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=346a397e1b16a810d6161f4a234bcb52"/>
@@ -619,10 +619,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-16 21:40:03</sys_created_on>
         <sys_id>3c6a397e1b16a810d6161f4a234bcb53</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-17 17:10:39</sys_updated_on>
+        <sys_updated_on>2021-03-19 20:22:48</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -732,14 +732,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-16 21:40:03</sys_created_on>
         <sys_id>306a397e1b16a810d6161f4a234bcb01</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-17 17:10:38</sys_updated_on>
+        <sys_updated_on>2021-03-19 20:22:48</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -813,14 +813,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-16 21:40:03</sys_created_on>
         <sys_id>f06a397e1b16a810d6161f4a234bcb41</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-17 17:10:38</sys_updated_on>
+        <sys_updated_on>2021-03-19 20:22:48</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -848,10 +848,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-16 21:40:03</sys_created_on>
         <sys_id>346a397e1b16a810d6161f4a234bcb52</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-17 17:10:38</sys_updated_on>
+        <sys_updated_on>2021-03-19 20:22:48</sys_updated_on>
         <ui_id>5f2c3163-6aca-4aba-8b6e-279eba0257ac</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=346a397e1b16a810d6161f4a234bcb52"/>

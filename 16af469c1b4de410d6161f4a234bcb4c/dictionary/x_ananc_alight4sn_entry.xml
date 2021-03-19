@@ -10,6 +10,13 @@
         <element hint="Select the Path in the Call Flow table where you want the call flow to start if the Line is closed" label="Line closed entry point" mandatory="true" max_length="40" name="line_closed_entry_point" type="string"/>
         <element hint="Enter a user friendly Line Name" label="Line name" mandatory="true" max_length="40" name="line_name" type="string"/>
         <element hint="Select the ServiceNow schedule that defines when this Line is open" label="Line schedule" mandatory="true" max_length="32" name="line_schedule" reference="cmn_schedule" type="reference"/>
+        <element choice="3" default="dev" label="Target" max_length="40" name="target" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Dev" value="dev"/>
+                <element inactive_on_update="false" label="Production" value="prod"/>
+                <element inactive_on_update="false" label="Stage" value="stage"/>
+            </choice>
+        </element>
         <element choice="3" choice_field="time_zone" choice_table="sys_user" default="US/Eastern" hint="Set the time zone to use as the Line Schedule base time" label="Time zone" mandatory="true" max_length="40" name="time_zone" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Canada/Atlantic" sequence="0" value="Canada/Atlantic"/>
