@@ -12,7 +12,7 @@
         <description/>
         <internal_name>add_prompt_to_lookup</internal_name>
         <label_cache>[{"name":"d91a99b0-c41c-4bd5-8dcc-84a6536627b2.record","label":"1➛Lookup Record","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d91a99b0-c41c-4bd5-8dcc-84a6536627b2.table_name","label":"1➛Lookup Table","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.prompt_id","label":"Trigger➛Prompt Record➛Prompt ID","reference":"","reference_display":"Prompt ID","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_prompt","column_name":"prompt_id"},{"name":"Created_1.current.description","label":"Trigger➛Prompt Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_prompt","column_name":"description"}]</label_cache>
-        <latest_snapshot>4dbcbcd81b1aa0108c0021fa234bcb2b</latest_snapshot>
+        <latest_snapshot>943ea7b31b83e8102dda1f09b04bcb32</latest_snapshot>
         <master_snapshot>4dbcbcd81b1aa0108c0021fa234bcb2b</master_snapshot>
         <name>Add prompt to Lookup</name>
         <natlang/>
@@ -132,10 +132,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-08 22:45:42</sys_created_on>
         <sys_id>24bc7cd81b1aa0108c0021fa234bcbb3</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-19 20:23:27</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-03-29 15:27:02</sys_updated_on>
         <ui_id>d91a99b0-c41c-4bd5-8dcc-84a6536627b2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=24bc7cd81b1aa0108c0021fa234bcbb3"/>
@@ -417,10 +417,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-08 22:45:42</sys_created_on>
         <sys_id>24bc7cd81b1aa0108c0021fa234bcbb3</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-19 20:23:27</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-03-29 15:27:02</sys_updated_on>
         <ui_id>d91a99b0-c41c-4bd5-8dcc-84a6536627b2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=24bc7cd81b1aa0108c0021fa234bcbb3"/>
@@ -515,7 +515,7 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"11bcbcd81b1aa0108c0021fa234bcb7d","name":"plan"}}</plan>
         <plan_id>c47c74d81b1aa0108c0021fa234bcba9</plan_id>
-        <snapshot>4dbcbcd81b1aa0108c0021fa234bcb2b</snapshot>
+        <snapshot>943ea7b31b83e8102dda1f09b04bcb32</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-08 22:45:45</sys_created_on>
         <sys_domain>global</sys_domain>

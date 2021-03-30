@@ -11,7 +11,7 @@
             </choice>
         </element>
         <element hint="When checked, the user will be connected to the incoming call automatically" label="Auto accept" max_length="40" name="auto_accept" type="boolean"/>
-        <element label="Desk phone number" max_length="40" name="desk_phone_number" type="phone_number_e164"/>
+        <element hint="If the phone type is Desk Phone, enter the phone number for that phone" label="Desk phone number" max_length="40" name="desk_phone_number" type="phone_number_e164"/>
         <element default="Defaultpsd1!" hint="User password for first login to Amazon Connect" label="Initial Amazon Connect password" max_length="40" name="initial_amazon_connect_password" type="string"/>
         <element choice="3" default="SOFT_PHONE" hint="Select phone type" label="Phone type" max_length="40" name="phone_type" type="choice">
             <choice>

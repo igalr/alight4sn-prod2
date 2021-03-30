@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="content_block_static">
+    <content_block_static action="DELETE">
+        <active>true</active>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame/>
+        <logged_on>false</logged_on>
+        <name>Contact Support</name>
+        <static_content><![CDATA[<p>Our support information will go here</p>]]></static_content>
+        <sys_class_name>content_block_static</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-28 16:23:04</sys_created_on>
+        <sys_id>9441766f87c36810ea687778cebb358b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Contact Support</sys_name>
+        <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_update_name>content_block_static_9441766f87c36810ea687778cebb358b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-28 16:23:04</sys_updated_on>
+    </content_block_static>
+    <sys_translated_text action="DELETE" query="documentkey=9441766f87c36810ea687778cebb358b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</application>
+        <file_path/>
+        <instance_id>cfc14fa1db642c54566750b6f49619ef</instance_id>
+        <instance_name>ven04125</instance_name>
+        <name>content_block_static_9441766f87c36810ea687778cebb358b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="content_block_static"&gt;&lt;content_block_static action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;category&gt;general&lt;/category&gt;&lt;condition/&gt;&lt;conditional&gt;false&lt;/conditional&gt;&lt;frame/&gt;&lt;logged_on&gt;false&lt;/logged_on&gt;&lt;name&gt;Contact Support&lt;/name&gt;&lt;static_content&gt;&lt;![CDATA[&lt;p&gt;Our support information will go here&lt;/p&gt;]]&gt;&lt;/static_content&gt;&lt;sys_class_name&gt;content_block_static&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-03-28 16:23:04&lt;/sys_created_on&gt;&lt;sys_id&gt;9441766f87c36810ea687778cebb358b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Contact Support&lt;/sys_name&gt;&lt;sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn"&gt;16af469c1b4de410d6161f4a234bcb4c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alight for ServiceNow"&gt;16af469c1b4de410d6161f4a234bcb4c&lt;/sys_scope&gt;&lt;sys_update_name&gt;content_block_static_9441766f87c36810ea687778cebb358b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-28 16:23:04&lt;/sys_updated_on&gt;&lt;/content_block_static&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=9441766f87c36810ea687778cebb358b"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-179748199</payload_hash>
+        <record_name>Contact Support</record_name>
+        <reverted_from/>
+        <source>9af475c81b43e8102dda1f09b04bcb28</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-28 16:23:04</sys_created_on>
+        <sys_id>2f6172eb87c36810ea687778cebb35d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17879a561120000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-28 16:23:04</sys_updated_on>
+        <type>Static Content</type>
+        <update_guid>676172eb2ec36810441391794becbdd8</update_guid>
+        <update_guid_history>676172eb2ec36810441391794becbdd8:-179748199</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Contact Support">83323a6f87c36810ea687778cebb3545</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-28 16:26:36</sys_created_on>
+        <sys_db_object display_value="" name="content_block_static">content_block_static</sys_db_object>
+        <sys_id>07f3172e63b24c918ef46ee515b23591</sys_id>
+        <sys_metadata>9441766f87c36810ea687778cebb358b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Contact Support</sys_name>
+        <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_scope_delete display_value="">0a91a94afeb949ab8acb94319d95c6c1</sys_scope_delete>
+        <sys_update_name>content_block_static_9441766f87c36810ea687778cebb358b</sys_update_name>
+        <sys_update_version display_value="content_block_static_9441766f87c36810ea687778cebb358b">2f6172eb87c36810ea687778cebb35d8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-28 16:26:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
