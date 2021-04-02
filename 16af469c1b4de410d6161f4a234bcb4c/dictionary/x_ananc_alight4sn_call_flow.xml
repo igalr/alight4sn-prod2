@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Call Flow" max_length="40" name="x_ananc_alight4sn_call_flow" sizeclass="41" type="collection">
+    <element label="Call Flow" max_length="40" name="x_ananc_alight4sn_call_flow" sizeclass="8" type="collection">
         <element choice="1" hint="Select the Alight Action for this call flow step" label="Action" mandatory="true" max_length="40" name="action" type="choice">
             <choice>
                 <element inactive_on_update="false" label="menu" value="menu"/>
@@ -11,7 +11,7 @@
             </choice>
         </element>
         <element hint="Describe what this step in the call flow does" label="Description" mandatory="true" max_length="300" name="description" type="string"/>
-        <element hint="Select the Flow associated with the selected Action.  This selects the configuration set to apply to the Action." label="Flow" mandatory="true" max_length="32" name="flow" reference="x_ananc_alight4sn_lookup" reference_qual="javascript:&quot;action=&quot; +current.action" type="reference" use_reference_qualifier="advanced"/>
+        <element hint="Select the Flow associated with the selected Action.  This selects the configuration set to apply to the Action." label="Flow" max_length="32" name="flow" reference="x_ananc_alight4sn_lookup" reference_qual="javascript:&quot;action=&quot; +current.action" type="reference" use_reference_qualifier="advanced"/>
         <element hint="Enter the Lex Intent that you want to assign to this step" label="Intent" max_length="40" name="intent" type="string"/>
         <element hint="Enter a Label to show  the start of a call flow section.  Visual only - has no effect on operation" label="Label" max_length="40" name="label" type="string"/>
         <element hint="If set, the call flow will jump to the Path entered here after completing this step's Action" label="Next path" max_length="40" name="next_path" type="string"/>

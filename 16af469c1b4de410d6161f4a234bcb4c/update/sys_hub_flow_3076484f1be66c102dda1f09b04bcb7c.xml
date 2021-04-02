@@ -6,13 +6,13 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build>glide-paris-06-24-2020__patch4a-01-04-2021</compiler_build>
+        <compiler_build>glide-paris-06-24-2020__patch4b-02-04-2021</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description>If the description in a prompt changes, change the related description in Lookup</description>
         <internal_name>update_prompt_description_in_lookup</internal_name>
         <label_cache>[{"name":"1483e738-ec82-4521-85f0-def161e53173.Record","label":"1➛Lookup Record","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1483e738-ec82-4521-85f0-def161e53173.Table","label":"1➛Lookup Table","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1483e738-ec82-4521-85f0-def161e53173.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"1483e738-ec82-4521-85f0-def161e53173.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"Updated_1.current.prompt_id","label":"Trigger➛Prompt Record➛Prompt ID","reference":"","reference_display":"Prompt ID","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_prompt","column_name":"prompt_id"},{"name":"d096d60a-375a-4000-ab50-5d2b7ec78e5d.record","label":"2➛Lookup Record","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d096d60a-375a-4000-ab50-5d2b7ec78e5d.table_name","label":"2➛Lookup Table","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.description","label":"Trigger➛Prompt Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_prompt","column_name":"description"}]</label_cache>
-        <latest_snapshot>e5e6808f1be66c102dda1f09b04bcb1c</latest_snapshot>
+        <latest_snapshot>9d8699d01bd32c102dda1f09b04bcb97</latest_snapshot>
         <master_snapshot>e5e6808f1be66c102dda1f09b04bcb1c</master_snapshot>
         <name>Update prompt description in Lookup</name>
         <natlang/>
@@ -110,10 +110,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-01 18:09:36</sys_created_on>
         <sys_id>30e6008f1be66c102dda1f09b04bcbfd</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-19 20:29:03</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-03-30 17:41:21</sys_updated_on>
         <ui_id>d096d60a-375a-4000-ab50-5d2b7ec78e5d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=30e6008f1be66c102dda1f09b04bcbfd"/>
@@ -183,10 +183,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-01 18:09:35</sys_created_on>
         <sys_id>74e6008f1be66c102dda1f09b04bcbf7</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-19 20:29:03</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-03-30 17:41:21</sys_updated_on>
         <ui_id>1483e738-ec82-4521-85f0-def161e53173</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=74e6008f1be66c102dda1f09b04bcbf7"/>
@@ -563,10 +563,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-01 18:09:36</sys_created_on>
         <sys_id>30e6008f1be66c102dda1f09b04bcbfd</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-19 20:29:03</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-03-30 17:41:21</sys_updated_on>
         <ui_id>d096d60a-375a-4000-ab50-5d2b7ec78e5d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=30e6008f1be66c102dda1f09b04bcbfd"/>
@@ -636,10 +636,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-01 18:09:35</sys_created_on>
         <sys_id>74e6008f1be66c102dda1f09b04bcbf7</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-19 20:29:03</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-03-30 17:41:21</sys_updated_on>
         <ui_id>1483e738-ec82-4521-85f0-def161e53173</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=74e6008f1be66c102dda1f09b04bcbf7"/>
@@ -757,7 +757,7 @@
         <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"7de6808f1be66c102dda1f09b04bcb82","name":"plan"}}</plan>
         <plan_id>3076484f1be66c102dda1f09b04bcb7c</plan_id>
-        <snapshot>e5e6808f1be66c102dda1f09b04bcb1c</snapshot>
+        <snapshot>9d8699d01bd32c102dda1f09b04bcb97</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-01 18:09:40</sys_created_on>
         <sys_domain>global</sys_domain>

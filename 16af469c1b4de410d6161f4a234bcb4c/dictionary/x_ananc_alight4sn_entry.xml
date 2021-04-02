@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Call Entry" max_length="40" name="x_ananc_alight4sn_entry" sizeclass="1" type="collection">
+    <element label="Call Entry" max_length="40" name="x_ananc_alight4sn_entry" sizeclass="2" type="collection">
         <element hint="Select the Path in the Call Flow table where you want the call flow to start" label="Call flow entry point" mandatory="true" max_length="40" name="call_flow_entry_point" type="string"/>
         <element label="Call Flow Entry Zone" max_length="40" name="call_flow_entry_zone" type="string"/>
         <element default="default" hint="Enter a phone number to match this entry based on the caller's phone number (CLID, ANI)" label="Customer number" mandatory="true" max_length="40" name="customer_number" type="string"/>

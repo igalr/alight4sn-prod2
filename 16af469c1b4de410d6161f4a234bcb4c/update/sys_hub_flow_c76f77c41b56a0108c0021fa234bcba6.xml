@@ -6,13 +6,13 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build>glide-paris-06-24-2020__patch4a-01-04-2021</compiler_build>
+        <compiler_build>glide-paris-06-24-2020__patch4b-02-04-2021</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description>When a prompt is updated, update records for each Alight Language and translate</description>
         <internal_name>translate_prompt_on_update</internal_name>
         <label_cache>[{"name":"8f74c901-8d01-4b10-8b13-c9c340471220.Records","label":"1➛Alight Language Records","reference":"x_ananc_alight4sn_alight_language","reference_display":"Alight Language","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8f74c901-8d01-4b10-8b13-c9c340471220.Table","label":"1➛Alight Language Table","reference":"x_ananc_alight4sn_alight_language","reference_display":"Alight Language","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8f74c901-8d01-4b10-8b13-c9c340471220.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"856494a7-4e00-4c4b-a62f-3ec25e8287b5.Records","label":"2➛Alight Text Records","reference":"x_ananc_alight4sn_alight_translated_text","reference_display":"Alight Text","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"856494a7-4e00-4c4b-a62f-3ec25e8287b5.Table","label":"2➛Alight Text Table","reference":"x_ananc_alight4sn_alight_translated_text","reference_display":"Alight Text","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"856494a7-4e00-4c4b-a62f-3ec25e8287b5.Count","label":"2➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.prompt_id","label":"Trigger➛Prompt Record➛Prompt ID","reference":"","reference_display":"Prompt ID","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_prompt","column_name":"prompt_id"},{"name":"8c336313-c357-4085-9fca-c63ca58f537a.Record","label":"1➛Alight Language Record","reference":"x_ananc_alight4sn_alight_language","reference_display":"Alight Language","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8c336313-c357-4085-9fca-c63ca58f537a.Table","label":"1➛Alight Language Table","reference":"x_ananc_alight4sn_alight_language","reference_display":"Alight Language","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8c336313-c357-4085-9fca-c63ca58f537a.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"8c336313-c357-4085-9fca-c63ca58f537a.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"8c336313-c357-4085-9fca-c63ca58f537a.Record.language_code","label":"1➛Alight Language Record➛Language Code","reference":"","reference_display":"Language Code","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_alight_language","column_name":"language_code"},{"name":"fecd7273-b627-4e6a-9f32-22f226454ab2.item","label":"3➛Alight Text Record","reference":"x_ananc_alight4sn_alight_translated_text","reference_display":"Alight Text","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"e41cd720-a2a8-45d0-a659-e50400285a4c.translation","label":"4➛Translation","reference_display":"Translation","type":"object","base_type":"object","attributes":{"uiType":"object","uiTypeLabel":"Object","co_type_name":"FDe975116fbe133300381fba4a2a4c4732","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e41cd720-a2a8-45d0-a659-e50400285a4c.status","label":"4➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e41cd720-a2a8-45d0-a659-e50400285a4c.error_message","label":"4➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true"}},{"name":"e41cd720-a2a8-45d0-a659-e50400285a4c.error_code","label":"4➛Error Code","reference_display":"Error Code","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true"}},{"name":"Updated_1.current.prompt","label":"Trigger➛Prompt Record➛Prompt","reference":"","reference_display":"Prompt","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_prompt","column_name":"prompt"},{"name":"fecd7273-b627-4e6a-9f32-22f226454ab2.item.language_code","label":"3➛Alight Text Record➛Language Code","reference":"","reference_display":"Language Code","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_alight_translated_text","column_name":"language_code"},{"name":"f7ab02d6-52dc-4e60-a516-7c5d68dd913b.record","label":"5➛Alight Text Record","reference":"x_ananc_alight4sn_alight_translated_text","reference_display":"Alight Text","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f7ab02d6-52dc-4e60-a516-7c5d68dd913b.table_name","label":"5➛Alight Text Table","reference":"x_ananc_alight4sn_alight_translated_text","reference_display":"Alight Text","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e41cd720-a2a8-45d0-a659-e50400285a4c.translation.translated_text","label":"4➛Translation➛Translated Text","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"269fccb1-4c05-4eeb-9f8a-b9b98bf8d6f5.Record","label":"6➛Alight Text Record","reference":"x_ananc_alight4sn_alight_translated_text","reference_display":"Alight Text","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"269fccb1-4c05-4eeb-9f8a-b9b98bf8d6f5.Table","label":"6➛Alight Text Table","reference":"x_ananc_alight4sn_alight_translated_text","reference_display":"Alight Text","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"269fccb1-4c05-4eeb-9f8a-b9b98bf8d6f5.status","label":"6➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"269fccb1-4c05-4eeb-9f8a-b9b98bf8d6f5.error_message","label":"6➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"18035c81-d299-4667-928e-a2ec1ed7ef2a.record","label":"7➛Alight Text Record","reference":"x_ananc_alight4sn_alight_translated_text","reference_display":"Alight Text","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"18035c81-d299-4667-928e-a2ec1ed7ef2a.table_name","label":"7➛Alight Text Table","reference":"x_ananc_alight4sn_alight_translated_text","reference_display":"Alight Text","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
-        <latest_snapshot>f9c1409c1b56a0108c0021fa234bcb13</latest_snapshot>
+        <latest_snapshot>da861dd01bd32c102dda1f09b04bcb41</latest_snapshot>
         <master_snapshot>f9c1409c1b56a0108c0021fa234bcb13</master_snapshot>
         <name>Translate prompt on Update</name>
         <natlang/>
@@ -110,10 +110,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-08 18:27:36</sys_created_on>
         <sys_id>27910c5c1b56a0108c0021fa234bcbd3</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-19 20:27:55</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-03-30 17:41:26</sys_updated_on>
         <ui_id>856494a7-4e00-4c4b-a62f-3ec25e8287b5</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=27910c5c1b56a0108c0021fa234bcbd3"/>
@@ -171,10 +171,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-08 18:27:36</sys_created_on>
         <sys_id>7f910c5c1b56a0108c0021fa234bcbf2</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-19 20:27:55</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-03-30 17:41:26</sys_updated_on>
         <ui_id>e41cd720-a2a8-45d0-a659-e50400285a4c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7f910c5c1b56a0108c0021fa234bcbf2"/>
@@ -230,10 +230,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-08 18:27:36</sys_created_on>
         <sys_id>b3910c5c1b56a0108c0021fa234bcbf8</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-19 20:27:55</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-03-30 17:41:26</sys_updated_on>
         <ui_id>f7ab02d6-52dc-4e60-a516-7c5d68dd913b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b3910c5c1b56a0108c0021fa234bcbf8"/>
@@ -303,10 +303,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-08 18:27:36</sys_created_on>
         <sys_id>bb914c5c1b56a0108c0021fa234bcb00</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-19 20:27:55</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-03-30 17:41:26</sys_updated_on>
         <ui_id>269fccb1-4c05-4eeb-9f8a-b9b98bf8d6f5</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bb914c5c1b56a0108c0021fa234bcb00"/>
@@ -405,10 +405,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-08 18:27:35</sys_created_on>
         <sys_id>ef910c5c1b56a0108c0021fa234bcbca</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-19 20:27:55</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-03-30 17:41:26</sys_updated_on>
         <ui_id>8c336313-c357-4085-9fca-c63ca58f537a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ef910c5c1b56a0108c0021fa234bcbca"/>
@@ -455,10 +455,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-08 18:27:36</sys_created_on>
         <sys_id>ff914c5c1b56a0108c0021fa234bcb05</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-19 20:27:55</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-03-30 17:41:26</sys_updated_on>
         <ui_id>18035c81-d299-4667-928e-a2ec1ed7ef2a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ff914c5c1b56a0108c0021fa234bcb05"/>
@@ -847,10 +847,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-08 18:27:36</sys_created_on>
         <sys_id>27910c5c1b56a0108c0021fa234bcbd3</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-19 20:27:55</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-03-30 17:41:26</sys_updated_on>
         <ui_id>856494a7-4e00-4c4b-a62f-3ec25e8287b5</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=27910c5c1b56a0108c0021fa234bcbd3"/>
@@ -908,10 +908,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-08 18:27:36</sys_created_on>
         <sys_id>7f910c5c1b56a0108c0021fa234bcbf2</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-19 20:27:55</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-03-30 17:41:26</sys_updated_on>
         <ui_id>e41cd720-a2a8-45d0-a659-e50400285a4c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7f910c5c1b56a0108c0021fa234bcbf2"/>
@@ -967,10 +967,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-08 18:27:36</sys_created_on>
         <sys_id>b3910c5c1b56a0108c0021fa234bcbf8</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-19 20:27:55</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-03-30 17:41:26</sys_updated_on>
         <ui_id>f7ab02d6-52dc-4e60-a516-7c5d68dd913b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b3910c5c1b56a0108c0021fa234bcbf8"/>
@@ -1040,10 +1040,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-08 18:27:36</sys_created_on>
         <sys_id>bb914c5c1b56a0108c0021fa234bcb00</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-19 20:27:55</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-03-30 17:41:26</sys_updated_on>
         <ui_id>269fccb1-4c05-4eeb-9f8a-b9b98bf8d6f5</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bb914c5c1b56a0108c0021fa234bcb00"/>
@@ -1100,10 +1100,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-08 18:27:35</sys_created_on>
         <sys_id>ef910c5c1b56a0108c0021fa234bcbca</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-19 20:27:55</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-03-30 17:41:26</sys_updated_on>
         <ui_id>8c336313-c357-4085-9fca-c63ca58f537a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ef910c5c1b56a0108c0021fa234bcbca"/>
@@ -1150,10 +1150,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-08 18:27:36</sys_created_on>
         <sys_id>ff914c5c1b56a0108c0021fa234bcb05</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-19 20:27:55</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-03-30 17:41:26</sys_updated_on>
         <ui_id>18035c81-d299-4667-928e-a2ec1ed7ef2a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ff914c5c1b56a0108c0021fa234bcb05"/>
@@ -1326,7 +1326,7 @@
         <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"a6c1809c1b56a0108c0021fa234bcb28","name":"plan"}}</plan>
         <plan_id>c76f77c41b56a0108c0021fa234bcba6</plan_id>
-        <snapshot>f9c1409c1b56a0108c0021fa234bcb13</snapshot>
+        <snapshot>da861dd01bd32c102dda1f09b04bcb41</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-08 18:28:20</sys_created_on>
         <sys_domain>global</sys_domain>

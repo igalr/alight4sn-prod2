@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Query" max_length="40" name="x_ananc_alight4sn_query" sizeclass="0" type="collection">
+    <element label="Query" max_length="40" name="x_ananc_alight4sn_query" sizeclass="1" type="collection">
         <element hint="Provide a clear description for this query and how it is used" label="Description" mandatory="true" max_length="500" name="description" type="string"/>
         <element hint="Define the query" label="Query" mandatory="true" max_length="500" name="query" type="string"/>
         <element hint="Define a unique identifier for this query" label="Query ID" mandatory="true" max_length="40" name="query_id" type="string"/>
