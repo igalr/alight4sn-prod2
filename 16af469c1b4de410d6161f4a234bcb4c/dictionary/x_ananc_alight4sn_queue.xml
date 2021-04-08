@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Queue" max_length="40" name="x_ananc_alight4sn_queue" sizeclass="2" type="collection">
+    <element label="Queue" max_length="40" name="x_ananc_alight4sn_queue" sizeclass="1" type="collection">
         <element hint="Select the Amazon Connect queue resource to apply this configuration to " label="Amazon Queue" mandatory="true" max_length="32" name="amazon_queue" reference="x_ananc_alight4sn_lookup" reference_qual="javascript:&quot;action=&quot;+&quot;queue&quot;" type="reference" use_reference_qualifier="advanced"/>
         <element hint="The caller will be played this prompt if their callback has been successfully queued" label="Callback Confirmed Prompt" max_length="32" name="callback_confirmed_prompt" reference="x_ananc_alight4sn_message" type="reference"/>
         <element hint="If the Callback action is set, this prompt will be played to ask if they want a callback" label="Callback Offered Prompt" max_length="32" name="callback_prompt" reference="x_ananc_alight4sn_message" type="reference"/>

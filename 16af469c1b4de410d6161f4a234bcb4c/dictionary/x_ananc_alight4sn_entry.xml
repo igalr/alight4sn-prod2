@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Call Entry" max_length="40" name="x_ananc_alight4sn_entry" sizeclass="2" type="collection">
         <element hint="Select the Path in the Call Flow table where you want the call flow to start" label="Call flow entry point" mandatory="true" max_length="40" name="call_flow_entry_point" type="string"/>
-        <element label="Call Flow Entry Zone" max_length="40" name="call_flow_entry_zone" type="string"/>
+        <element label="Call flow entry zone" max_length="40" name="call_flow_entry_zone" type="string"/>
         <element default="default" hint="Enter a phone number to match this entry based on the caller's phone number (CLID, ANI)" label="Customer number" mandatory="true" max_length="40" name="customer_number" type="string"/>
         <element hint="Provide a clear description for this Line" label="Description" mandatory="true" max_length="500" name="description" type="string"/>
         <element default="default" hint="Enter the Amazon Connect phone number (DNIS) that this entry applies to" label="Dialed number" mandatory="true" max_length="40" name="dialed_number" type="string"/>

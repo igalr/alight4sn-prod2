@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="language" label="Language Code" language="en" table="x_ananc_alight4sn_screen_pop">
+    <sys_documentation element="language" label="Language code" language="en" table="x_ananc_alight4sn_screen_pop">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>language</element>
             <help/>
-            <hint>Enter the Language Code to match for the screen to pop</hint>
-            <label>Language Code</label>
+            <hint>Enter the Language code to match for the screen to pop</hint>
+            <label>Language code</label>
             <language>en</language>
             <name>x_ananc_alight4sn_screen_pop</name>
-            <plural>Language Codes</plural>
+            <plural>Language codes</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>david.stefferud</sys_created_by>
             <sys_created_on>2020-12-12 19:06:02</sys_created_on>
             <sys_id>dd3e95291b4de4108c0021fa234bcb02</sys_id>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_name>Language Code</sys_name>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>Language code</sys_name>
             <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
             <sys_policy/>
             <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
             <sys_update_name>sys_documentation_x_ananc_alight4sn_screen_pop_language_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-05 19:28:58</sys_updated_on>
+            <sys_updated_on>2021-04-05 22:52:52</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Screen Pop" max_length="40" name="x_ananc_alight4sn_screen_pop" sizeclass="0" type="collection">
+    <element label="Screen Pop" max_length="40" name="x_ananc_alight4sn_screen_pop" sizeclass="1" type="collection">
         <element hint="Enter the URL for the screen pop" label="URL" mandatory="true" max_length="500" name="api_call" type="string"/>
-        <element hint="Provide a name for the browser tab that will be opened when the screen is popped." label="Browser Tab" mandatory="true" max_length="100" name="browser_tab" type="string"/>
-        <element choice="3" default="Busy" hint="Select the call state which will trigger this screen pop" label="Call State" mandatory="true" max_length="40" name="call_state" type="choice">
+        <element hint="Provide a name for the browser tab that will be opened when the screen is popped.  Leave blank if opening a ServiceNow record" label="Browser tab" max_length="100" name="browser_tab" type="string"/>
+        <element choice="3" default="Busy" hint="Select the call state which will trigger this screen pop" label="Call state" mandatory="true" max_length="40" name="call_state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Call Present" sequence="1" value="PendingBusy"/>
                 <element inactive_on_update="false" label="Call Accept" sequence="2" value="Busy"/>
@@ -11,8 +11,9 @@
                 <element inactive_on_update="false" label="Calling Customer" sequence="5" value="CallingCustomer"/>
             </choice>
         </element>
-        <element hint="Enter the Language Code to match for the screen to pop" label="Language Code" max_length="40" name="language" type="string"/>
-        <element hint="Enter the Queue Flow to match for the screen to pop" label="Queue Flow" max_length="40" name="queue" type="string"/>
+        <element hint="Provide a clear description for this Screen Pop" label="Description" mandatory="true" max_length="500" name="description" type="string"/>
+        <element hint="Enter the Language code to match for the screen to pop" label="Language code" max_length="40" name="language" type="string"/>
+        <element hint="Enter the Queue Flow to match for the screen to pop" label="Queue flow" max_length="40" name="queue" type="string"/>
         <element hint="Enter the Reason code to match for the screen to pop" label="Reason" max_length="40" name="reason" type="string"/>
         <element hint="Enter the Subreason code to match for the screen to pop" label="Subreason" max_length="40" name="subreason" type="string"/>
         <element hint="Enter the Zone to match for the screen to pop" label="Zone" max_length="40" name="zone" type="string"/>
