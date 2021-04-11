@@ -6,13 +6,13 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build>glide-paris-06-24-2020__patch4b-02-04-2021</compiler_build>
+        <compiler_build>glide-paris-06-24-2020__patch7-02-25-2021</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description>When a new Alight queue is defined, add the record to Lookup</description>
         <internal_name>add_alight_queue_to_lookup</internal_name>
         <label_cache>[{"name":"Created_1.current.amazon_queue.arn","label":"Trigger➛Queue Record➛Amazon Queue➛ARN","reference":"","reference_display":"ARN","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_lookup","column_name":"arn"},{"name":"Created_1.current.description","label":"Trigger➛Queue Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_queue","column_name":"description"},{"name":"Created_1.current.queue_id","label":"Trigger➛Queue Record➛Queue ID","reference":"","reference_display":"Queue ID","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_queue","column_name":"queue_id"},{"name":"5f2c3163-6aca-4aba-8b6e-279eba0257ac.table_name","label":"1➛Lookup Table","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f2c3163-6aca-4aba-8b6e-279eba0257ac.record","label":"1➛Lookup Record","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
-        <latest_snapshot>7c6af57e1b16a810d6161f4a234bcbfe</latest_snapshot>
+        <latest_snapshot>380eb78f1b9364102dda1f09b04bcbad</latest_snapshot>
         <master_snapshot>7c6af57e1b16a810d6161f4a234bcbfe</master_snapshot>
         <name>Add Alight queue to Lookup</name>
         <natlang/>
@@ -110,10 +110,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-16 21:39:59</sys_created_on>
         <sys_id>806af57e1b16a810d6161f4a234bcb3e</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-19 20:22:49</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-04-08 18:56:24</sys_updated_on>
         <ui_id>5f2c3163-6aca-4aba-8b6e-279eba0257ac</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=806af57e1b16a810d6161f4a234bcb3e"/>
@@ -395,10 +395,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-16 21:39:59</sys_created_on>
         <sys_id>806af57e1b16a810d6161f4a234bcb3e</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-19 20:22:49</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-04-08 18:56:24</sys_updated_on>
         <ui_id>5f2c3163-6aca-4aba-8b6e-279eba0257ac</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=806af57e1b16a810d6161f4a234bcb3e"/>
@@ -493,7 +493,7 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"016a397e1b16a810d6161f4a234bcb65","name":"plan"}}</plan>
         <plan_id>10d9bd3e1b16a810d6161f4a234bcb9b</plan_id>
-        <snapshot>7c6af57e1b16a810d6161f4a234bcbfe</snapshot>
+        <snapshot>380eb78f1b9364102dda1f09b04bcbad</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-16 21:40:04</sys_created_on>
         <sys_domain>global</sys_domain>

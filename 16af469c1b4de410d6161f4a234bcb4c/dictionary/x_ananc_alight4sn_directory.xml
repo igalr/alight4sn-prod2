@@ -3,5 +3,6 @@
         <element hint="Map the ServiceNow field to Alight Table attribute" label="ServiceNow field - Alight attribute" max_length="4000" name="alight_field_to_sn_field" type="simple_name_values"/>
         <element hint="Enter the name of the corresponding Alight Table where these attributes are defined" label="Alight table" mandatory="true" max_length="40" name="alight_table_name" type="string"/>
         <element hint="Enter the name of the ServiceNow table" label="ServiceNow table" mandatory="true" max_length="100" name="sn_table_name" type="string"/>
+        <element hint="Map the ServiceNow field to Alight Text entry" label="ServiceNow field - translation" max_length="4000" name="source_text_translation" type="simple_name_values"/>
     </element>
 </database>

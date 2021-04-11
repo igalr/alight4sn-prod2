@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Lookup" max_length="40" name="x_ananc_alight4sn_lookup" sizeclass="64" type="collection">
+    <element label="Lookup" max_length="40" name="x_ananc_alight4sn_lookup" sizeclass="62" type="collection">
         <element label="Action" max_length="40" name="action" type="string"/>
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="ARN" max_length="200" name="arn" type="string"/>

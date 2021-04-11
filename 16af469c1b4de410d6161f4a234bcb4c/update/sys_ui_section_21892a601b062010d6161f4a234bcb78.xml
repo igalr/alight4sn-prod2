@@ -3,25 +3,27 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-12 16:50:53</sys_created_on>
-            <sys_id>5b5e98e687fa6410ea687778cebb358c</sys_id>
+            <sys_created_on>2021-04-11 16:38:10</sys_created_on>
+            <sys_id>152bb2841b2328102dda1f09b04bcb70</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-12 16:50:53</sys_updated_on>
-            <text>This defines the relationship between values in the ServiceNow tables and Alight attributes that will be used within the Actions.  This table is intended for use by people developing Alight Actions ONLY.  Be EXTREMELY careful when changing this table.</text>
+            <sys_updated_on>2021-04-11 16:38:10</sys_updated_on>
+            <text>This defines the relationship between values in the ServiceNow tables and Alight attributes that will be used within the Actions.  This table is intended for use by people developing Alight Actions ONLY.  Be EXTREMELY careful when changing this table.
+
+This section is for directly mapped attributes.</text>
             <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>5b5e98e687fa6410ea687778cebb358c</element>
+            <element>152bb2841b2328102dda1f09b04bcb70</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-12 16:50:53</sys_created_on>
-            <sys_id>135e98e687fa6410ea687778cebb359d</sys_id>
+            <sys_created_on>2021-04-11 16:38:10</sys_created_on>
+            <sys_id>912bb2841b2328102dda1f09b04bcb75</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_directory" sys_domain="global" view="Default view">21892a601b062010d6161f4a234bcb78</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-12 16:50:53</sys_updated_on>
+            <sys_updated_on>2021-04-11 16:38:10</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -29,13 +31,13 @@
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-12 16:50:53</sys_created_on>
-            <sys_id>935e98e687fa6410ea687778cebb359d</sys_id>
+            <sys_created_on>2021-04-11 16:38:10</sys_created_on>
+            <sys_id>152bb2841b2328102dda1f09b04bcb75</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_directory" sys_domain="global" view="Default view">21892a601b062010d6161f4a234bcb78</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-12 16:50:53</sys_updated_on>
+            <sys_updated_on>2021-04-11 16:38:10</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -43,13 +45,13 @@
             <element>sn_table_name</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-12 16:50:53</sys_created_on>
-            <sys_id>175e98e687fa6410ea687778cebb359d</sys_id>
+            <sys_created_on>2021-04-11 16:38:10</sys_created_on>
+            <sys_id>952bb2841b2328102dda1f09b04bcb75</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_directory" sys_domain="global" view="Default view">21892a601b062010d6161f4a234bcb78</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-12 16:50:53</sys_updated_on>
+            <sys_updated_on>2021-04-11 16:38:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -57,13 +59,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-12 16:50:53</sys_created_on>
-            <sys_id>975e98e687fa6410ea687778cebb359d</sys_id>
+            <sys_created_on>2021-04-11 16:38:10</sys_created_on>
+            <sys_id>192bb2841b2328102dda1f09b04bcb75</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_directory" sys_domain="global" view="Default view">21892a601b062010d6161f4a234bcb78</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-12 16:50:53</sys_updated_on>
+            <sys_updated_on>2021-04-11 16:38:10</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -71,13 +73,13 @@
             <element>alight_table_name</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-12 16:50:53</sys_created_on>
-            <sys_id>1b5e98e687fa6410ea687778cebb359d</sys_id>
+            <sys_created_on>2021-04-11 16:38:10</sys_created_on>
+            <sys_id>992bb2841b2328102dda1f09b04bcb75</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_directory" sys_domain="global" view="Default view">21892a601b062010d6161f4a234bcb78</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-12 16:50:53</sys_updated_on>
+            <sys_updated_on>2021-04-11 16:38:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -85,13 +87,13 @@
             <element>.end_split</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-12 16:50:53</sys_created_on>
-            <sys_id>9b5e98e687fa6410ea687778cebb359d</sys_id>
+            <sys_created_on>2021-04-11 16:38:10</sys_created_on>
+            <sys_id>1d2bb2841b2328102dda1f09b04bcb75</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_directory" sys_domain="global" view="Default view">21892a601b062010d6161f4a234bcb78</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-12 16:50:53</sys_updated_on>
+            <sys_updated_on>2021-04-11 16:38:10</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -99,13 +101,13 @@
             <element>alight_field_to_sn_field</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-12 16:50:53</sys_created_on>
-            <sys_id>1f5e98e687fa6410ea687778cebb359d</sys_id>
+            <sys_created_on>2021-04-11 16:38:10</sys_created_on>
+            <sys_id>9d2bb2841b2328102dda1f09b04bcb75</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_directory" sys_domain="global" view="Default view">21892a601b062010d6161f4a234bcb78</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-12 16:50:53</sys_updated_on>
+            <sys_updated_on>2021-04-11 16:38:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
