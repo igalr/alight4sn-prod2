@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>5d51f8bf1b712050d6161f4a234bcb8c</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_ananc_alight4sn_polly_languages">
+    <x_ananc_alight4sn_polly_languages action="INSERT_OR_UPDATE">
+        <language>Russian</language>
+        <locale>ru</locale>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-25 22:23:35</sys_created_on>
+        <sys_id>5d51f8bf1b712050d6161f4a234bcb8c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-25 22:23:43</sys_updated_on>
+        <voice>Tatyana</voice>
+    </x_ananc_alight4sn_polly_languages>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-14 20:07:20</sys_created_on>
+        <sys_id>eac703091b63e8102dda1f09b04bcb3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tatyana</sys_name>
+        <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_update_name>sys_metadata_link_eac703091b63e8102dda1f09b04bcb3d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-14 20:07:20</sys_updated_on>
+        <tablename>x_ananc_alight4sn_polly_languages</tablename>
+    </sys_metadata_link>
+</record_update>

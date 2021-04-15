@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Menu" max_length="40" name="x_ananc_alight4sn_menu" sizeclass="2" type="collection">
+    <element label="Menu" max_length="40" name="x_ananc_alight4sn_menu" sizeclass="0" type="collection">
         <element hint="Provide a clear description for this menu" label="Description" mandatory="true" max_length="300" name="description" type="string"/>
         <element default="3" hint="Enter the number of times this menu will repeat if an invalid key is entered or the menu times out." label="Max repeats" max_length="40" name="max_repeats" type="string"/>
         <element hint="Define a unique identifier for this menu" label="Menu ID" mandatory="true" max_length="40" name="menu_id" type="string"/>

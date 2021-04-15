@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>e97009121b57a0102dda1f09b04bcb7d</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_ananc_alight4sn_alight_translated_text">
+    <x_ananc_alight4sn_alight_translated_text action="INSERT_OR_UPDATE">
+        <language_code>en</language_code>
+        <source_field>a1_line_closed</source_field>
+        <source_table>message</source_table>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-04-05 21:12:47</sys_created_on>
+        <sys_id>e97009121b57a0102dda1f09b04bcb7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-04-05 21:12:47</sys_updated_on>
+        <target_field>prompt</target_field>
+        <text>We are now closed</text>
+    </x_ananc_alight4sn_alight_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-14 20:05:25</sys_created_on>
+        <sys_id>1e574bc51b63e8102dda1f09b04bcb33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2021-04-05 14:12:47</sys_name>
+        <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_update_name>sys_metadata_link_1e574bc51b63e8102dda1f09b04bcb33</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-14 20:05:25</sys_updated_on>
+        <tablename>x_ananc_alight4sn_alight_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

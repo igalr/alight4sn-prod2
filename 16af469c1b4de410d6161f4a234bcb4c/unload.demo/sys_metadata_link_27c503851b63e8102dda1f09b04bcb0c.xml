@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>e647ecfcdbc76010781b2fb748961963</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_ananc_alight4sn_call_flow">
+    <x_ananc_alight4sn_call_flow action="INSERT_OR_UPDATE">
+        <action>message</action>
+        <description>Hello world message</description>
+        <flow display_value="a1_initial_greeting">93bea6d21b2ee8102dda1f09b04bcb50</flow>
+        <intent/>
+        <label>Main Entry</label>
+        <next_path>11</next_path>
+        <next_path_zone/>
+        <parent/>
+        <path>10</path>
+        <reason/>
+        <subreason/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-19 17:16:23</sys_created_on>
+        <sys_id>e647ecfcdbc76010781b2fb748961963</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-22 17:11:39</sys_updated_on>
+        <zone/>
+    </x_ananc_alight4sn_call_flow>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-14 19:58:40</sys_created_on>
+        <sys_id>27c503851b63e8102dda1f09b04bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>10</sys_name>
+        <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_update_name>sys_metadata_link_27c503851b63e8102dda1f09b04bcb0c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-14 19:58:40</sys_updated_on>
+        <tablename>x_ananc_alight4sn_call_flow</tablename>
+    </sys_metadata_link>
+</record_update>

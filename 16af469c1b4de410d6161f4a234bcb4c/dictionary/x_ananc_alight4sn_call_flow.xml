@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Call Flow" max_length="40" name="x_ananc_alight4sn_call_flow" sizeclass="12" type="collection">
+    <element label="Call Flow" max_length="40" name="x_ananc_alight4sn_call_flow" sizeclass="5" type="collection">
         <element choice="1" hint="Select the Alight Action for this call flow step" label="Action" mandatory="true" max_length="40" name="action" type="choice">
             <choice>
                 <element inactive_on_update="false" label="menu" value="menu"/>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>a709bb6c1bc62010d6161f4a234bcb6f</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_ananc_alight4sn_entry">
+    <x_ananc_alight4sn_entry action="INSERT_OR_UPDATE">
+        <call_flow_entry_point>10</call_flow_entry_point>
+        <call_flow_entry_zone/>
+        <customer_number>default</customer_number>
+        <description>Default call entry will match if no other dialed number/customer number entries match</description>
+        <dialed_number>default</dialed_number>
+        <first_flow display_value="default">92ed3facdb876010781b2fb7489619c4</first_flow>
+        <language display_value="English">b4a8fc371bb12050d6161f4a234bcb35</language>
+        <line_closed_entry_point>10</line_closed_entry_point>
+        <line_name>Main</line_name>
+        <line_schedule display_value="24 x 7">38fa64edc0a8016400f4a5724b0434b8</line_schedule>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-28 21:01:51</sys_created_on>
+        <sys_id>a709bb6c1bc62010d6161f4a234bcb6f</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-22 17:17:13</sys_updated_on>
+        <target>dev</target>
+        <time_zone>US/Pacific</time_zone>
+    </x_ananc_alight4sn_entry>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-14 19:58:00</sys_created_on>
+        <sys_id>bda5cf451b63e8102dda1f09b04bcbf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2021-01-28 13:01:51</sys_name>
+        <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_update_name>sys_metadata_link_bda5cf451b63e8102dda1f09b04bcbf3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-14 19:58:00</sys_updated_on>
+        <tablename>x_ananc_alight4sn_entry</tablename>
+    </sys_metadata_link>
+</record_update>

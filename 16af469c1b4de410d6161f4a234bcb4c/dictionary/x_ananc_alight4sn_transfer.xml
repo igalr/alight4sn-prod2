@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Transfer" max_length="40" name="x_ananc_alight4sn_transfer" sizeclass="1" type="collection">
+    <element label="Transfer" max_length="40" name="x_ananc_alight4sn_transfer" sizeclass="0" type="collection">
         <element hint="Provide a clear description for this Transfer Number" label="Description" mandatory="true" max_length="500" name="description" type="string"/>
         <element hint="Select if a prompt should be played before transferring the call to the external number" label="Play Transfer Prompt" max_length="40" name="play_transfer_prompt" type="boolean"/>
         <element hint="Define a unique identifier for this transfer number" label="Transfer ID" mandatory="true" max_length="40" name="transfer_id" type="string"/>

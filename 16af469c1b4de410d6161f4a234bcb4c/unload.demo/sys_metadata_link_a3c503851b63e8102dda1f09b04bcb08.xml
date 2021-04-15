@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>7dfa48b4dbc76010781b2fb748961931</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_ananc_alight4sn_call_flow">
+    <x_ananc_alight4sn_call_flow action="INSERT_OR_UPDATE">
+        <action>sys_flow</action>
+        <description>Connect and hang up</description>
+        <flow display_value="end_call">2aed3facdb876010781b2fb7489619c8</flow>
+        <intent/>
+        <label/>
+        <next_path/>
+        <next_path_zone/>
+        <parent/>
+        <path>11</path>
+        <reason/>
+        <subreason/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-19 15:12:37</sys_created_on>
+        <sys_id>7dfa48b4dbc76010781b2fb748961931</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-01 17:18:15</sys_updated_on>
+        <zone/>
+    </x_ananc_alight4sn_call_flow>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-14 19:58:40</sys_created_on>
+        <sys_id>a3c503851b63e8102dda1f09b04bcb08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>11</sys_name>
+        <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_update_name>sys_metadata_link_a3c503851b63e8102dda1f09b04bcb08</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-14 19:58:40</sys_updated_on>
+        <tablename>x_ananc_alight4sn_call_flow</tablename>
+    </sys_metadata_link>
+</record_update>

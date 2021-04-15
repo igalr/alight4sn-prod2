@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>d107c0f81b0a2010d6161f4a234bcb36</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_ananc_alight4sn_alight_language">
+    <x_ananc_alight4sn_alight_language action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <language>French</language>
+        <language_code>fr</language_code>
+        <primary>false</primary>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-28 21:52:38</sys_created_on>
+        <sys_id>d107c0f81b0a2010d6161f4a234bcb36</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 18:57:14</sys_updated_on>
+        <voice display_value="Mathieu">fd15b4731bb12050d6161f4a234bcb26</voice>
+    </x_ananc_alight4sn_alight_language>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-14 20:02:42</sys_created_on>
+        <sys_id>36b6cf851b63e8102dda1f09b04bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>French</sys_name>
+        <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_update_name>sys_metadata_link_36b6cf851b63e8102dda1f09b04bcbb5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-14 20:02:42</sys_updated_on>
+        <tablename>x_ananc_alight4sn_alight_language</tablename>
+    </sys_metadata_link>
+</record_update>

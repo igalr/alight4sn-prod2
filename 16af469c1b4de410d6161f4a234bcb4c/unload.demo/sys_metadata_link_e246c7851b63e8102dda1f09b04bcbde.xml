@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>a2fb08f4dbc76010781b2fb748961991</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_ananc_alight4sn_queue">
+    <x_ananc_alight4sn_queue action="INSERT_OR_UPDATE">
+        <amazon_queue display_value="BasicQueue">8fed7facdb876010781b2fb74896190d</amazon_queue>
+        <call_record>none</call_record>
+        <callback_confirmed_prompt/>
+        <callback_prompt/>
+        <closed_action>hangup</closed_action>
+        <closed_prompt/>
+        <closed_queue/>
+        <closed_transfer_number/>
+        <description>Default queue</description>
+        <excessive_wait_prompt/>
+        <hangup_prompt/>
+        <hold_flow display_value="default">72ed3facdb876010781b2fb7489619fd</hold_flow>
+        <loop_prompt/>
+        <no_agents_action>wait</no_agents_action>
+        <overflow_queue/>
+        <play_queue_prompt>true</play_queue_prompt>
+        <play_whisper>true</play_whisper>
+        <queue_flow display_value="default">46edff2cdb476010781b2fb7489619d4</queue_flow>
+        <queue_id>default</queue_id>
+        <queue_name>Main</queue_name>
+        <queue_prompt display_value="a1_transferring to queue">fb80fa1f1bdee810d6161f4a234bcb97</queue_prompt>
+        <queue_schedule display_value="24 x 7">38fa64edc0a8016400f4a5724b0434b8</queue_schedule>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-19 15:18:45</sys_created_on>
+        <sys_id>a2fb08f4dbc76010781b2fb748961991</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-19 15:19:32</sys_updated_on>
+        <t0_congested_action>message</t0_congested_action>
+        <t1_action>wait</t1_action>
+        <t1_threshold>120</t1_threshold>
+        <t2_action>wait</t2_action>
+        <t2_threshold>300</t2_threshold>
+        <time_zone>US/Pacific</time_zone>
+        <transfer_number/>
+        <transfer_prompt/>
+        <whisper_flow display_value="default">eaed3facdb876010781b2fb7489619f8</whisper_flow>
+        <zone/>
+    </x_ananc_alight4sn_queue>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-14 20:00:47</sys_created_on>
+        <sys_id>e246c7851b63e8102dda1f09b04bcbde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Main</sys_name>
+        <sys_package display_value="Alight for ServiceNow" source="x_ananc_alight4sn">16af469c1b4de410d6161f4a234bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight for ServiceNow">16af469c1b4de410d6161f4a234bcb4c</sys_scope>
+        <sys_update_name>sys_metadata_link_e246c7851b63e8102dda1f09b04bcbde</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-14 20:00:47</sys_updated_on>
+        <tablename>x_ananc_alight4sn_queue</tablename>
+    </sys_metadata_link>
+</record_update>
