@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Alight Text" max_length="40" name="x_ananc_alight4sn_alight_translated_text" sizeclass="54" type="collection">
+    <element label="Alight Text" max_length="40" name="x_ananc_alight4sn_alight_translated_text" sizeclass="57" type="collection">
         <element label="Language code" max_length="40" name="language_code" type="string"/>
         <element label="Source field" max_length="40" name="source_field" type="string"/>
         <element label="Source table" max_length="40" name="source_table" type="string"/>
