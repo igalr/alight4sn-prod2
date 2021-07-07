@@ -21,16 +21,16 @@
         <scoped_administration>false</scoped_administration>
         <short_description>Alight for ServiceNow</short_description>
         <source>x_ananc_alight4sn</source>
-        <store_correlation_id>REPOAPP0000386085</store_correlation_id>
-        <store_url>https://tpp.servicenow.com/sn_appstore_s</store_url>
+        <store_correlation_id>REPOAPP0000388214</store_correlation_id>
+        <store_url/>
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-09 01:29:42</sys_created_on>
         <sys_id>16af469c1b4de410d6161f4a234bcb4c</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-04 15:09:41</sys_updated_on>
+        <sys_updated_on>2021-05-07 17:28:46</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>

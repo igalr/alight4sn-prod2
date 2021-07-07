@@ -12,7 +12,6 @@
         <description>If the description in a menu changes, change the related description in Lookup</description>
         <internal_name>update_menu_description_in_lookup</internal_name>
         <label_cache>[{"name":"f284914d-6ebb-40ae-a4ed-4561d981f5d6.Record","label":"1➛Lookup Record","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f284914d-6ebb-40ae-a4ed-4561d981f5d6.Table","label":"1➛Lookup Table","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f284914d-6ebb-40ae-a4ed-4561d981f5d6.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"f284914d-6ebb-40ae-a4ed-4561d981f5d6.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"Updated_1.current.menu_id","label":"Trigger➛Menu Record➛Menu ID","reference":"","reference_display":"Menu ID","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_menu","column_name":"menu_id"},{"name":"60d91c81-725f-44be-8997-8ab91b073ae6.record","label":"2➛Lookup Record","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"60d91c81-725f-44be-8997-8ab91b073ae6.table_name","label":"2➛Lookup Table","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.description","label":"Trigger➛Menu Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_menu","column_name":"description"}]</label_cache>
-        <latest_snapshot>6828c4cf1be66c102dda1f09b04bcb27</latest_snapshot>
         <master_snapshot>6828c4cf1be66c102dda1f09b04bcb27</master_snapshot>
         <name>Update menu description in Lookup</name>
         <natlang/>
@@ -1469,4 +1468,8 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_hub_flow action="update">
+        <sys_id>bdb70c8f1be66c102dda1f09b04bcb7c</sys_id>
+        <latest_snapshot>6828c4cf1be66c102dda1f09b04bcb27</latest_snapshot>
+    </sys_hub_flow>
 </record_update>

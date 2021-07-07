@@ -12,7 +12,6 @@
         <description>When a new Alight queue is defined, add the record to Lookup</description>
         <internal_name>add_alight_queue_to_lookup</internal_name>
         <label_cache>[{"name":"Created_1.current.amazon_queue.arn","label":"Trigger➛Queue Record➛Amazon Queue➛ARN","reference":"","reference_display":"ARN","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_lookup","column_name":"arn"},{"name":"Created_1.current.description","label":"Trigger➛Queue Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_queue","column_name":"description"},{"name":"Created_1.current.queue_id","label":"Trigger➛Queue Record➛Queue ID","reference":"","reference_display":"Queue ID","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_queue","column_name":"queue_id"},{"name":"5f2c3163-6aca-4aba-8b6e-279eba0257ac.table_name","label":"1➛Lookup Table","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f2c3163-6aca-4aba-8b6e-279eba0257ac.record","label":"1➛Lookup Record","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
-        <latest_snapshot>380eb78f1b9364102dda1f09b04bcbad</latest_snapshot>
         <master_snapshot>7c6af57e1b16a810d6161f4a234bcbfe</master_snapshot>
         <name>Add Alight queue to Lookup</name>
         <natlang/>
@@ -941,4 +940,8 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_hub_flow action="update">
+        <sys_id>10d9bd3e1b16a810d6161f4a234bcb9b</sys_id>
+        <latest_snapshot>7c6af57e1b16a810d6161f4a234bcbfe</latest_snapshot>
+    </sys_hub_flow>
 </record_update>

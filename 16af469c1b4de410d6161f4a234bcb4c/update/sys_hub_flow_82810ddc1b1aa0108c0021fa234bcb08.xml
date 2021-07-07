@@ -12,7 +12,6 @@
         <description>When a new message is created,  add a corresponding entry to the Lookup table</description>
         <internal_name>add_message_to_lookup</internal_name>
         <label_cache>[{"name":"f7521321-6755-4f2b-8b9f-2fabc14c8c77.record","label":"1➛Lookup Record","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f7521321-6755-4f2b-8b9f-2fabc14c8c77.table_name","label":"1➛Lookup Table","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.message_id","label":"Trigger➛Message Record➛Message ID","reference":"","reference_display":"Message ID","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_message","column_name":"message_id"},{"name":"Created_1.current.description","label":"Trigger➛Message Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_message","column_name":"description"}]</label_cache>
-        <latest_snapshot>697009121b57a0102dda1f09b04bcbaf</latest_snapshot>
         <master_snapshot>9fc105101b5aa0108c0021fa234bcb3f</master_snapshot>
         <name>Add message to Lookup</name>
         <natlang/>
@@ -963,4 +962,8 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_hub_flow action="update">
+        <sys_id>82810ddc1b1aa0108c0021fa234bcb08</sys_id>
+        <latest_snapshot>9fc105101b5aa0108c0021fa234bcb3f</latest_snapshot>
+    </sys_hub_flow>
 </record_update>

@@ -12,7 +12,6 @@
         <description>If the description in a transfer number changes, change the related description in Lookup</description>
         <internal_name>update_transfer_number_description_in_lookup</internal_name>
         <label_cache>[{"name":"e2e403de-668e-4e51-93c6-c4581990505b.Record","label":"1➛Lookup Record","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e2e403de-668e-4e51-93c6-c4581990505b.Table","label":"1➛Lookup Table","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e2e403de-668e-4e51-93c6-c4581990505b.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"e2e403de-668e-4e51-93c6-c4581990505b.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"Updated_1.current.transfer_id","label":"Trigger➛Transfer Record➛Transfer ID","reference":"","reference_display":"Transfer ID","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_transfer","column_name":"transfer_id"},{"name":"a6fc448b-3aa5-4d3a-8364-03c49c76d52f.record","label":"2➛Lookup Record","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a6fc448b-3aa5-4d3a-8364-03c49c76d52f.table_name","label":"2➛Lookup Table","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.description","label":"Trigger➛Transfer Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_transfer","column_name":"description"}]</label_cache>
-        <latest_snapshot>d64988031b2a6c102dda1f09b04bcbf4</latest_snapshot>
         <master_snapshot>d64988031b2a6c102dda1f09b04bcbf4</master_snapshot>
         <name>Update transfer number description in Lookup</name>
         <natlang/>
@@ -1469,4 +1468,8 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_hub_flow action="update">
+        <sys_id>7cc8cccf1be66c102dda1f09b04bcb84</sys_id>
+        <latest_snapshot>d64988031b2a6c102dda1f09b04bcbf4</latest_snapshot>
+    </sys_hub_flow>
 </record_update>

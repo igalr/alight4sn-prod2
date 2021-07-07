@@ -12,7 +12,6 @@
         <description>If the description in an Alight queue changes, change the related description in Lookup</description>
         <internal_name>update_alight_queue_description_in_lookup</internal_name>
         <label_cache>[{"name":"907fe558-ae7f-46be-9a9f-729825f9c800.Record","label":"1➛Lookup Record","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"907fe558-ae7f-46be-9a9f-729825f9c800.Table","label":"1➛Lookup Table","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"907fe558-ae7f-46be-9a9f-729825f9c800.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"907fe558-ae7f-46be-9a9f-729825f9c800.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"Updated_1.current.queue_id","label":"Trigger➛Queue Record➛Queue ID","reference":"","reference_display":"Queue ID","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_queue","column_name":"queue_id"},{"name":"62ce2b0e-af4e-40a7-a793-0639c29ff68d.record","label":"2➛Lookup Record","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"62ce2b0e-af4e-40a7-a793-0639c29ff68d.table_name","label":"2➛Lookup Table","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.description","label":"Trigger➛Queue Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_queue","column_name":"description"}]</label_cache>
-        <latest_snapshot>827a8c431b2a6c102dda1f09b04bcbb6</latest_snapshot>
         <master_snapshot>827a8c431b2a6c102dda1f09b04bcbb6</master_snapshot>
         <name>Update Alight queue description in Lookup</name>
         <natlang/>
@@ -1469,4 +1468,8 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_hub_flow action="update">
+        <sys_id>0cd980431b2a6c102dda1f09b04bcbbe</sys_id>
+        <latest_snapshot>827a8c431b2a6c102dda1f09b04bcbb6</latest_snapshot>
+    </sys_hub_flow>
 </record_update>

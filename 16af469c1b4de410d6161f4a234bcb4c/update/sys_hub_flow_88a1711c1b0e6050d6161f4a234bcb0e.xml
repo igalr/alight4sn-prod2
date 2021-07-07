@@ -12,7 +12,6 @@
         <description>When a new menu is created, a corresponding entry is added to the Lookup table</description>
         <internal_name>add_menu_to_lookup</internal_name>
         <label_cache>[{"name":"Created_1.current.description","label":"Trigger➛Menu Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_menu","column_name":"description"},{"name":"Created_1.current.menu_id","label":"Trigger➛Menu Record➛Menu ID","reference":"","reference_display":"Menu ID","type":"string","base_type":"string","parent_table_name":"x_ananc_alight4sn_menu","column_name":"menu_id"},{"name":"ff172875-6ae4-45b0-b295-bb4513256401.table_name","label":"1➛Lookup Table","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ff172875-6ae4-45b0-b295-bb4513256401.record","label":"1➛Lookup Record","reference":"x_ananc_alight4sn_lookup","reference_display":"Lookup","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
-        <latest_snapshot>29c440f41b0a2010d6161f4a234bcbe6</latest_snapshot>
         <master_snapshot>29c440f41b0a2010d6161f4a234bcbe6</master_snapshot>
         <name>Add menu to Lookup</name>
         <natlang/>
@@ -952,4 +951,8 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_hub_flow action="update">
+        <sys_id>88a1711c1b0e6050d6161f4a234bcb0e</sys_id>
+        <latest_snapshot>29c440f41b0a2010d6161f4a234bcbe6</latest_snapshot>
+    </sys_hub_flow>
 </record_update>
